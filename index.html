@@ -32,8 +32,27 @@
       h1, .font-display, .h-display, .h-section { font-family: Fraunces, Georgia, serif !important; }
     </style>
   </head>
-  <body>
-    <div id="root"></div>
+<body>
+    <div id="root">
+      <div style="height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; background-color: #ffffff;">
+        <style>
+          .initial-loader {
+            width: 48px;
+            height: 48px;
+            border: 4px solid rgba(15, 35, 65, 0.1); /* DutyInsight Lacivertinin Saydam Hali */
+            border-left-color: #0F2341; /* DutyInsight Tam Lacivert */
+            border-radius: 50%;
+            animation: spin-loader 1s linear infinite;
+          }
+          @keyframes spin-loader {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        </style>
+        <div class="initial-loader"></div>
+      </div>
+    </div>
+    
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
