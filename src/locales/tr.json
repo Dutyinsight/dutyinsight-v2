@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "products": "Çözümler",
+    "reports": "Operasyon",
+    "strategy": "Strateji",
+    "ceeHub": "Global Ağ",
+    "contact": "İletişim",
+    "getStarted": "Hemen Başla"
+  },
+  "hero": {
+    "eyebrow": "Gümrük Öncesi Ticaret Zekası",
+    "title": "İhracatta sürpriz cezalara son verin.",
+    "subtitle": "Gümrük beyannameniz işleme girmeden önce ETGB hatalarını, GTİP uyuşmazlıklarını ve mevzuat risklerini verilerle sıfırlayın. Sınırları güvenle aşın.",
+    "ctaPrimary": "Çözümleri İncele",
+    "ctaSecondary": "Strateji Seansı Planla",
+    "trustline": "Türkiye'deki ihracatçılar için özel olarak kurgulandı.",
+    "stat1Number": "%100",
+    "stat1Label": "UYUM ODAKLI",
+    "stat2Number": "<24sa",
+    "stat2Label": "VERİ SENKRONİZASYONU",
+    "stat3Number": "3-5",
+    "stat3Label": "GÜN TESLİMAT SÜRESİ"
+  },
+  "problem": {
+    "eyebrow": "Risk Analizi",
+    "title": "İhracatçının görmediği üç gizli maliyet",
+    "subtitle": "Türkiye'den Avrupa'ya açılırken KOBİ'ler en çok bu üç noktada para ve zaman kaybediyor. Biz, beyannameniz imzalanmadan önce bu riskleri ortadan kaldırıyoruz.",
+    "card1": {
+      "tag": "Operasyonel Risk",
+      "title": "Hatalı Beyanname ve ETGB Cezaları",
+      "body": "30.000 EUR'a çıkan mikro ihracat limiti fırsat yaratsa da; yanlış GTİP, eksik belge veya kategorik hatalar binlerce firmaya ceza olarak dönüyor. Süreci önceden analiz etmek maliyeti %2, geriye dönük düzeltmek ise %30 artırır."
+    },
+    "card2": {
+      "tag": "Uyum ve Regülasyon",
+      "title": "CBAM, ESG ve İhracat Engelleri",
+      "body": "AB'nin yeni Karbon Sınır Düzenleme Mekanizması (CBAM), karbon hesabını zorunlu kılıyor. Sektörel uyum takvimini kaçıran firmalar, Avrupa pazarındaki alıcılarını hızla kaybediyor."
+    },
+    "card3": {
+      "tag": "Stratejik Körlük",
+      "title": "Verisiz Hedef Pazar Seçimi",
+      "body": "Çoğu işletme 'Hangi pazar daha kârlı?' sorusuna içgüdüsel yanıt veriyor. Lojistik, gümrük tarifesi ve talep eğrisi birlikte hesaplandığında, stratejik kararların %40'ı tamamen değişiyor."
+    }
+  },
+  "reports": {
+    "eyebrow": "ÜRÜNLERİMİZ VE PAKETLER",
+    "title": "Ticaret İstihbarat Raporları",
+    "subtitle": "İthalat İstihbarat Raporu ve İhracat İstihbarat Raporu, kataloğunuzdaki ürün sayısına göre (15, 25 veya 50+) esnek paketler halinde sunulur. Strateji raporumuz ise firmanıza özel tek seferlik bir projedir.",
+    "mail": {
+      "subject": "DutyInsight - {{plan}} Hakkında Bilgi Talebi",
+      "body": "Merhaba DutyInsight ekibi,\n\n{{plan}} paketiniz hakkında daha detaylı bilgi almak ve süreci başlatmak istiyoruz.\n\nDönüşünüzü bekleriz.\n\nSaygılarımızla,"
+    },
+    "starter": {
+      "name": "İthalat İstihbarat Raporu",
+      "price": "",
+      "tag": "GÜMRÜK ÖNCESİ",
+      "description": "Ürünlerinizin ithalata hazır olup olmadığını sıfır riskle değerlendirin. İhtiyacınıza uygun çoklu ürün paketleri halinde sunulur.",
+      "feature1": "15, 25 veya 50+ ürünlük esnek rapor paketleri",
+      "feature2": "En iyi 3 tedarikçi ülke taraması",
+      "feature3": "Regülasyon riskleri ve sertifika eksiklikleri tespiti",
+      "feature4": "Gümrük vergisi ve tarife risk değerlendirmesi",
+      "feature5": "Kullanıcı: İthalatçılar · Tedarik Ekipleri",
+      "cta": "İthalat Paketi Seç"
+    },
+    "business": {
+      "name": "İhracat İstihbarat Raporu",
+      "price": "",
+      "tag": "GÜMRÜK ÖNCESİ",
+      "description": "Doğru pazarda, doğru koridorda ürününüzün ihracata hazır olup olmadığını analiz edin. Hacminize göre paketlendirilir.",
+      "feature1": "15, 25 veya 50+ ürünlük esnek rapor paketleri",
+      "feature2": "Hedef pazar taraması (En iyi 3 aday pazar)",
+      "feature3": "Talep sinyalleri ve pazardaki rekabet yoğunluğu",
+      "feature4": "Ülkeye özel mevzuat ve lojistik koridoru analizi",
+      "feature5": "Kullanıcı: İhracatçılar · Üreticiler",
+      "feature6": "WhatsApp ve e-posta desteği",
+      "cta": "İhracat Paketi Seç"
+    },
+    "enterprise": {
+      "name": "Strateji İstihbarat Raporu",
+      "price": "",
+      "tag": "STRATEGY ENGINE",
+      "description": "Şirket verilerinizden üretilen; tam kapsamlı pazar strateji raporları, yatırımcı özetleri ve yönetim brifingleri.",
+      "feature1": "Tek seferlik, firmanıza özel proje kapsamı",
+      "feature2": "Pazar hacmi boyutlandırma ve fırsat modellemesi",
+      "feature3": "Hedef bölgedeki yasal yapı ve mevzuat çıkarımları",
+      "feature4": "Yatırımcıya hazır (investor-ready) yönetici özeti",
+      "feature5": "Kullanıcı: Kurucular · Operatörler · Yatırımcılar",
+      "feature6": "Öncelikli 3 günde teslimat",
+      "cta": "Strateji Toplantısı Planla"
+    },
+    "footnote": "İthalat ve İhracat paketlerindeki kullanılmayan rapor hakları 12 ay boyunca devredilir."
+  },
+  "strategy": {
+    "eyebrow": "Strategy Engine",
+    "title": "Pazarın görünmeyen dinamiklerini çözün.",
+    "subtitle": "Strategy Intelligence, standart paketlerin ötesinde, firmanızın SaaS veya fiziksel ürünlerine özel olarak hazırlanan tek seferlik derin pazar analizi ve yatırım danışmanlığıdır.",
+    "feature1": {
+      "title": "Veri Odaklı Pazar Önceliklendirme",
+      "body": "Hangi 3 pazar gerçekte kâr getirir? Gümrük tarifeleri, lojistik maliyetler ve talep verileriyle ağırlıklandırılmış giriş modeli."
+    },
+    "feature2": {
+      "title": "Sınır Ötesi Rakip Haritalama",
+      "body": "Rakipleriniz hangi pazara, hangi fiyatlandırma stratejisiyle giriyor? Türkiye, Çin ve AB üreticilerinin net karşılaştırması."
+    },
+    "feature3": {
+      "title": "Regülasyon ve Uyum Yol Haritası",
+      "body": "CBAM, ESG ve EU IOSS gibi yeni nesil regülasyonların 2026-2028 döneminde sektörünüze etkileri ve hazırlık takvimi."
+    },
+    "feature4": {
+      "title": "Yönetim Kurulu Brifingi",
+      "body": "Operasyonel riskleri ve fırsatları içeren 30-50 sayfalık premium rapor ve üst düzey yönetim sunumu."
+    },
+    "ctaTitle": "Ölçeklenmeye hazır mısınız?",
+    "ctaBody": "Firmanızın hedeflerini dinliyor, size özel strateji kapsamını birlikte tanımlıyoruz.",
+    "cta": "Özel Strateji Talebi"
+  },
+  "hub": {
+    "eyebrow": "GLOBAL NETWORK",
+    "title": "İki Merkez. Sınırsız Ticaret.",
+    "subtitle": "İstanbul'dan operasyonel kusursuzluğu, Prag'dan ise Avrupa vizyonunuzu yönetiyoruz. Fiziksel ve dijital ürünleriniz için uçtan uca ticaret zekası.",
+    "istanbul": {
+      "badge": "Operasyon Merkezi",
+      "title": "Gümrük ve Uyumluluk",
+      "description": "İhracat ve ithalat süreçlerinizde ETGB hatalarını önler, GTİP tespiti ve yerel mevzuat risklerini veriye dayalı analizlerle sıfıra indiririz.",
+      "focus": "Temel Odak Alanları",
+      "feature1": "Gümrük Müşavirliği ve Risk Önleme",
+      "feature2": "Ticaret Bakanlığı Teşvik Yönetimi"
+    },
+    "prague": {
+      "badge": "Strateji Merkezi",
+      "title": "Avrupa Pazar Girişi",
+      "description": "SaaS platformlarınız veya fiziksel ürünleriniz için Avrupa pazar hacmini ölçer, ESG/CBAM uyumunuzu sağlar ve yatırım stratejinizi çizeriz.",
+      "focus": "Temel Odak Alanları",
+      "feature1": "Orta ve Doğu Avrupa (CEE) Fizibilitesi",
+      "feature2": "Dijital ve Fiziksel Ürün Büyüme Stratejisi"
+    }
+  },
+  "social": {
+    "eyebrow": "DİJİTAL EKOSİSTEM",
+    "title": "Ağımıza Katılın",
+    "subtitle": "Global ticaret analizleri, güncel regülasyonlar ve DutyInsight ofislerinden anlık gelişmeler için bizi takip edin.",
+    "linkedin": {
+      "desc": "B2B strateji raporları, Avrupa pazarı analizleri ve makroekonomik güncellemeler."
+    },
+    "instagram": {
+      "desc": "İstanbul ve Prag merkezlerimizden perde arkası, ekip dinamikleri ve günlük operasyonlar."
+    }
+  },
+  "footer": {
+    "tagline": "Gümrük öncesi veri odaklı ticaret zekası.",
+    "navProducts": "Hizmetler",
+    "navCompany": "Kurumsal",
+    "navLegal": "Yasal",
+    "linkAbout": "Hakkımızda",
+    "linkContact": "İletişim",
+    "linkPrivacy": "Gizlilik Politikası",
+    "linkTerms": "Kullanım Şartları",
+    "linkCookies": "Çerez Politikası",
+    "copyright": "© 2026 DutyInsight. Tüm hakları saklıdır.",
+    "location": "Prag, Çekya · İstanbul, Türkiye"
+  },
+  "common": {
+    "menu": "Menü",
+    "close": "Kapat",
+    "language": "Dil Seçimi",
+    "popular": "Popüler",
+    "learnMore": "Daha Fazla Bilgi",
+    "getQuote": "Teklif Al",
+    "mail": {
+      "getStarted": {
+        "subject": "DutyInsight - İş Birliği Başvurusu",
+        "body": "Merhaba DutyInsight Ekibi,\n\nPlatformunuzu inceledim ve hizmetleriniz hakkında detaylı bilgi almak istiyorum.\n\nSaygılarımızla,"
+      },
+      "strategy": {
+        "subject": "DutyInsight - Strateji Seansı Talebi",
+        "body": "Merhaba,\n\nUluslararası ticaret stratejilerimiz için bir danışmanlık seansı planlamak istiyoruz.\n\nSaygılarımızla,"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 15 Mayıs 2026",
+    "intro": "DutyInsight olarak, hizmetlerimizi kullanan kurumsal müşterilerimizin verilerinin korunmasına en yüksek önemi atfetmekteyiz. İşbu Gizlilik Politikası; 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\"), Avrupa Birliği Genel Veri Koruma Tüzüğü (\"GDPR\") ve ilgili mevzuat çerçevesinde, dutyinsight.com web sitesi ve platformu (\"Platform\") üzerinden topladığımız verilerin hangi kapsamda işlendiğini, korunduğunu ve hangi haklara tabi olduğunu açıklamak amacıyla hazırlanmıştır.",
+    "section1": {
+      "title": "1. Veri Sorumlusu ve Tanımlar",
+      "body": "Veri Sorumlusu sıfatıyla DutyInsight (\"Şirket\"), KVKK kapsamında veri sorumlusu, GDPR kapsamında ise \"data controller\" olarak hareket etmektedir. \"Müşteri\", DutyInsight hizmetlerinden ticari amaçla yararlanan tüzel kişiyi; \"Kullanıcı\", Platform'a Müşteri adına erişim sağlayan gerçek kişiyi; \"Kişisel Veri\", kimliği belirli veya belirlenebilir gerçek kişiye ilişkin her türlü bilgiyi; \"İşleme\", verilerin elde edilmesinden silinmesine kadar her türlü operasyonu ifade etmektedir."
+    },
+    "section2": {
+      "title": "2. İşlenen Veri Kategorileri",
+      "body": "Platform üzerinden, hizmetlerin sağlanması amacıyla aşağıdaki veri kategorileri işlenmektedir:",
+      "item1": "Kimlik ve İletişim Verileri: Kullanıcı adı, soyadı, kurumsal e-posta adresi, telefon numarası ve görev unvanı.",
+      "item2": "Müşteri Şirket Verileri: Ticari unvan, vergi numarası, faaliyet alanı, çalışan sayısı aralığı ve fatura bilgileri.",
+      "item3": "Operasyonel Ticaret Verileri: Sorgulanan GTİP/HS kodları, hedef pazarlar, ticaret rotaları, hacim aralıkları ve sektörel bilgiler.",
+      "item4": "Teknik Veriler: IP adresi, tarayıcı türü, oturum süreleri, cihaz bilgileri ve Platform içi gezinti kayıtları.",
+      "item5": "Finansal Veriler: Fatura, ödeme ve abonelik geçmişi (kredi kartı verileri üçüncü taraf PCI-DSS uyumlu ödeme sağlayıcılarımız tarafından işlenmekte olup Şirket tarafından saklanmamaktadır)."
+    },
+    "section3": {
+      "title": "3. İşleme Amaçları ve Hukuki Sebepler",
+      "body": "Kişisel veriler, KVKK m. 5/2 ve GDPR m. 6 kapsamında aşağıdaki hukuki sebeplere dayanılarak işlenmektedir:",
+      "item1": "Sözleşmenin Kurulması ve İfası: Müşteri hizmet sözleşmesinin oluşturulması, raporların hazırlanıp teslim edilmesi ve fatura kesilmesi amacıyla.",
+      "item2": "Kanuni Yükümlülükler: Vergi mevzuatı, ticaret hukuku ve gümrük mevzuatından doğan yükümlülüklerin yerine getirilmesi amacıyla.",
+      "item3": "Meşru Menfaat: Platform güvenliğinin sağlanması, hizmet kalitesinin iyileştirilmesi, analitik ölçümler ve B2B doğrudan pazarlama faaliyetleri için.",
+      "item4": "Açık Rıza: Bülten gönderimi ve isteğe bağlı ticari iletişim faaliyetleri için, ayrıca temin edilen açık rıza kapsamında."
+    },
+    "section4": {
+      "title": "4. Veri Güvenliği ve Şifreleme",
+      "body": "Şirket, işlediği kişisel verilerin ve özellikle ticari hassasiyet taşıyan B2B operasyonel verilerin (GTİP kodları, ticaret rotaları, müşteri portföyü vb.) güvenliğini sağlamak amacıyla sektör standardının üzerinde teknik ve idari tedbirler uygulamaktadır. Tüm veriler, aktarım sırasında TLS 1.3 protokolü, depolama sırasında ise AES-256 şifreleme algoritması ile korunmaktadır. Erişim, rol-bazlı yetkilendirme (RBAC) ile sınırlandırılmış, kritik sistemlere ise iki faktörlü kimlik doğrulama zorunluluğu getirilmiştir. Şirket, ISO/IEC 27001 standardı esas alınarak yapılandırılmış bir bilgi güvenliği yönetim sistemi işletmektedir."
+    },
+    "section5": {
+      "title": "5. Veri Aktarımı",
+      "body": "Kişisel veriler; (i) hizmetin ifası için gerekli olduğu ölçüde grup şirketleri ve iş ortaklarıyla, (ii) bulut altyapı, e-posta servis sağlayıcısı, analitik platformlar gibi GDPR uyumlu işleyenlerle, (iii) yasal zorunluluk halinde kamu kurum ve kuruluşlarıyla paylaşılabilir. Avrupa Ekonomik Alanı (\"AEA\") dışına yapılacak aktarımlar, yalnızca Avrupa Komisyonu'nun yeterlilik kararı bulunan ülkelere veya AB Standart Sözleşme Hükümleri (SCC) imzalanmış sağlayıcılara yapılmaktadır. KVKK m. 9 kapsamındaki yurt dışı aktarımlarda açık rıza veya yeterli koruma şartı aranmaktadır."
+    },
+    "section6": {
+      "title": "6. Veri Sahibi Hakları",
+      "body": "Veri sahibi sıfatıyla, KVKK m. 11 ve GDPR m. 15-22 kapsamında aşağıdaki haklara sahipsiniz:",
+      "item1": "Verilerinizin işlenip işlenmediğini öğrenme ve erişim talebinde bulunma hakkı.",
+      "item2": "Verilerin işlenme amacını ve bu amaca uygun kullanılıp kullanılmadığını öğrenme hakkı.",
+      "item3": "Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme hakkı.",
+      "item4": "Mevzuat çerçevesinde verilerin silinmesini veya yok edilmesini talep etme hakkı (\"unutulma hakkı\").",
+      "item5": "İşlemeye itiraz etme ve otomatik karar verme süreçlerinin dışında tutulma hakkı.",
+      "item6": "Verilerin yapılandırılmış, yaygın kullanılan bir formatta taşınmasını talep etme hakkı (veri taşınabilirliği)."
+    },
+    "section7": {
+      "title": "7. Saklama Süreleri",
+      "body": "Kişisel veriler, işleme amacının gerektirdiği süreyle sınırlı olarak saklanmaktadır. Müşteri sözleşme verileri, sözleşmenin sona ermesinden itibaren 10 yıl (Türk Borçlar Kanunu zamanaşımı süresi) boyunca; finansal kayıtlar Vergi Usul Kanunu m. 253 uyarınca 5 yıl boyunca; pazarlama izinleri ise rıza geri çekilene kadar muhafaza edilmektedir. Süre dolduğunda veriler güvenli yöntemlerle anonimleştirilmekte veya imha edilmektedir."
+    },
+    "section8": {
+      "title": "8. Çerezler ve Takip Teknolojileri",
+      "body": "Platform üzerinde işlevsel ve analitik amaçlarla çerez kullanılmaktadır. Çerez kullanımına ilişkin detaylı bilgi için ayrı olarak yayımlanan Çerez Politikamızı incelemenizi rica ederiz."
+    },
+    "section9": {
+      "title": "9. Politika Güncellemeleri",
+      "body": "Şirket, mevzuat değişiklikleri, teknolojik gelişmeler veya hizmet kapsamındaki güncellemeler nedeniyle işbu Politikayı tek taraflı olarak revize etme hakkını saklı tutar. Önemli değişiklikler, yürürlük tarihinden makul süre önce kayıtlı e-posta adresinize bildirilecek ve güncel sürüm dutyinsight.com adresinde yayımlanacaktır."
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": "İşbu Politikada belirtilen haklarınızı kullanmak veya veri işleme faaliyetlerimize ilişkin her türlü soru, talep ve şikâyetinizi iletmek için info@dutyinsight.com adresine yazılı olarak başvurabilirsiniz. Başvurularınız, KVKK'nın öngördüğü 30 günlük süre içerisinde yanıtlanacaktır. GDPR kapsamındaki başvurular için ayrıca veri koruma otoritelerine şikâyet hakkınız saklıdır."
+    }
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "lastUpdated": "Son güncelleme: 15 Mayıs 2026",
+    "intro": "İşbu Kullanım Şartları (\"Şartlar\"), DutyInsight (\"Şirket\", \"Biz\") tarafından sunulan dutyinsight.com web sitesi, platform ve abonelik hizmetlerinin (\"Hizmetler\") kullanımına ilişkin yasal koşulları düzenlemektedir. Hizmetlere erişim sağlayarak veya bir abonelik satın alarak, işbu Şartları okuduğunuzu, anladığınızı ve bağlayıcı olarak kabul ettiğinizi beyan etmiş sayılırsınız.",
+    "section1": {
+      "title": "1. Taraflar ve Hizmet Tanımı",
+      "body": "İşbu Şartlar; DutyInsight ile Platform üzerinden hizmet satın alan veya kullanan tüzel kişi müşteri (\"Müşteri\") arasında akdedilmektedir. Hizmetler; uluslararası ticaret zekâsı raporları, gümrük öncesi risk analizleri, CBAM/ESG uyumluluk değerlendirmeleri, pazar analizleri ve stratejik danışmanlık çıktılarından oluşmaktadır. Hizmetler yalnızca ticari ve mesleki amaçla kullanım için tasarlanmıştır; tüketicilere yönelik sunulmamaktadır."
+    },
+    "section2": {
+      "title": "2. Hesap Oluşturma ve Yetkilendirme",
+      "body": "Müşteri, hesap oluşturma sürecinde sağladığı bilgilerin doğru, güncel ve eksiksiz olduğunu taahhüt eder. Müşteri adına işlem yapacak Kullanıcılar yalnızca yetkilendirilmiş çalışanlar veya temsilciler olabilir. Hesap kimlik bilgilerinin gizliliğinin korunması Müşteri'nin sorumluluğunda olup, yetkisiz erişim halinde derhal Şirket'e bildirim yükümlülüğü bulunmaktadır."
+    },
+    "section3": {
+      "title": "3. Abonelik, Paket Kullanımı ve Ödeme",
+      "body": "Hizmetler; Starter, Business ve Enterprise paketleri ile özel danışmanlık (Strategy Engine) modelleri kapsamında sunulmaktadır. Aşağıdaki koşullar geçerlidir:",
+      "item1": "Paket kapsamındaki rapor hakları, satın alma tarihinden itibaren 12 ay boyunca geçerlidir. Kullanılmayan haklar bu sürenin sonunda otomatik olarak sona erer ve iadeye konu edilemez.",
+      "item2": "Rapor 01 (İthalat) ve Rapor 02 (İhracat) hakları ortak havuzdan kullanılabilir; Rapor 03 (Strategy Intelligence Report) paketlere dahil değildir ve ayrı sözleşme kapsamında sunulur.",
+      "item3": "Ödemeler, sipariş onayı ile birlikte tahsil edilir; teslim sonrası bakiye ödeme koşulları için ayrı sözleşmeler düzenlenebilir.",
+      "item4": "Müşteri, dijital hizmetin tesliminin başlamasıyla birlikte 6502 sayılı Tüketicinin Korunması Hakkında Kanun kapsamındaki cayma hakkının (varsa) sona erdiğini kabul eder; ancak işbu Şartlar B2B niteliğinde olduğundan tüketici hakları uygulanmamaktadır."
+    },
+    "disclaimer": {
+      "title": "4. Sorumluluk Reddi — RAPORLARIN HUKUKİ NİTELİĞİ",
+      "body": "MÜŞTERİ, AŞAĞIDAKİ HUSUSLARI AÇIKÇA OKUDUĞUNU, ANLADIĞINI VE KABUL ETTİĞİNİ BEYAN EDER:",
+      "item1": "DutyInsight tarafından sunulan tüm raporlar; veri analizi, kamuya açık kaynaklar ve uzman değerlendirmesine dayalı stratejik tavsiye niteliğinde olup, hiçbir surette resmi gümrük beyannamesi, gümrük müşavirliği belgesi, hukuki mütalaa, vergi danışmanlığı veya bağlayıcı resmi kararlar yerine geçmez.",
+      "item2": "Raporlarda yer alan GTİP/HS sınıflandırmaları, tarife oranları, mevzuat yorumları ve uygunluk değerlendirmeleri yalnızca bilgilendirme amaçlıdır. Gerçek gümrük beyannamesi, lisanslı gümrük müşaviri veya yetkili kurum tarafından düzenlenmek ve onaylanmak zorundadır.",
+      "item3": "Müşteri, gümrük makamları veya diğer düzenleyici kurumlar tarafından uygulanabilecek gümrük cezaları, idari para cezaları, gecikme zammı, ek vergi tahakkuku, ürün el konulması veya benzeri yaptırımlardan yalnızca kendisinin sorumlu olduğunu; DutyInsight'ın bu tür yaptırımlardan, doğrudan veya dolaylı zararlardan hiçbir surette sorumlu tutulamayacağını kabul ve taahhüt eder.",
+      "item4": "Mevzuat (özellikle CBAM, AB Gümrük Reformu, ETGB rejimi, ESG raporlama yükümlülükleri) sıkça değişebilir. Raporlar hazırlandığı tarihte geçerli olan veriye dayanır; sonraki değişikliklerden Şirket sorumlu değildir. Kritik kararlardan önce yetkili gümrük müşavirine ve hukuk müşavirine başvurulması Müşteri'nin yükümlülüğündedir."
+    },
+    "liability": {
+      "title": "5. Sorumluluğun Sınırlandırılması",
+      "body": "Yürürlükteki mevzuatın izin verdiği azami ölçüde, DutyInsight'ın Hizmetler'den kaynaklanan her türlü doğrudan, dolaylı, arızi, özel, cezai veya sonuçsal zarara ilişkin toplam sorumluluğu, ihlale konu Hizmet karşılığında ilgili Müşteri tarafından son 12 ay içinde fiilen ödenmiş tutarla sınırlıdır. Şirket; kâr kaybı, iş kaybı, itibar zararı, veri kaybı, üçüncü kişi talepleri veya gümrük yaptırımları gibi dolaylı zararlardan hiçbir koşulda sorumlu tutulamaz. Bu sınırlama, kasıt veya ağır kusur halleri saklı kalmak kaydıyla geçerlidir."
+    },
+    "section6": {
+      "title": "6. Veri Doğruluğu ve Üçüncü Taraf Kaynaklar",
+      "body": "Raporlar; resmi gümrük veri tabanları, ulusal istatistik kurumları, AB Komisyonu yayınları, OECD ve WTO veri kaynakları ve sektörel araştırma raporları gibi üçüncü taraf kaynaklarına dayanarak hazırlanmaktadır. Şirket, kullanılan kaynakların güncelliğini ve doğruluğunu makul ölçüde sağlamak için gerekli özeni gösterse de, üçüncü taraf veri sağlayıcılarından kaynaklanan hata, gecikme veya eksiklikten sorumlu tutulamaz."
+    },
+    "section7": {
+      "title": "7. Müşteri Yükümlülükleri",
+      "body": "Müşteri, Hizmetler'i kullanırken aşağıdaki yükümlülüklere uymayı taahhüt eder:",
+      "item1": "Raporlardan elde edilen bilgileri yalnızca kendi iç ticari faaliyetlerinde kullanmak, üçüncü kişilerle paylaşmamak veya satışa konu etmemek.",
+      "item2": "Hizmetleri rekabet, dolandırıcılık, yasadışı ticaret, yaptırım ihlali veya kara para aklama amacıyla kullanmamak.",
+      "item3": "Platform üzerinde tersine mühendislik, otomatik veri çekme (scraping), güvenlik testleri veya yetkisiz erişim girişimlerinde bulunmamak."
+    },
+    "ip": {
+      "title": "8. Fikri Mülkiyet Hakları",
+      "body": "Hizmetler kapsamında üretilen tüm raporlar, analitik modeller, metodolojiler, yazılım, veri tabanları, görsel öğeler, markalar, logolar ve içerikler; DutyInsight'ın veya lisans verenlerinin münhasır mülkiyetinde olup, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile uluslararası fikri mülkiyet mevzuatı kapsamında korunmaktadır. Müşteri'ye, satın aldığı paket süresince ve içeriğin kendi iç ticari faaliyetlerinde kullanımıyla sınırlı, münhasır olmayan, devredilemez ve alt-lisanslanamaz bir kullanım lisansı tanınmaktadır. Bu lisansın aşılması durumunda Şirket, sözleşmeyi feshetme ve doğan zararları talep etme hakkını saklı tutar."
+    },
+    "section9": {
+      "title": "9. Hizmetin Askıya Alınması ve Feshi",
+      "body": "Şirket; (i) Müşteri'nin ödeme yükümlülüğünü yerine getirmemesi, (ii) işbu Şartların önemli bir hükmünün ihlali, (iii) yaptırım listelerine girme veya hukuka aykırı faaliyet şüphesi durumunda, Hizmetleri makul bir ihbar süresi tanıyarak askıya alma veya sözleşmeyi tek taraflı feshetme hakkını saklı tutar. Fesih halinde, kullanılmamış paket hakları için iade yapılmaz; ancak ön ödemeli süre bazlı abonelikler için pro-rata iade Şirket'in takdirinde olabilir."
+    },
+    "section10": {
+      "title": "10. Mücbir Sebep",
+      "body": "Doğal afet, savaş, terör eylemleri, salgın hastalık, siber saldırılar, internet kesintileri, kamu otoritelerinin uygulamaları veya tarafların makul kontrolü dışındaki diğer olaylar mücbir sebep sayılır ve bu hallerde Şirket'in yükümlülükleri mücbir sebep süresince askıya alınır."
+    },
+    "section11": {
+      "title": "11. Uygulanacak Hukuk ve Uyuşmazlık Çözümü",
+      "body": "İşbu Şartlar Türkiye Cumhuriyeti hukukuna tabidir. İşbu Şartlardan veya Hizmetlerden doğacak her türlü uyuşmazlıkta, tarafların öncelikle iyi niyetle müzakere yoluyla çözüm aramaları esastır. Müzakerelerin sonuçsuz kalması halinde İstanbul Merkez (Çağlayan) Mahkemeleri ve İcra Daireleri münhasıran yetkilidir. Avrupa Birliği'nde mukim Müşteriler bakımından, yerel zorunlu tüketici/B2B koruma hükümleri saklıdır."
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": "İşbu Şartlara ilişkin her türlü soru, bildirim veya sözleşme talebiniz için info@dutyinsight.com adresine başvurabilirsiniz. Resmi yazışmalar yazılı veya elektronik posta yoluyla yapılabilir; her iki kanal da hukuken geçerli sayılır."
+    }
+  },
+  "cookies": {
+    "title": "Çerez Politikası",
+    "lastUpdated": "Son güncelleme: 15 Mayıs 2026",
+    "intro": "İşbu Çerez Politikası, DutyInsight tarafından işletilen dutyinsight.com web sitesi ve platformu (\"Platform\") üzerinde kullanılan çerezler ve benzeri takip teknolojileri hakkında sizi bilgilendirmek amacıyla hazırlanmıştır. Platformu kullanarak, işbu Politikada belirtilen çerezlerin kullanımını kabul etmiş sayılırsınız.",
+    "section1": {
+      "title": "1. Çerez Nedir?",
+      "body": "Çerezler; bir web sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza (bilgisayar, tablet, akıllı telefon) yerleştirilen küçük metin dosyalarıdır. Çerezler, sitenin sizi bir sonraki ziyaretinizde tanımasını, oturum tercihlerinizi hatırlamasını ve site performansını ölçmesini sağlar. Çerezler kendi başına kötü amaçlı yazılım niteliği taşımaz ve cihazınıza zarar vermez."
+    },
+    "section2": {
+      "title": "2. Çerez Türleri",
+      "body": "Çerezler işlevsel açıdan iki ana kategoride değerlendirilebilir: zorunlu çerezler ve analitik çerezler. Ayrıca, sürelerine göre oturum çerezleri (tarayıcı kapatıldığında silinir) ve kalıcı çerezler (önceden belirlenmiş süre boyunca saklanır) olarak da sınıflandırılır. DutyInsight, Platform üzerinde aşağıda detaylandırılan iki tür çerezi kullanmaktadır."
+    },
+    "essential": {
+      "title": "3. Zorunlu Çerezler (Strictly Necessary)",
+      "body": "Zorunlu çerezler, Platformun temel işlevlerinin yerine getirilmesi için vazgeçilmezdir ve devre dışı bırakılamaz. Bu çerezler genellikle yalnızca kullanıcının gerçekleştirdiği işlemlere (oturum açma, form doldurma, dil tercihi belirleme gibi) yanıt olarak yerleştirilir. KVKK ve GDPR kapsamında zorunlu çerezler için ayrıca rıza alınması gerekmemektedir, zira bu çerezler Platformun çalışması için gereklidir.",
+      "item1": "Oturum Çerezleri: Kullanıcının Platform üzerinde aktif oturumunu yönetmek ve güvenli geçişi sağlamak amacıyla kullanılır.",
+      "item2": "Dil ve Bölge Tercihi Çerezleri: Kullanıcının seçtiği dil ve bölge ayarlarını sonraki ziyaretlerinde hatırlamak için kullanılır.",
+      "item3": "Güvenlik Çerezleri: CSRF koruması, oturum hijacking saldırılarının önlenmesi ve botla otomatikleştirilmiş kötü niyetli erişim girişimlerinin tespiti için kullanılır."
+    },
+    "analytics": {
+      "title": "4. Analitik Çerezler (Analytics)",
+      "body": "Analitik çerezler, kullanıcı deneyimini ölçmek ve Platform performansını iyileştirmek amacıyla anonimleştirilmiş veriler toplamak için kullanılır. Bu çerezler, sayfaların ne sıklıkla ziyaret edildiği, hangi içeriklerin daha fazla ilgi gördüğü ve teknik sorunların hangi noktalarda yaşandığı gibi toplu istatistikler oluşturmamızı sağlar. Analitik çerezlerin kullanımı, açık rızanıza tabidir ve dilediğiniz zaman bu rızayı geri çekebilirsiniz.",
+      "item1": "Sayfa Görüntüleme Sayaçları: Hangi sayfaların ne sıklıkla görüntülendiğini ölçer.",
+      "item2": "Oturum Süresi Çerezleri: Kullanıcıların Platform üzerinde geçirdikleri ortalama süreyi hesaplar.",
+      "item3": "Davranış İzleme Çerezleri: Tıklama yolları ve gezinti akışları gibi anonimleştirilmiş etkileşim verilerini toplar (kişisel kimlik içermez)."
+    },
+    "section5": {
+      "title": "5. Üçüncü Taraf Çerezler",
+      "body": "Platform üzerinde, hizmet kalitesini artırmak amacıyla üçüncü taraf hizmet sağlayıcılara (örneğin web analitik servisleri, içerik dağıtım ağları) ait çerezler de yerleştirilebilir. Söz konusu üçüncü tarafların çerez politikaları ilgili sağlayıcının kendi gizlilik politikasına tabidir; bu çerezler üzerinde DutyInsight'ın doğrudan kontrolü bulunmamaktadır. Ancak yalnızca GDPR ve KVKK uyumlu olduğunu doğruladığımız sağlayıcılarla çalışılmaktadır."
+    },
+    "section6": {
+      "title": "6. Çerez Tercihlerinizin Yönetilmesi",
+      "body": "Çerez tercihlerinizi istediğiniz zaman Platform üzerinde yer alan çerez ayarları paneli üzerinden güncelleyebilir veya tarayıcınızın ayarlarından çerezleri silebilir, engelleyebilir ya da onay gerektirecek şekilde yapılandırabilirsiniz. Ancak, zorunlu çerezlerin devre dışı bırakılması durumunda Platformun bazı bölümlerinin doğru şekilde çalışmayabileceğini hatırlatmak isteriz. Tarayıcı bazlı çerez yönetim rehberlerine ilgili tarayıcının yardım sayfalarından erişilebilir."
+    },
+    "section7": {
+      "title": "7. Saklama Süreleri",
+      "body": "Oturum çerezleri tarayıcınızı kapattığınızda otomatik olarak silinmektedir. Kalıcı çerezler, türüne göre 24 saat ile 12 ay arasında değişen sürelerle saklanmaktadır. Analitik çerezler için maksimum saklama süresi 13 ay olup, bu sürenin ardından çerezler otomatik olarak silinmekte veya yenilenmesi için yeniden rıza talep edilmektedir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": "Çerez politikamıza ilişkin soru, talep veya tercih güncellemeleriniz için info@dutyinsight.com adresine yazılı olarak başvurabilirsiniz. Başvurularınız makul süre içerisinde yanıtlanacaktır."
+    }
+  },
+  "cookieBanner": {
+    "message": "DutyInsight, Platform'un düzgün çalışması için zorunlu çerezleri ve kullanıcı deneyimini iyileştirmek için analitik çerezleri kullanır. Tercihinizi yönetebilir veya tüm çerezleri kabul edebilirsiniz.",
+    "acceptAll": "Tümünü Kabul Et",
+    "essentialOnly": "Yalnızca Zorunlu",
+    "preferences": "Tercihleri Yönet",
+    "learnMore": "Çerez Politikası"
+  }
+}

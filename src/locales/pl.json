@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "products": "Rozwiązania",
+    "reports": "Operacje",
+    "strategy": "Strategia",
+    "ceeHub": "Globalna Sieć",
+    "contact": "Kontakt",
+    "getStarted": "Rozpocznij"
+  },
+  "hero": {
+    "eyebrow": "Pre-Customs Trade Intelligence",
+    "title": "Opanuj handel globalny dzięki pewności danych.",
+    "subtitle": "Zapewnij zgodność i zoptymalizuj swój łańcuch dostaw jeszcze przed odprawą celną. Od regulacji CBAM po optymalizację taryf – torujemy drogę dla Twojej globalnej ekspansji.",
+    "ctaPrimary": "Poznaj rozwiązania",
+    "ctaSecondary": "Umów sesję strategiczną",
+    "trustline": "Wsparcie dla dynamicznie rozwijających się producentów i eksporterów na całym świecie.",
+    "stat1Number": "100%",
+    "stat1Label": "ZORIENTOWANI NA COMPLIANCE",
+    "stat2Number": "<24h",
+    "stat2Label": "PRĘDKOŚĆ SYNCHRONIZACJI",
+    "stat3Number": "3-5",
+    "stat3Label": "DNI NA DOSTARCZENIE RAPORTU"
+  },
+  "problem": {
+    "eyebrow": "Zarządzanie ryzykiem",
+    "title": "Przełamywanie ukrytych barier w handlu światowym",
+    "subtitle": "Ekspansja międzynarodowa często kończy się niepowodzeniem na granicy. Eliminujemy trzy najbardziej krytyczne punkty zapalne, zanim wpłyną one na Twoje wyniki.",
+    "card1": {
+      "tag": "Compliance",
+      "title": "Ryzyko regulacyjne i taryfowe",
+      "body": "Błędne kody HS i brakujące certyfikaty prowadzą do ogromnych opóźnień i kar. Wstępny audyt Twoich danych zmniejsza tarcie operacyjne o 40% i zapobiega kosztownym korektom po odprawie."
+    },
+    "card2": {
+      "tag": "Regulacje UE",
+      "title": "Odpowiedzialność CBAM i ESG",
+      "body": "Mechanizm CBAM nie jest już opcjonalny. Dostarczamy ramy danych niezbędne do płynnego przepływu Twoich produktów przez zielone korytarze Europy."
+    },
+    "card3": {
+      "tag": "Wejście na rynek",
+      "title": "Ekspansja oparta na danych, nie na intuicji",
+      "body": "Wiele firm wybiera nowe rynki na podstawie trendów, a nie logistyki i struktur taryfowych. Nasza analityka wykorzystuje ważone modelowanie rynku na Twoją korzyść."
+    }
+  },
+  "reports": {
+    "eyebrow": "PRODUKTY I PAKIETY",
+    "title": "Raporty analityki handlowej",
+    "subtitle": "Raporty Import Intelligence i Export Intelligence są oferowane w elastycznych pakietach (15, 25 lub 50+) w zależności od liczby produktów w katalogu. Nasz raport strategiczny to indywidualny, jednorazowy projekt dostosowany do Twojej firmy.",
+    "starter": {
+      "name": "Import Intelligence",
+      "price": "",
+      "tag": "PRZEDODPRAWOWY",
+      "description": "Oceń gotowość produktów do importu przed rozpoczęciem logistyki. Dostępne w elastycznych pakietach.",
+      "feature1": "Pakiety na 15, 25 lub 50+ produktów",
+      "feature2": "Screening top 3 krajów dostawców",
+      "feature3": "Wykrywanie luk w certyfikacji",
+      "feature4": "Ocena ryzyka celnego i taryfowego",
+      "feature5": "Dla: Zespołów ds. Sourcingu · Zakupów",
+      "cta": "Wybierz pakiet importowy"
+    },
+    "business": {
+      "name": "Export Intelligence",
+      "price": "",
+      "tag": "PRZEDODPRAWOWY",
+      "description": "Przeanalizuj operacyjną gotowość do eksportu we właściwym korytarzu. Dostosowane do wolumenu.",
+      "feature1": "Pakiety na 15, 25 lub 50+ produktów",
+      "feature2": "Screening rynków (top 3 kandydatów)",
+      "feature3": "Analiza popytu i konkurencji",
+      "feature4": "Ocena korytarza logistycznego i podatków",
+      "feature5": "Priorytetowa dostawa w 3 dni",
+      "feature6": "Wsparcie przez WhatsApp i e-mail",
+      "cta": "Wybierz pakiet eksportowy"
+    },
+    "enterprise": {
+      "name": "Strategy Intelligence",
+      "price": "",
+      "tag": "STRATEGY ENGINE",
+      "description": "Kompleksowe raporty strategiczne i briefy inwestorskie generowane na podstawie danych.",
+      "feature1": "Szyty na miarę projekt doradczy",
+      "feature2": "Modelowanie wielkości rynku i szans",
+      "feature3": "Struktura prawna i wnioskowanie regulacyjne",
+      "feature4": "Podsumowanie gotowe dla inwestorów",
+      "feature5": "Ramowanie modelu komercyjnego",
+      "feature6": "Sesja strategiczna 1 na 1",
+      "cta": "Zaplanuj spotkanie"
+    },
+    "mail": {
+      "subject": "DutyInsight - Zapytanie o {{plan}}",
+      "body": "Szanowni Państwo,\n\njesteśmy zainteresowani rozwiązaniem {{plan}} i chcielibyśmy otrzymać więcej szczegółów.\n\nZ poważaniem"
+    },
+    "footnote": "Niewykorzystane środki w pakietach są ważne przez 12 miesięcy."
+  },
+  "strategy": {
+    "eyebrow": "Strategy Engine",
+    "title": "Opanuj ukrytą dynamikę handlu światowego.",
+    "subtitle": "Strategy Intelligence to spersonalizowane doradztwo w zakresie analizy rynku i inwestycji dla firm dążących do międzynarodowej ekspansji.",
+    "feature1": {
+      "title": "Priorytetyzacja rynków",
+      "body": "Modelujemy rynki o najwyższym ROI, wykorzystując ważone dane taryfowe, logistyczne i popytowe."
+    },
+    "feature2": {
+      "title": "Mapowanie konkurencji",
+      "body": "Szczegółowa analiza strategii cenowych i łańcuchów dostaw Twojej konkurencji."
+    },
+    "feature3": {
+      "title": "Mapa drogowa regulacji",
+      "body": "Zarządzanie wpływem CBAM, ESG oraz nowych przepisów UE/USA na Twój cykl wzrostu."
+    },
+    "feature4": {
+      "title": "Briefing dla zarządu",
+      "body": "Raporty premium (30-50 stron) i prezentacje na poziomie zarządu gotowe dla inwestorów."
+    },
+    "ctaTitle": "Gotowy na globalne skalowanie?",
+    "ctaBody": "Słuchamy Twoich celów biznesowych i wspólnie definiujemy zakres strategii.",
+    "cta": "Zamów strategię"
+  },
+  "hub": {
+    "eyebrow": "GLOBALNA SIEĆ",
+    "title": "Dwa centra. Globalny dostęp.",
+    "subtitle": "Most łączący potęgi produkcyjne z sercem Europy dzięki centrom w Stambule i Pradze.",
+    "istanbul": {
+      "badge": "Centrum operacyjne",
+      "title": "Cła i Compliance",
+      "description": "Wykorzystanie strategicznej lokalizacji do zarządzania korytarzami handlowymi, zapewniając bezbłędną dokumentację celną.",
+      "focus": "Kluczowe obszary",
+      "feature1": "Audyt kodów HS i zapobieganie ryzyku",
+      "feature2": "Optymalizacja logistyki transgranicznej"
+    },
+    "prague": {
+      "badge": "Centrum strategiczne",
+      "title": "Dostęp do rynku UE",
+      "description": "Siedziba w centrum Europy, umożliwiająca nawigowanie w regulacjach CBAM, IOSS i reformie celnej UE bezpośrednio u źródła.",
+      "focus": "Kluczowe obszary",
+      "feature1": "Studia wykonalności dla rynków CEE",
+      "feature2": "Strategia ESG i zielonych korytarzy"
+    }
+  },
+  "social": {
+    "eyebrow": "CYFROWY EKOSYSTEM",
+    "title": "Dołącz do naszej sieci",
+    "subtitle": "Obserwuj nas, aby otrzymywać analizy handlowe i aktualności z centrów DutyInsight.",
+    "linkedin": { "desc": "Raporty strategiczne B2B, analizy rynku UE i aktualizacje makroekonomiczne." },
+    "instagram": { "desc": "Kultura firmy, dynamika zespołu i kulisy pracy w Pradze i Stambule." }
+  },
+  "footer": {
+    "tagline": "Pre-customs trade intelligence dla globalnego wzrostu.",
+    "navProducts": "Rozwiązania",
+    "navCompany": "Firma",
+    "navLegal": "Informacje prawne",
+    "linkAbout": "O nas",
+    "linkContact": "Kontakt",
+    "linkPrivacy": "Polityka prywatności",
+    "linkTerms": "Warunki użytkowania",
+    "linkCookies": "Polityka cookies",
+    "copyright": "© 2026 DutyInsight. Wszelkie prawa zastrzeżone.",
+    "location": "Praga, CZ · Stambuł, TR"
+  },
+  "common": {
+    "menu": "Menu",
+    "close": "Zamknij",
+    "language": "Język",
+    "popular": "Popularne",
+    "learnMore": "Dowiedz się więcej",
+    "getQuote": "Uzyskaj ofertę"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 15 maja 2026",
+    "intro": "DutyInsight przywiązuje najwyższą wagę do ochrony danych swoich klientów korporacyjnych. Niniejsza Polityka prywatności wyjaśnia zakres przetwarzania i ochrony danych gromadzonych za pośrednictwem platformy dutyinsight.com zgodnie z RODO (GDPR) oraz odpowiednimi przepisami prawa.",
+    "section1": {
+      "title": "1. Administrator danych",
+      "body": "Administratorem danych w rozumieniu RODO jest DutyInsight. Dane osobowe oznaczają wszelkie informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej."
+    },
+    "section4": {
+      "title": "4. Bezpieczeństwo danych",
+      "body": "Stosujemy standardowe środki techniczne (TLS 1.3, AES-256) w celu zabezpieczenia wrażliwych danych B2B. Dostęp jest ograniczony poprzez autoryzację opartą na rolach."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "W przypadku pytań dotyczących danych prosimy o kontakt pod adresem info@dutyinsight.com."
+    }
+  },
+  "terms": {
+    "title": "Warunki użytkowania",
+    "lastUpdated": "Ostatnia aktualizacja: 15 maja 2026",
+    "intro": "Niniejsze warunki regulują korzystanie z serwisu dutyinsight.com. Korzystając z platformy, akceptujesz te warunki jako wiążące.",
+    "disclaimer": {
+      "title": "4. Charakter prawny raportów — WYŁĄCZENIE ODPOWIEDZIALNOŚCI",
+      "body": "Raporty stanowią doradztwo strategiczne i nie zastępują oficjalnych zgłoszeń celnych. Klient ponosi wyłączną odpowiedzialność za wszelkie kary celne lub administracyjne."
+    }
+  },
+  "cookies": {
+    "title": "Polityka cookies",
+    "lastUpdated": "Ostatnia aktualizacja: 15 maja 2026",
+    "intro": "Niniejsza polityka wyjaśnia technologie śledzenia stosowane na stronie dutyinsight.com."
+  },
+  "cookieBanner": {
+    "message": "DutyInsight używa niezbędnych plików cookie do poprawnego działania platformy oraz analitycznych plików cookie w celu poprawy doświadczeń użytkowników. Możesz zarządzać preferencjami lub zaakceptować wszystkie.",
+    "acceptAll": "Akceptuj wszystkie",
+    "essentialOnly": "Tylko niezbędne",
+    "preferences": "Zarządzaj preferencjami",
+    "learnMore": "Polityka cookies"
+  }
+}

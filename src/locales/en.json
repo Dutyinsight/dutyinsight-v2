@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "products": "Solutions",
+    "reports": "Operations",
+    "strategy": "Strategy",
+    "ceeHub": "Global Network",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "eyebrow": "PRE-CUSTOMS TRADE INTELLIGENCE",
+    "title": "Master Global Trade with Data-Driven Certainty.",
+    "subtitle": "Ensure compliance and optimize your supply chain before customs execution. From CBAM regulations to tariff optimization, we clear the path for your global expansion.",
+    "ctaPrimary": "Explore Solutions",
+    "ctaSecondary": "Book Strategy Session",
+    "trustline": "Powering high-growth exporters and manufacturers worldwide.",
+    "stat1Number": "100%",
+    "stat1Label": "COMPLIANCE FOCUS",
+    "stat2Number": "<24h",
+    "stat2Label": "DATA SYNCHRONIZATION",
+    "stat3Number": "3-5",
+    "stat3Label": "DAYS DELIVERY TIME"
+  },
+  "problem": {
+    "eyebrow": "Risk Management",
+    "title": "Breaking hidden barriers in global trade",
+    "subtitle": "International expansion often fails at the border. We eliminate the three most critical friction points before they impact your bottom line.",
+    "card1": {
+      "tag": "Compliance",
+      "title": "Regulatory & Tariff Risks",
+      "body": "Incorrect HS codes and missing certifications lead to massive delays and penalties. Pre-auditing your data reduces operational friction by 40% and prevents costly post-clearance corrections."
+    },
+    "card2": {
+      "tag": "EU Regulations",
+      "title": "CBAM & ESG Accountability",
+      "body": "The Carbon Border Adjustment Mechanism (CBAM) is no longer optional. We provide the data framework necessary to keep your products flowing through Europe's green corridors."
+    },
+    "card3": {
+      "tag": "Market Entry",
+      "title": "Data-Driven, Not Intuition-Based",
+      "body": "Many firms choose new markets based on trends rather than logistics, tariff structures, and demand signals. Our analytics utilize weighted market modeling to your advantage."
+    }
+  },
+  "reports": {
+    "eyebrow": "PRODUCTS & PACKAGES",
+    "title": "Trade Intelligence Reports",
+    "subtitle": "Import Intelligence and Export Intelligence are offered in flexible packages (15, 25, or 50+) based on your catalog size. Our strategic analysis is a custom, one-time project for your firm.",
+    "mail": {
+      "subject": "DutyInsight | Inquiry regarding {{plan}} Solution",
+      "body": "Hello DutyInsight Team,\n\nWe are interested in your {{plan}} solution and would like to learn more about the process.\n\nBest regards,"
+    },
+    "starter": {
+      "name": "Import Intelligence",
+      "price": "",
+      "tag": "PRE-CLEARANCE",
+      "description": "Assess your products' readiness for import before the logistics chain begins. Available in flexible product packages.",
+      "feature1": "Packages for 15, 25, or 50+ products",
+      "feature2": "Top 3 supplier country screening",
+      "feature3": "Certification gap & regulatory risk detection",
+      "feature4": "Customs duty and tax risk assessment",
+      "feature5": "For: Sourcing Teams · Procurement Depts",
+      "cta": "Choose Import Package"
+    },
+    "business": {
+      "name": "Export Intelligence",
+      "price": "",
+      "tag": "PRE-CLEARANCE",
+      "description": "Analyze the operational readiness of your products for export in the right corridor. Scaled to your export volume.",
+      "feature1": "Packages for 15, 25, or 50+ products",
+      "feature2": "Target market screening (Top 3 candidates)",
+      "feature3": "Demand signals & competitive intensity",
+      "feature4": "Logistics corridor & tax assessment",
+      "feature5": "Priority delivery in 3 business days",
+      "feature6": "Premium WhatsApp & Email support",
+      "cta": "Choose Export Package"
+    },
+    "enterprise": {
+      "name": "Strategy Intelligence",
+      "price": "",
+      "tag": "STRATEGY ENGINE",
+      "description": "Comprehensive strategic reports, executive summaries, and investor-ready briefs generated from structured business data.",
+      "feature1": "One-time, tailor-made advisory project",
+      "feature2": "Market sizing & opportunity modeling",
+      "feature3": "Legal structure & regulatory conclusions",
+      "feature4": "Investor-ready executive summary",
+      "feature5": "Financial & commercial model framing",
+      "feature6": "Individual 1-on-1 strategy session",
+      "cta": "Book Strategy Meeting"
+    },
+    "footnote": "Unused report credits in Import/Export packages are valid for 12 months."
+  },
+  "strategy": {
+    "eyebrow": "Strategy Engine",
+    "title": "Master the hidden dynamics of global trade.",
+    "subtitle": "Strategy Intelligence is a personalized market analysis and investment advisory for firms seeking data-driven international expansion.",
+    "feature1": {
+      "title": "Market Prioritization",
+      "body": "We model the markets with the highest ROI using weighted data on tariffs, logistics, and demand."
+    },
+    "feature2": {
+      "title": "Competitor Mapping",
+      "body": "Detailed analysis of your competition's pricing strategies, supply chains, and market entry methods."
+    },
+    "feature3": {
+      "title": "Regulatory Roadmap",
+      "body": "Managing the impact of CBAM, ESG, and new EU/US trade regulations on your 2026-2028 growth cycle."
+    },
+    "feature4": {
+      "title": "Board Briefing",
+      "body": "Premium strategic reports (30-50 pages) and board-level presentations ready for investors."
+    },
+    "ctaTitle": "Ready for Global Scaling?",
+    "ctaBody": "We listen to your business goals and define the scope of your custom strategy together.",
+    "cta": "Request Custom Strategy"
+  },
+  "hub": {
+    "eyebrow": "GLOBAL NETWORK",
+    "title": "Two Hubs. Global Access.",
+    "subtitle": "Bridging manufacturing powerhouses with the heart of Europe through our Istanbul and Prague centers.",
+    "istanbul": {
+      "badge": "Operational Hub",
+      "title": "Customs & Compliance",
+      "description": "Leveraging strategic location to manage high-volume trade corridors, ensuring flawless customs documentation.",
+      "focus": "Key Focus Areas",
+      "feature1": "HS Code Audit & Risk Prevention",
+      "feature2": "Cross-border Logistics Optimization"
+    },
+    "prague": {
+      "badge": "Strategic Hub",
+      "title": "EU Market Access",
+      "description": "Located in the heart of Europe to navigate CBAM, IOSS, and EU customs reforms directly at the source.",
+      "focus": "Key Focus Areas",
+      "feature1": "CEE Market Feasibility Studies",
+      "feature2": "ESG & Green Corridor Strategy"
+    }
+  },
+  "social": {
+    "eyebrow": "DIGITAL ECOSYSTEM",
+    "title": "Join Our Network",
+    "subtitle": "Follow us for global trade insights and updates from DutyInsight hubs.",
+    "linkedin": { "desc": "B2B strategy reports, EU market insights, and macroeconomic updates." },
+    "instagram": { "desc": "Company culture, team dynamics, and behind-the-scenes from Prague and Istanbul." }
+  },
+  "footer": {
+    "tagline": "Pre-customs trade intelligence for global growth.",
+    "navProducts": "Solutions",
+    "navCompany": "Company",
+    "navLegal": "Legal",
+    "linkAbout": "About",
+    "linkContact": "Contact",
+    "linkPrivacy": "Privacy Policy",
+    "linkTerms": "Terms of Use",
+    "linkCookies": "Cookie Policy",
+    "copyright": "© 2026 DutyInsight. All rights reserved.",
+    "location": "Prague, CZ · Istanbul, TR"
+  },
+  "common": {
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "popular": "Popular",
+    "learnMore": "Learn More",
+    "getQuote": "Get Quote",
+    "mail": {
+      "getStarted": {
+        "subject": "DutyInsight | Collaboration & Partnership Inquiry",
+        "body": "Hello DutyInsight Team,\n\nI have reviewed your platform and I am interested in learning more about your trade intelligence solutions.\n\nBest regards,"
+      },
+      "strategy": {
+        "subject": "DutyInsight | Strategic Consultation Request",
+        "body": "Hello Team,\n\nWe would like to schedule a strategy session to discuss our international trade expansion and regulatory compliance roadmap.\n\nBest regards,"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 15 May 2026",
+    "intro": "DutyInsight attaches the utmost importance to the protection of data belonging to the corporate clients who use our services. This Privacy Policy explains, in accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK), the EU GDPR, and applicable legislation, the scope within which the data we collect through the dutyinsight.com website and platform is processed and protected.",
+    "section1": {
+      "title": "1. Data Controller and Definitions",
+      "body": "DutyInsight acts as the data controller under both KVKK and GDPR. Client refers to the legal entity benefiting from services; Personal Data means any information relating to an identified or identifiable natural person."
+    },
+    "section2": {
+      "title": "2. Categories of Data Processed",
+      "body": "The following categories of data are processed: Identification and Contact Data, Client Company Data, Operational Trade Data (HS codes, trade routes), Technical Data, and Financial Data."
+    },
+    "section3": {
+      "title": "3. Purposes and Legal Bases",
+      "body": "Data is processed for the Performance of a Contract, Legal Obligations, and Legitimate Interests (ensuring Platform security and service quality)."
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "body": "The Company applies industry-standard technical measures (TLS 1.3, AES-256) to safeguard sensitive B2B data. Access is restricted through RBAC and MFA."
+    },
+    "section5": {
+      "title": "5. Data Transfers",
+      "body": "Data may be shared with group companies, GDPR-compliant processors, or public authorities where required by law. Cross-border transfers adhere to SCCs."
+    },
+    "section6": {
+      "title": "6. Data Subject Rights",
+      "body": "As a data subject, you have the right to request access, rectification, deletion (right to be forgotten), and data portability under GDPR and KVKK."
+    },
+    "section7": {
+      "title": "7. Retention Periods",
+      "body": "Data is retained only for the period required by law (e.g., 10 years for contracts, 5 years for financial records)."
+    },
+    "section8": {
+      "title": "8. Cookies",
+      "body": "Cookies are used for functional and analytical purposes. Please refer to our Cookie Policy for details."
+    },
+    "section9": {
+      "title": "9. Updates",
+      "body": "The Company reserves the right to revise this Policy. Material changes will be notified via email."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For requests regarding your data, contact us at info@dutyinsight.com. Requests are addressed within the legal timeframe."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: 15 May 2026",
+    "intro": "These Terms govern the use of dutyinsight.com and its services. By accessing the Platform, you accept these Terms as binding.",
+    "section1": {
+      "title": "1. Definition of Services",
+      "body": "Services include trade intelligence reports, risk analyses, and CBAM/ESG assessments for professional B2B use."
+    },
+    "section2": {
+      "title": "2. Account Authorisation",
+      "body": "Clients must provide accurate information. Confidentiality of account credentials remains the Client's responsibility."
+    },
+    "section3": {
+      "title": "3. Subscription and Usage",
+      "body": "Entitlements are valid for 12 months. Report 01 and 02 entitlements are drawn from a shared pool. Digital B2B services are non-refundable."
+    },
+    "disclaimer": {
+      "title": "4. Legal Nature of Reports — DISCLAIMER",
+      "body": "Reports constitute strategic advisory and do not replace official customs declarations or legal opinions. The Client remains solely responsible for any customs fines or administrative penalties."
+    },
+    "liability": {
+      "title": "5. Limitation of Liability",
+      "body": "Liability is limited to the amount paid for the Service in the 12 months preceding a claim. Indirect damages such as loss of profit are excluded."
+    },
+    "section6": {
+      "title": "6. Data Accuracy",
+      "body": "Reports rely on official third-party databases. The Company is not liable for errors originating from these providers."
+    },
+    "section7": {
+      "title": "7. Client Obligations",
+      "body": "Information must be used for internal commercial activities only. Scraping or unauthorised access attempts are strictly prohibited."
+    },
+    "ip": {
+      "title": "8. Intellectual Property",
+      "body": "All content and methodologies remain the exclusive property of DutyInsight or its licensors."
+    },
+    "section9": {
+      "title": "9. Termination",
+      "body": "The Company reserves the right to suspend or terminate access for material breaches or failure to pay."
+    },
+    "section10": {
+      "title": "10. Force Majeure",
+      "body": "Obligations are suspended during events outside reasonable control (e.g., natural disasters, cyber-attacks)."
+    },
+    "section11": {
+      "title": "11. Governing Law",
+      "body": "These Terms are governed by the laws of the Republic of Türkiye. Disputes fall under the jurisdiction of Istanbul Courts."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For contractual inquiries, contact us at info@dutyinsight.com."
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: 15 May 2026",
+    "intro": "This Policy explains the tracking technologies used on dutyinsight.com. By using the Platform, you accept this usage.",
+    "section1": {
+      "title": "1. What Is a Cookie?",
+      "body": "Cookies are small text files placed on your device to recognise you on subsequent visits and remember preferences."
+    },
+    "section2": {
+      "title": "2. Categories",
+      "body": "We use strictly necessary cookies (essential for operation) and analytics cookies (for performance measurement)."
+    },
+    "essential": {
+      "title": "3. Strictly Necessary",
+      "body": "These manage active sessions, security, and language preferences. They cannot be disabled."
+    },
+    "analytics": {
+      "title": "4. Analytics Cookies",
+      "body": "These collect anonymised interaction data to improve user experience. Usage is subject to your consent."
+    },
+    "section5": {
+      "title": "5. Third-Party Cookies",
+      "body": "We work only with verified, GDPR-compliant providers for analytics and content delivery."
+    },
+    "section6": {
+      "title": "6. Management",
+      "body": "You can manage preferences through our banner or browser settings. Disabling essential cookies may cause malfunctions."
+    },
+    "section7": {
+      "title": "7. Retention",
+      "body": "Persistent cookies are stored for up to 13 months, after which consent is refreshed."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For cookie-related questions, reach out to info@dutyinsight.com."
+    }
+  },
+  "cookieBanner": {
+    "message": "DutyInsight uses strictly necessary cookies to ensure the Platform functions correctly and analytics cookies to improve the user experience. You can manage your preferences or accept all cookies.",
+    "acceptAll": "Accept All",
+    "essentialOnly": "Essential Only",
+    "preferences": "Manage Preferences",
+    "learnMore": "Cookie Policy"
+  }
+}

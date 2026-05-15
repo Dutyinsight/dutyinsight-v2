@@ -1,0 +1,31 @@
+{
+  "name": "dutyinsight-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DutyInsight — Multilingual SaaS-style corporate website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "i18next": "^23.15.0",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "lucide-react": "^0.453.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.0",
+    "react-router-dom": "^7.15.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  }
+}

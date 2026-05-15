@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "products": "Řešení",
+    "reports": "Operace",
+    "strategy": "Strategie",
+    "ceeHub": "Globální síť",
+    "contact": "Kontakt",
+    "getStarted": "Začít"
+  },
+  "hero": {
+    "eyebrow": "Pre-Customs Trade Intelligence",
+    "title": "Ovládněte globální obchod s jistotou podloženou daty.",
+    "subtitle": "Zajistěte shodu a optimalizujte svůj dodavatelský řetězec ještě před celním řízením. Od regulací CBAM až po optimalizaci celních sazeb – připravujeme cestu pro vaši globální expanzi.",
+    "ctaPrimary": "Prozkoumat řešení",
+    "ctaSecondary": "Rezervovat strategickou konzultaci",
+    "trustline": "Podpora pro dynamicky rostoucí výrobce a exportéry po celém světě.",
+    "stat1Number": "100%",
+    "stat1Label": "ZAMĚŘENÍ NA COMPLIANCE",
+    "stat2Number": "<24h",
+    "stat2Label": "RYCHLOST SYNCHRONIZACE",
+    "stat3Number": "3-5",
+    "stat3Label": "DNÍ NA DODÁNÍ ANALÝZY"
+  },
+  "problem": {
+    "eyebrow": "Řízení rizik",
+    "title": "Překonávání skrytých bariér ve světovém obchodu",
+    "subtitle": "Mezinárodní expanze často selhává na hranicích. Eliminujeme tři nejkritičtější problematické body dříve, než ovlivní vaše výsledky.",
+    "card1": {
+      "tag": "Compliance",
+      "title": "Regulační a celní rizika",
+      "body": "Chybné kódy HS a chybějící certifikáty vedou k obrovským zpožděním a sankcím. Předběžný audit vašich dat snižuje provozní tření o 40 % a předchází nákladným opravám po odbavení."
+    },
+    "card2": {
+      "tag": "Regulace EU",
+      "title": "Odpovědnost CBAM a ESG",
+      "body": "Mechanismus uhlíkového vyrovnání na hranicích (CBAM) již není volitelný. Poskytujeme datový rámec nezbytný pro plynulý pohyb vašich produktů zelenými koridory Evropy."
+    },
+    "card3": {
+      "tag": "Vstup na trh",
+      "title": "Expanze založená na datech, nikoliv na intuici",
+      "body": "Mnoho firem si vybírá nové trhy na základě trendů, nikoliv logistiky, celních struktur a signálů poptávky. Naše analytika využívá vážené modelování trhu ve váš prospěch."
+    }
+  },
+  "reports": {
+    "eyebrow": "PRODUKTY A BALÍČKY",
+    "title": "Analýzy obchodních dat",
+    "subtitle": "Analýzy Import Intelligence a Export Intelligence jsou nabízeny ve flexibilních balíčcích (15, 25 oder 50+) podle počtu položek ve vašem katalogu. Naše strategická analýza je individuální projekt na míru vaší firmě.",
+    "starter": {
+      "name": "Import Intelligence",
+      "price": "",
+      "tag": "PŘEDBĚŽNÉ ODBAVENÍ",
+      "description": "Posuďte připravenost svých produktů k importu ještě před zahájením logistického řetězce. Dostupné ve flexibilních produktových balíčcích.",
+      "feature1": "Balíčky pro 15, 25 nebo 50+ produktů",
+      "feature2": "Screening top 3 zemí dodavatelů",
+      "feature3": "Detekce mezer v certifikaci a regulačních rizik",
+      "feature4": "Posouzení celních a daňových rizik",
+      "feature5": "Pro: Sourcing týmy · Nákupní oddělení",
+      "cta": "Vybrat importní balíček"
+    },
+    "business": {
+      "name": "Export Intelligence",
+      "price": "",
+      "tag": "PŘEDBĚŽNÉ ODBAVENÍ",
+      "description": "Analyzujte operativní připravenost svých produktů k exportu ve správném koridoru. Přizpůsobeno vašemu objemu exportu.",
+      "feature1": "Balíčky pro 15, 25 nebo 50+ produktů",
+      "feature2": "Screening cílových trhů (top 3 kandidáti)",
+      "feature3": "Analýza poptávky a intenzity konkurence",
+      "feature4": "Analýza logistického koridoru a daňové posouzení",
+      "feature5": "Prioritní doručení do 3 pracovních dnů",
+      "feature6": "Prémiová podpora přes WhatsApp a e-mail",
+      "cta": "Vybrat exportní balíček"
+    },
+    "enterprise": {
+      "name": "Strategy Intelligence",
+      "price": "",
+      "tag": "STRATEGY ENGINE",
+      "description": "Komplexní strategické zprávy, manažerská shrnutí a investiční briefy generované na základě strukturovaných obchodních dat.",
+      "feature1": "Jednorázový, na míru šitý poradenský projekt",
+      "feature2": "Modelování velikosti trhu a obchodních příležitostí",
+      "feature3": "Právní struktura a regulační závěry",
+      "feature4": "Manažerské shrnutí připravené pro investory",
+      "feature5": "Rámování finančního a komerčního modelu",
+      "feature6": "Individuální strategická konzultace 1 na 1",
+      "cta": "Naplánovat strategickou schůzku"
+    },
+    "mail": {
+      "subject": "DutyInsight - Dotaz na řešení {{plan}}",
+      "body": "Vážení,\n\nmáme zájem o vaše řešení {{plan}} a rádi byste se dozvěděli více o procesu spolupráce.\n\nS pozdravem"
+    },
+    "footnote": "Nevyužité kredity na analýzy v balíčcích Import/Export jsou platné po dobu 12 měsíců."
+  },
+  "strategy": {
+    "eyebrow": "Strategy Engine",
+    "title": "Ovládněte skrytou dynamiku světového obchodu.",
+    "subtitle": "Strategy Intelligence je personalizované poradenství v oblasti analýzy trhu a investic pro firmy usilující o mezinárodní expanzi založenou na datech.",
+    "feature1": {
+      "title": "Prioritizace trhů",
+      "body": "Modelujeme trhy s nejvyšším ROI s využitím vážených dat o clech, logistice a poptávce."
+    },
+    "feature2": {
+      "title": "Mapování konkurence",
+      "body": "Podrobná analýza cenových strategií, dodavatelských řetězců a metod vstupu na trh vaší konkurence."
+    },
+    "feature3": {
+      "title": "Regulační plán",
+      "body": "Správa dopadů CBAM, ESG a nových obchodních předpisů EU/USA na váš růstový cyklus 2026–2028."
+    },
+    "feature4": {
+      "title": "Briefing pro vedení",
+      "body": "Prémiové strategické analýzy (30–50 stran) ve formátu připraveném pro investory."
+    },
+    "ctaTitle": "Jste připraveni na globální škálování?",
+    "ctaBody": "Nasloucháme vašim obchodním cílům a společně definujeme rozsah strategie šité na míru.",
+    "cta": "Objednat strategii na míru"
+  },
+  "hub": {
+    "eyebrow": "GLOBÁLNÍ SÍŤ",
+    "title": "Dvě centra. Globální přístup.",
+    "subtitle": "Most spojující výrobní velmoci se srdcem Evropy díky centrům v Istanbulu a Praze.",
+    "istanbul": {
+      "badge": "Operační centrum",
+      "title": "Cla a compliance",
+      "description": "Využití strategické polohy pro správu obchodních koridorů, zajišťující bezchybnou celní dokumentaci.",
+      "focus": "Klíčové oblasti",
+      "feature1": "Audit kódů HS a prevence rizik",
+      "feature2": "Optimalizace přeshraniční logistiky"
+    },
+    "prague": {
+      "badge": "Strategické centrum",
+      "title": "Přístup na trh EU",
+      "description": "Sídlo v centru Evropy, umožňující přímou navigaci v regulacích CBAM a IOSS přímo u zdroje.",
+      "focus": "Klíčové oblasti",
+      "feature1": "Studie proveditelnosti pro trhy CEE",
+      "feature2": "Strategie ESG a zelených koridorů"
+    }
+  },
+  "social": {
+    "eyebrow": "DIGITÁLNÍ EKOSYSTÉM",
+    "title": "Připojte se k naší síti",
+    "subtitle": "Sledujte nás pro globální obchodní analýzy a novinky z center DutyInsight.",
+    "linkedin": { "desc": "B2B strategické analýzy, zprávy z trhu EU a makroekonomické aktualizace." },
+    "instagram": { "desc": "Firemní kultura, týmová dynamika a pohled do zákulisí práce v Praze a Istanbulu." }
+  },
+  "footer": {
+    "tagline": "Pre-customs trade intelligence pro globální růst.",
+    "navProducts": "Řešení",
+    "navCompany": "Firma",
+    "navLegal": "Právní informace",
+    "linkAbout": "O nás",
+    "linkContact": "Kontakt",
+    "linkPrivacy": "Ochrana soukromí",
+    "linkTerms": "Obchodní podmínky",
+    "linkCookies": "Zásady cookies",
+    "copyright": "© 2026 DutyInsight. Všechna práva vyhrazena.",
+    "location": "Praha, CZ · Istanbul, TR"
+  },
+  "common": {
+    "menu": "Menu",
+    "close": "Zavřít",
+    "language": "Język",
+    "popular": "Populární",
+    "learnMore": "Dozvědět se více",
+    "getQuote": "Získat nabídku"
+  },
+  "privacy": {
+    "title": "Ochrana soukromí",
+    "lastUpdated": "Poslední aktualizace: 15. května 2026",
+    "intro": "Společnost DutyInsight přikládá nejvyšší význam ochraně osobních údajů svých firemních klientů. Tyto zásady vysvětlují rozsah zpracování a ochrany údajů shromažďovaných prostřednictvím platformy dutyinsight.com v souladu s GDPR a KVKK.",
+    "section1": {
+      "title": "1. Správce údajů a definice",
+      "body": "DutyInsight působí jako správce údajů v souladu s nařízením GDPR. Osobními údaji se rozumí veškeré informace o identifikované nebo identifikovatelné fyzické osobě."
+    },
+    "section4": {
+      "title": "4. Bezpečnost dat",
+      "body": "Používáme standardní technická opatření (TLS 1.3, AES-256) k zabezpečení citlivých B2B dat. Přístup je omezen na základě rolí."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "V případě dotazů ohledně vašich údajů nás kontaktujte na adrese info@dutyinsight.com."
+    }
+  },
+  "terms": {
+    "title": "Obchodní podmínky",
+    "lastUpdated": "Poslední aktualizace: 15. května 2026",
+    "intro": "Tyto obchodní podmínky upravují právní podmínky používání webových stránek a služeb dutyinsight.com. Přístupem na platformu přijímáte tyto podmínki jako závazné.",
+    "disclaimer": {
+      "title": "4. Zřeknutí se odpovědnosti — PRÁVNÍ POVAHA ANALÝZ",
+      "body": "Veškeré analýzy poskytované společností DutyInsight představují strategické poradenství a nenahrazují oficiální celní prohlášenie. Klient nese výhradní odpovědnost za případné celní pokuty nebo sankce."
+    }
+  },
+  "cookies": {
+    "title": "Zásady používání souborů cookie",
+    "lastUpdated": "Poslední aktualizace: 15. května 2026",
+    "intro": "Tyto zásady vysvětlují technologie sledování používané na webu dutyinsight.com."
+  },
+  "cookieBanner": {
+    "message": "DutyInsight používá nezbytné soubory cookie pro zajištění správného fungování platformy a analytické soubory cookie pro zlepšení uživatelské zkušenosti. Můžete spravovat své předvolby nebo přijmout všechny soubory cookie.",
+    "acceptAll": "Přijmout vše",
+    "essentialOnly": "Pouze nezbytné",
+    "preferences": "Spravovat předvolby",
+    "learnMore": "Zásady cookies"
+  }
+}
