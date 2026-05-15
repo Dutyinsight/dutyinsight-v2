@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ArrowRight } from 'lucide-react';
-import Logo from './Logo';
+import Logo from './Logo'; // Kendi yazdığın profesyonel logo bileşeni
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
@@ -15,12 +15,9 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // AKILLI MAİL FONKSİYONU: Hero ile aynı mantık
   const handleContactMail = (type) => {
     const currentLang = i18n.language;
     const isTr = currentLang === 'tr';
-    
-    // Dil TR değilse 'en' anahtarını zorla çekiyoruz
     const translateOptions = isTr ? {} : { lng: 'en' };
     
     const subject = t(`common.mail.${type}.subject`, translateOptions);
@@ -40,14 +37,15 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/90 backdrop-blur-md border-b border-ink-100'
+          ? 'bg-white/90 backdrop-blur-md border-b border-ink-100 shadow-sm'
           : 'bg-transparent'
       }`}
     >
       <div className="container-x">
         <nav className="flex items-center justify-between h-16 lg:h-18">
-          <a href="#" className="text-primary-500 hover:opacity-80 transition-opacity">
-            <Logo size={28} />
+          {/* LOGO ALANI */}
+          <a href="#" className="hover:opacity-90 transition-opacity">
+            <Logo size={32} showText={true} />
           </a>
 
           {/* Desktop nav */}
@@ -66,14 +64,13 @@ export default function Header() {
           <div className="flex items-center gap-2 lg:gap-3">
             <LanguageSwitcher />
 
-            {/* Desktop Hemen Başla Butonu (Artık Akıllı) */}
             <button
               onClick={() => handleContactMail('getStarted')}
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2
-                       bg-primary-500 text-white text-sm font-medium
-                       rounded-lg hover:bg-primary-600
+                       bg-[#0F2341] text-white text-sm font-medium
+                       rounded-lg hover:bg-opacity-90
                        transition-all duration-200
-                       focus:outline-none focus:ring-2 focus:ring-primary-500/30 focus:ring-offset-2"
+                       focus:outline-none focus:ring-2 focus:ring-[#0F2341]/30 focus:ring-offset-2"
             >
               {t('nav.getStarted')}
               <ArrowRight className="w-3.5 h-3.5" strokeWidth={2} />
@@ -91,8 +88,8 @@ export default function Header() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="lg:hidden border-t border-ink-100 py-4 animate-fade-in">
-            <div className="flex flex-col gap-3">
+          <div className="lg:hidden border-t border-ink-100 py-4 animate-fade-in bg-white">
+            <div className="flex flex-col gap-3 px-2">
               {navItems.map((item) => (
                 <a
                   key={item.href}
@@ -103,13 +100,13 @@ export default function Header() {
                   {item.label}
                 </a>
               ))}
-              {/* Mobile Hemen Başla Butonu (Artık Akıllı) */}
               <button
                 onClick={() => {
                   setMobileOpen(false);
                   handleContactMail('getStarted');
                 }}
-                className="btn-primary mt-2 self-start sm:hidden flex items-center gap-1.5"
+                className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5
+                         bg-[#0F2341] text-white text-sm font-medium rounded-lg"
               >
                 {t('nav.getStarted')}
                 <ArrowRight className="w-3.5 h-3.5" />
