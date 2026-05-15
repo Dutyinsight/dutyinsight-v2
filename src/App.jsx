@@ -1,19 +1,19 @@
-import { useState, useEffect, lazy, Suspense } from 'react'; // lazy ve Suspense eklendi
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
-// -- BİLEŞENLER (STATİK - HIZLI YÜKLENENLER) --
+// -- ⚡ ANINDA YÜKLENMESİ GEREKENLER (İlk açılışta şart olanlar) --
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Problem from './components/Problem';
-import Reports from './components/Reports';
-import Strategy from './components/Strategy';
-import CEEHub from './components/CEEHub';
-import LinkedInBlock from './components/LinkedInBlock';
-import Footer from './components/Footer';
-import CookieBanner from './components/CookieBanner';
 
-// -- LAZY LOAD (AĞIR METİNLER - İHTİYAÇ ANINDA YÜKLENENLER) --
+// -- 🐢 LAZY LOAD (Aşağı kaydırdıkça arka planda yüklenecekler) --
+const Problem = lazy(() => import('./components/Problem'));
+const Reports = lazy(() => import('./components/Reports'));
+const Strategy = lazy(() => import('./components/Strategy'));
+const CEEHub = lazy(() => import('./components/CEEHub'));
+const LinkedInBlock = lazy(() => import('./components/LinkedInBlock'));
+const Footer = lazy(() => import('./components/Footer'));
+const CookieBanner = lazy(() => import('./components/CookieBanner'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
 
 // Sayfa değişince en üste kaydıran parça
@@ -53,12 +53,17 @@ export default function App() {
             path="/" 
             element={
               <>
+                {/* Hero anında yüklenir, beklemez */}
                 <Hero />
-                <Problem />
-                <Reports />
-                <Strategy />
-                <CEEHub />
-                <LinkedInBlock />
+                
+                {/* Geri kalanlar arka planda inerken siteyi bloklamaz */}
+                <Suspense fallback={<div className="h-32" />}>
+                  <Problem />
+                  <Reports />
+                  <Strategy />
+                  <CEEHub />
+                  <LinkedInBlock />
+                </Suspense>
               </>
             } 
           />
@@ -66,20 +71,16 @@ export default function App() {
         </Routes>
       </main>
 
-      <Footer onOpenLegal={openModal} />
-
-      {/* Suspense ile sarıyoruz: Modal yüklenene kadar siteyi bloke etmez. 
-        İçindeki ağır metinler sadece kullanıcı tıkladığında indirilir. 
-      */}
+      {/* Footer ve diğer parçalar da siteyi yavaşlatmasın */}
       <Suspense fallback={null}>
+        <Footer onOpenLegal={openModal} />
+        <CookieBanner onOpenLegal={openModal} />
         <LegalModal 
           isOpen={modalState.isOpen} 
           onClose={closeModal} 
           type={modalState.type} 
         />
       </Suspense>
-
-      <CookieBanner onOpenLegal={openModal} />
     </div>
   );
 }
