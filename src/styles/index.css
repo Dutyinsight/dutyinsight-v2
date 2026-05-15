@@ -1,108 +1,96 @@
-<!doctype html>
-<html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0F2341" />
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    <title>DutyInsight — Pre-Customs Trade Intelligence for SMEs</title>
-    <meta name="description" content="Data-driven import, export, and strategy intelligence for SMEs trading across Türkiye, the EU, and Central Europe." />
+@layer base {
+  :root {
+    --primary: 15 35 65;
+    --accent: 212 175 55;
+  }
 
-    <link rel="preload" href="/fonts/fraunces-v38-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-    <style>
-      /* ⚡ 2. TÜM YEREL FONT TANIMLAMALARI ⚡ */
-      
-      /* FRAUNCES (Başlıklar) */
-      @font-face {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 300;
-        font-display: swap;
-        src: url('/fonts/fraunces-v38-latin-300.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url('/fonts/fraunces-v38-latin-regular.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 500;
-        font-display: swap;
-        src: url('/fonts/fraunces-v38-latin-500.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 600;
-        font-display: swap;
-        src: url('/fonts/fraunces-v38-latin-600.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url('/fonts/fraunces-v38-latin-700.woff2') format('woff2');
-      }
+  body {
+    @apply bg-white text-primary-500 font-sans antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
 
-      /* INTER (Metinler) */
-      @font-face {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-display: swap;
-        src: url('/fonts/inter-v20-latin-500.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-display: swap;
-        src: url('/fonts/inter-v20-latin-600.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url('/fonts/inter-v20-latin-700.woff2') format('woff2');
-      }
+  ::selection {
+    @apply bg-primary-500 text-white;
+  }
 
-      /* ⚡ 3. KRİTİK TASARIM CSS (Minified) ⚡ */
-      *,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb;--tw-border-spacing-x:0;--tw-translate-x:0;--tw-rotate:0;--tw-skew-x:0;--tw-scale-x:1;--tw-scale-y:1;}
-      html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;line-height:1.5;font-family:Inter,-apple-system,sans-serif;}
-      body{margin:0;background-color:#fff;color:#0a0f1a;}
-      .h-display{font-family:Fraunces,serif;font-weight:500;letter-spacing:-.04em;color:#0f2341}
-      .container-x{margin-left:auto;margin-right:auto;padding-left:1.5rem;padding-right:1.5rem;max-width:1280px}
-      
-      /* Kanka, buranın altına az önce attığın o uzun CSS kodunun geri kalanını yapıştırabilirsin */
-    </style>
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgb(246, 247, 249);
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full border-2 border-transparent;
+  }
+}
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "DutyInsight",
-        "url": "https://dutyinsight.com"
-      }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+@layer components {
+  .container-x {
+    @apply mx-auto px-6 sm:px-8 lg:px-12;
+    max-width: 1280px;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-widest text-gray-500;
+  }
+
+  .h-display {
+    @apply font-display font-medium tracking-tight text-primary-500;
+  }
+
+  .h-section {
+    @apply font-display text-4xl md:text-5xl font-medium tracking-tight text-primary-500;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary-500 text-white text-sm font-medium rounded-lg shadow-sm transition-all duration-200 hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-primary-500 text-sm font-medium border border-gray-200 rounded-lg transition-all duration-200 hover:border-primary-500;
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 bg-gray-50 border border-gray-100 rounded-full text-xs font-medium text-gray-700;
+  }
+
+  .divider-dotted::before {
+    content: '';
+    @apply absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent;
+  }
+
+  .lift-on-hover {
+    @apply transition-all duration-300;
+  }
+  .lift-on-hover:hover {
+    transform: translateY(-2px);
+    @apply shadow-lg;
+  }
+}
+
+@layer utilities {
+  .grain::after {
+    content: '';
+    @apply absolute inset-0 pointer-events-none opacity-30;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' /%3E%3CfeColorMatrix values='0 0 0 0 0.06 0 0 0 0 0.14 0 0 0 0 0.25 0 0 0 0.04 0' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' /%3E%3C/svg%3E");
+  }
+
+  .scroll-mt-header {
+    scroll-margin-top: 5rem;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
