@@ -5,7 +5,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 // -- ⚡ ANINDA YÜKLENMESİ GEREKENLER (İlk açılışta şart olanlar) --
 import Header from './components/Header';
 import Hero from './components/Hero';
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 // -- 🐢 LAZY LOAD (Aşağı kaydırdıkça arka planda yüklenecekler) --
 const Problem = lazy(() => import('./components/Problem'));
 const Reports = lazy(() => import('./components/Reports'));
