@@ -7,8 +7,11 @@ export default function Hero() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
 
-  // İnteraktif Derinlik: Fare takibi
+  // ⚡ PERFORMANS GÜNCELLEMESİ: Sadece mouse kullanan cihazlarda takip yap
   useEffect(() => {
+    const isMouseDevice = window.matchMedia('(pointer: fine)').matches;
+    if (!isMouseDevice) return; // Mobildeysen kodu burada kes, işlemciyi yorma.
+
     const handleMouseMove = (e) => {
       if (!containerRef.current) return;
       const { clientX, clientY } = e;
@@ -18,16 +21,14 @@ export default function Hero() {
         y: (clientY / innerHeight - 0.5) * 2 
       });
     };
+
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  // AKILLI MAİL FONKSİYONU: TR ise Türkçe, değilse İngilizce taslak açar
   const handleContactMail = (type) => {
     const currentLang = i18n.language;
     const isTr = currentLang === 'tr';
-    
-    // Dil TR değilse 'en' anahtarını zorla çekiyoruz
     const translateOptions = isTr ? {} : { lng: 'en' };
     
     const subject = t(`common.mail.${type}.subject`, translateOptions);
@@ -36,13 +37,9 @@ export default function Hero() {
     window.location.href = `mailto:info@dutyinsight.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
-  // BAŞLIK SİHRİ: Tüm dillerde vurgulu kelimeleri parlatır
   const renderTitle = () => {
     const title = t('hero.title');
-    const wordsToHighlight = [
-      "sürpriz", "Certainty", "Sicherheit", "pewności", "jistotou"
-    ];
-
+    const wordsToHighlight = ["sürpriz", "Certainty", "Sicherheit", "pewności", "jistotou"];
     const regex = new RegExp(`(${wordsToHighlight.join('|')})`, 'gi');
     const parts = title.split(regex);
 
@@ -59,7 +56,7 @@ export default function Hero() {
   return (
     <section ref={containerRef} className="relative min-h-screen pt-32 pb-20 overflow-hidden bg-white selection:bg-accent/20">
       
-      {/* 1. LAYER: Arka Plan Derinliği */}
+      {/* 1. LAYER: Arka Plan Derinliği (Mobilde statik kalır) */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div 
           className="absolute -top-[10%] -right-[10%] w-[70%] h-[70%] rounded-full bg-primary-500/10 blur-[120px] transition-transform duration-1000 ease-out"
@@ -71,7 +68,6 @@ export default function Hero() {
       <div className="container-x relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           
-          {/* SOL TARAF: İçerik */}
           <div className="lg:col-span-7 max-w-4xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-8 rounded-full bg-primary-50 border border-primary-100 shadow-sm animate-fade-in">
               <span className="flex h-2 w-2 rounded-full bg-accent animate-pulse" />
@@ -93,7 +89,6 @@ export default function Hero() {
                 {t('hero.ctaPrimary')}
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
-              {/* Strateji Seansı Planla - Akıllı Mail Tetikleyici */}
               <button 
                 onClick={() => handleContactMail('strategy')}
                 className="px-8 py-4 bg-white text-primary-600 border border-ink-100 rounded-xl font-bold hover:bg-canvas-subtle transition-all duration-300 shadow-sm hover:shadow-md"
@@ -146,7 +141,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* İSTATİSTİKLER */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24 pt-12 border-t border-ink-100/50 text-center md:text-left">
           {[1, 2, 3].map((num) => (
             <div key={num} className="group cursor-default">

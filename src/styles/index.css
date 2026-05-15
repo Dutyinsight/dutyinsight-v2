@@ -1,153 +1,108 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0F2341" />
 
-@layer base {
-  :root {
-    --primary: 15 35 65;
-    --accent: 212 175 55;
-  }
+    <title>DutyInsight — Pre-Customs Trade Intelligence for SMEs</title>
+    <meta name="description" content="Data-driven import, export, and strategy intelligence for SMEs trading across Türkiye, the EU, and Central Europe." />
 
-  html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+    <link rel="preload" href="/fonts/fraunces-v38-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
-  body {
-    @apply bg-canvas text-ink-900 font-sans antialiased;
-    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
-  }
+    <style>
+      /* ⚡ 2. TÜM YEREL FONT TANIMLAMALARI ⚡ */
+      
+      /* FRAUNCES (Başlıklar) */
+      @font-face {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url('/fonts/fraunces-v38-latin-300.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/fraunces-v38-latin-regular.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('/fonts/fraunces-v38-latin-500.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('/fonts/fraunces-v38-latin-600.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('/fonts/fraunces-v38-latin-700.woff2') format('woff2');
+      }
 
-  /* Selection */
-  ::selection {
-    @apply bg-primary-500 text-white;
-  }
+      /* INTER (Metinler) */
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('/fonts/inter-v20-latin-500.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('/fonts/inter-v20-latin-600.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('/fonts/inter-v20-latin-700.woff2') format('woff2');
+      }
 
-  /* Scrollbar */
-  ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-  }
-  ::-webkit-scrollbar-track {
-    @apply bg-canvas-muted;
-  }
-  ::-webkit-scrollbar-thumb {
-    @apply bg-ink-300 rounded-full border-2 border-canvas-muted;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-ink-500;
-  }
-}
+      /* ⚡ 3. KRİTİK TASARIM CSS (Minified) ⚡ */
+      *,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb;--tw-border-spacing-x:0;--tw-translate-x:0;--tw-rotate:0;--tw-skew-x:0;--tw-scale-x:1;--tw-scale-y:1;}
+      html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;line-height:1.5;font-family:Inter,-apple-system,sans-serif;}
+      body{margin:0;background-color:#fff;color:#0a0f1a;}
+      .h-display{font-family:Fraunces,serif;font-weight:500;letter-spacing:-.04em;color:#0f2341}
+      .container-x{margin-left:auto;margin-right:auto;padding-left:1.5rem;padding-right:1.5rem;max-width:1280px}
+      
+      /* Kanka, buranın altına az önce attığın o uzun CSS kodunun geri kalanını yapıştırabilirsin */
+    </style>
 
-@layer components {
-  /* Container */
-  .container-x {
-    @apply mx-auto px-6 sm:px-8 lg:px-12;
-    max-width: 1280px;
-  }
-
-  /* Eyebrow label - small uppercase text used as section labels */
-  .eyebrow {
-    @apply text-xs font-medium uppercase tracking-widest text-ink-500;
-  }
-
-  /* Display heading - large serif for hero */
-  .h-display {
-    @apply font-display font-medium tracking-tightest text-primary-500;
-  }
-
-  /* Section heading */
-  .h-section {
-    @apply font-display text-4xl md:text-5xl font-medium tracking-tight text-primary-500;
-  }
-
-  /* Body lead */
-  .lead {
-    @apply text-lg md:text-xl text-ink-700 leading-relaxed;
-  }
-
-  /* Card */
-  .card {
-    @apply bg-white border border-ink-100 rounded-xl;
-  }
-
-  /* Button primary */
-  .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3
-           bg-primary-500 text-white text-sm font-medium
-           rounded-lg shadow-sm
-           hover:bg-primary-600 hover:shadow-md
-           transition-all duration-200
-           focus:outline-none focus:ring-2 focus:ring-primary-500/30 focus:ring-offset-2;
-  }
-
-  /* Button secondary */
-  .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3
-           bg-white text-primary-500 text-sm font-medium
-           border border-ink-100 rounded-lg
-           hover:border-primary-500 hover:bg-canvas-subtle
-           transition-all duration-200
-           focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:ring-offset-2;
-  }
-
-  /* Button ghost */
-  .btn-ghost {
-    @apply inline-flex items-center gap-2 text-sm font-medium text-primary-500
-           hover:text-primary-700 transition-colors;
-  }
-
-  /* Tag pill */
-  .pill {
-    @apply inline-flex items-center gap-1.5 px-2.5 py-1
-           bg-canvas-muted border border-ink-100 rounded-full
-           text-xs font-medium text-ink-700;
-  }
-
-  .pill-accent {
-    @apply inline-flex items-center gap-1.5 px-2.5 py-1
-           bg-accent-soft border border-accent/30 rounded-full
-           text-xs font-medium text-accent-muted;
-  }
-
-  /* Subtle border emphasis */
-  .border-emphasis {
-    box-shadow: 0 0 0 1px rgb(15 35 65 / 0.06), 0 1px 2px rgb(15 35 65 / 0.05);
-  }
-
-  /* Section divider - thin line + dot detail */
-  .divider-dotted::before {
-    content: '';
-    @apply absolute top-0 left-0 right-0 h-px bg-gradient-to-r
-           from-transparent via-ink-100 to-transparent;
-  }
-
-  /* Subtle hover lift for cards */
-  .lift-on-hover {
-    @apply transition-all duration-300;
-  }
-  .lift-on-hover:hover {
-    transform: translateY(-2px);
-    @apply shadow-lg;
-  }
-}
-
-@layer utilities {
-  /* Grain overlay */
-  .grain::after {
-    content: '';
-    @apply absolute inset-0 pointer-events-none opacity-30;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' /%3E%3CfeColorMatrix values='0 0 0 0 0.06 0 0 0 0 0.14 0 0 0 0 0.25 0 0 0 0.04 0' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' /%3E%3C/svg%3E");
-  }
-
-  /* Anchor offset for sticky header */
-  .scroll-mt-header {
-    scroll-margin-top: 5rem;
-  }
-
-  /* Text balance for headings */
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "DutyInsight",
+        "url": "https://dutyinsight.com"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
