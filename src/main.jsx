@@ -8,8 +8,7 @@ import './i18n';
 // Ana uygulama bileşeni
 import App from './App';
 
-// Global stiller (En altta olması, diğer stilleri ezmemesi için iyidir)
-import './styles/index.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

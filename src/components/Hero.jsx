@@ -104,7 +104,7 @@ export default function Hero() {
           </div>
 
           {/* SAĞ TARAF: The Sovereign Core */}
-          <div className="lg:col-span-5 relative lg:mt-0 mt-12 animate-float">
+          <div className="hidden lg:block lg:col-span-5 relative lg:mt-0 mt-12 animate-float">
             <div 
               className="relative z-10 w-full aspect-square max-w-[550px] mx-auto flex items-center justify-center transition-transform duration-300 ease-out"
               style={{ transform: `perspective(1200px) rotateY(${mousePos.x * 12}deg) rotateX(${mousePos.y * -12}deg)` }}
