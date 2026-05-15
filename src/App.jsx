@@ -1,12 +1,13 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react"; // ⚡ Hız radarı eklendi
 
-// -- ⚡ ANINDA YÜKLENMESİ GEREKENLER (İlk açılışta şart olanlar) --
+// -- ⚡ ANINDA YÜKLENMESİ GEREKENLER --
 import Header from './components/Header';
 import Hero from './components/Hero';
-import { SpeedInsights } from "@vercel/speed-insights/react"
-// -- 🐢 LAZY LOAD (Aşağı kaydırdıkça arka planda yüklenecekler) --
+
+// -- 🐢 LAZY LOAD (Arka planda yüklenecekler) --
 const Problem = lazy(() => import('./components/Problem'));
 const Reports = lazy(() => import('./components/Reports'));
 const Strategy = lazy(() => import('./components/Strategy'));
@@ -16,7 +17,6 @@ const Footer = lazy(() => import('./components/Footer'));
 const CookieBanner = lazy(() => import('./components/CookieBanner'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
 
-// Sayfa değişince en üste kaydıran parça
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -53,10 +53,7 @@ export default function App() {
             path="/" 
             element={
               <>
-                {/* Hero anında yüklenir, beklemez */}
                 <Hero />
-                
-                {/* Geri kalanlar arka planda inerken siteyi bloklamaz */}
                 <Suspense fallback={<div className="h-32" />}>
                   <Problem />
                   <Reports />
@@ -71,7 +68,6 @@ export default function App() {
         </Routes>
       </main>
 
-      {/* Footer ve diğer parçalar da siteyi yavaşlatmasın */}
       <Suspense fallback={null}>
         <Footer onOpenLegal={openModal} />
         <CookieBanner onOpenLegal={openModal} />
@@ -81,6 +77,9 @@ export default function App() {
           type={modalState.type} 
         />
       </Suspense>
+
+      {/* 📊 Vercel Speed Insights: Sitenin hızını takip eder */}
+      <SpeedInsights />
     </div>
   );
 }
