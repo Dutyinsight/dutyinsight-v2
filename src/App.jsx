@@ -9,6 +9,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 
 // -- 🐢 LAZY LOAD (Arka planda yüklenecekler) --
+const Methodology = lazy(() => import('./components/Methodology'));
+const CaseStudies = lazy(() => import('./components/CaseStudies')); // ⚡ YENİ BÖLÜM
 const Problem = lazy(() => import('./components/Problem'));
 const Reports = lazy(() => import('./components/Reports'));
 const Strategy = lazy(() => import('./components/Strategy'));
@@ -35,13 +37,13 @@ function PageContent() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Eğer URL'de desteklediğimiz bir dil varsa (örn: /tr veya /cs) i18n'i o dile çevir
+    // Eğer URL'de desteklediğimiz bir dil varsa i18n'i o dile çevir
     if (lang && SUPPORTED_LANGS.includes(lang)) {
       if (i18n.language !== lang) {
         i18n.changeLanguage(lang);
       }
     } else if (lang && !SUPPORTED_LANGS.includes(lang)) {
-      // Eğer birisi saçma bir şey yazarsa (örn: /fr) onu ana sayfaya fırlat
+      // Geçersiz bir dil gelirse ana sayfaya at
       navigate('/', { replace: true });
     }
   }, [lang, i18n, navigate]);
@@ -50,6 +52,11 @@ function PageContent() {
     <>
       <Hero />
       <Suspense fallback={<div className="h-32" />}>
+        {/* 🛠️ YENİ EKLEDİĞİMİZ KURUMSAL BÖLÜMLER */}
+        <Methodology />
+        <CaseStudies />
+        
+        {/* MEVCUT BÖLÜMLER */}
         <Problem />
         <Reports />
         <Strategy />
@@ -84,13 +91,7 @@ export default function App() {
 
       <main className="flex-grow">
         <Routes>
-          {/* BÜYÜ BURADA: :lang? parametresi sayesinde artık 
-            /tr, /en, /cs gibi linkler 404 vermeyecek, yakalanıp dile çevrilecek!
-            Sondaki '?' işareti opsiyonel demek, yani sadece '/' yazılsa da çalışır.
-          */}
           <Route path="/:lang?" element={<PageContent />} />
-          
-          {/* Yukarıdaki hiçbir şeye uymazsa (catch-all) yine ana sayfayı aç */}
           <Route path="*" element={<PageContent />} /> 
         </Routes>
       </main>
@@ -105,7 +106,6 @@ export default function App() {
         />
       </Suspense>
 
-      {/* 📊 Vercel Speed Insights: Sitenin hızını takip eder */}
       <SpeedInsights />
     </div>
   );

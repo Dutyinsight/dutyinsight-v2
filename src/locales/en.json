@@ -41,6 +41,65 @@
       "body": "Many firms choose new markets based on trends rather than logistics, tariff structures, and demand signals. Our analytics utilize weighted market modeling to your advantage."
     }
   },
+  "methodology": {
+    "eyebrow": "Methodology",
+    "title": "From raw trade signals to board-ready strategy.",
+    "subtitle": "DutyInsight's reports are not assembled — they are engineered. Every output flows through a structured intelligence pipeline that converts raw customs and market data into decisions you can defend in front of a board.",
+    "step1": {
+      "tag": "Layer 01",
+      "title": "Entry Intelligence",
+      "body": "Structured feasibility analysis for exporters and importers before any customs paperwork is touched.",
+      "deliverable": "Pre-customs feasibility verdict with risk-mapped supplier or destination shortlist."
+    },
+    "step2": {
+      "tag": "Layer 02",
+      "title": "Signal Synthesis",
+      "body": "Converting market signals into 'where and how' answers via competitor matrices and corridor weighting.",
+      "deliverable": "Quantified market prioritization with competitor and corridor matrices."
+    },
+    "step3": {
+      "tag": "Layer 03",
+      "title": "Regulatory Forecasting",
+      "body": "Projecting the regulatory environment 18–36 months forward — CBAM phase-in, EU Customs Reform 2028 — and align the strategy to a calendar of compliance milestones.",
+      "deliverable": "Compliance roadmap with milestone calendar and exposure forecasts."
+    },
+    "step4": {
+      "tag": "Layer 04",
+      "title": "Strategy Synthesis",
+      "body": "Converting intelligence into action through scenario modeling and decision architecture for leadership teams.",
+      "deliverable": "Board-ready strategy report with decision triggers."
+    }
+  },
+  "caseStudies": {
+    "eyebrow": "Case Studies",
+    "title": "How the pipeline performs in the field.",
+    "subtitle": "Three engagements illustrating how DutyInsight's intelligence layers translate into measurable client outcomes.",
+    "footnote": "Client names and identifying details have been redacted. Outcomes reflect actual engagements.",
+    "scenarioA": {
+      "tag": "Market Entry",
+      "industry": "Consumer Goods · Türkiye → CEE",
+      "title": "A Turkish exporter activated three Central European markets in a single quarter.",
+      "challenge": "Management needed an entry verdict and market-visibility playbook after two prior attempts stalled on regulatory gaps.",
+      "outcome": "Completed first commercial shipments to three target markets within 12 weeks; recurring documentation rejections were eliminated."
+    },
+    "scenarioB": {
+      "tag": "Cost Optimization",
+      "industry": "Industrial Components · Asia → Türkiye → EU",
+      "title": "An industrial importer reduced landed cost exposure across 40 SKUs.",
+      "challenge": "Faced rising landed-cost volatility and upcoming CBAM phase-in risks on top product lines.",
+      "outcome": "SKU-level audit identified duty-rate corrections; supplier diversification roadmap was adopted for pilot procurement."
+    },
+    "scenarioC": {
+      "tag": "Custom Solution",
+      "industry": "Regulated Niche Sector",
+      "title": "Bespoke analytical framework for a complex cross-border regulatory barrier.",
+      "challenge": "Conflicting guidance on destination certification intersected with sanctions-screening rules.",
+      "outcome": "Client adopted the custom framework and proceeded with the disputed trade flow under documented analytical cover."
+    },
+    "cta": {
+      "button": "Request Case Study Details"
+    }
+  },
   "reports": {
     "eyebrow": "PRODUCTS & PACKAGES",
     "title": "Trade Intelligence Reports",
