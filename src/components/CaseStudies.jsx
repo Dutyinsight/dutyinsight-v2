@@ -46,8 +46,16 @@ export default function CaseStudies() {
                  className="group relative bg-white rounded-[2rem] border border-slate-200/60 p-10 hover:border-primary-500/20 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.08)] transition-all duration-500 cursor-pointer flex flex-col h-full"
                  onClick={() => setSelectedCase(item)}>
               
-              <div className={`w-16 h-16 rounded-[1.25rem] ${item.bg} ${item.border} border flex items-center justify-center ${item.color} mb-12 shrink-0 shadow-inner group-hover:scale-110 transition-transform duration-500`}>
-                <item.icon className="w-8 h-8" />
+              {/* 🎯 YENİ: İkon Box - Boşluğu dolduran teknolojik tasarım */}
+              <div className="relative w-full h-28 mb-12 bg-slate-50 rounded-2xl flex items-center justify-center overflow-hidden border border-slate-100 shadow-inner group-hover:bg-white transition-colors duration-500">
+                {/* Arka plan süsü (Veri/Kod dokusu) */}
+                <div className="absolute inset-0 opacity-[0.04] rotate-6 scale-150 font-mono text-[9px] text-slate-900 pointer-events-none select-none">
+                  {`DI_SECURE_PROTO: { status: "ACTIVE", verify: 1, corridor: "EU_CEE", risk: 0.01 }`}
+                </div>
+                
+                <div className={`relative z-10 w-16 h-16 rounded-[1.25rem] ${item.bg} ${item.border} border flex items-center justify-center ${item.color} shadow-lg shadow-white/80 group-hover:scale-110 transition-transform duration-500`}>
+                  <item.icon className="w-8 h-8" />
+                </div>
               </div>
               
               {/* flex-wrap: Etiketler sığmazsa alt alta binsin */}
