@@ -1,6 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Routes, Route, useLocation } from 'react-router-dom';
+// BÜYÜ BURADA: useParams ve useNavigate eklendi
+import { Routes, Route, useLocation, useParams, useNavigate } from 'react-router-dom';
 import { SpeedInsights } from "@vercel/speed-insights/react"; // ⚡ Hız radarı eklendi
 
 // -- ⚡ ANINDA YÜKLENMESİ GEREKENLER --
@@ -17,12 +18,46 @@ const Footer = lazy(() => import('./components/Footer'));
 const CookieBanner = lazy(() => import('./components/CookieBanner'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
 
+const SUPPORTED_LANGS = ['tr', 'en', 'de', 'cs', 'pl'];
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return null;
+}
+
+// 🎯 YENİ: URL'i okuyup dili ayarlayan ve ana içeriği basan bileşen
+function PageContent() {
+  const { lang } = useParams();
+  const { i18n } = useTranslation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Eğer URL'de desteklediğimiz bir dil varsa (örn: /tr veya /cs) i18n'i o dile çevir
+    if (lang && SUPPORTED_LANGS.includes(lang)) {
+      if (i18n.language !== lang) {
+        i18n.changeLanguage(lang);
+      }
+    } else if (lang && !SUPPORTED_LANGS.includes(lang)) {
+      // Eğer birisi saçma bir şey yazarsa (örn: /fr) onu ana sayfaya fırlat
+      navigate('/', { replace: true });
+    }
+  }, [lang, i18n, navigate]);
+
+  return (
+    <>
+      <Hero />
+      <Suspense fallback={<div className="h-32" />}>
+        <Problem />
+        <Reports />
+        <Strategy />
+        <CEEHub />
+        <LinkedInBlock />
+      </Suspense>
+    </>
+  );
 }
 
 export default function App() {
@@ -49,22 +84,14 @@ export default function App() {
 
       <main className="flex-grow">
         <Routes>
-          <Route 
-            path="/" 
-            element={
-              <>
-                <Hero />
-                <Suspense fallback={<div className="h-32" />}>
-                  <Problem />
-                  <Reports />
-                  <Strategy />
-                  <CEEHub />
-                  <LinkedInBlock />
-                </Suspense>
-              </>
-            } 
-          />
-          <Route path="*" element={<Hero />} /> 
+          {/* BÜYÜ BURADA: :lang? parametresi sayesinde artık 
+            /tr, /en, /cs gibi linkler 404 vermeyecek, yakalanıp dile çevrilecek!
+            Sondaki '?' işareti opsiyonel demek, yani sadece '/' yazılsa da çalışır.
+          */}
+          <Route path="/:lang?" element={<PageContent />} />
+          
+          {/* Yukarıdaki hiçbir şeye uymazsa (catch-all) yine ana sayfayı aç */}
+          <Route path="*" element={<PageContent />} /> 
         </Routes>
       </main>
 
