@@ -8,18 +8,18 @@
     "getStarted": "Hemen Başla"
   },
   "hero": {
-    "eyebrow": "Gümrük Öncesi Ticaret Zekası",
-    "title": "İhracatta sürpriz cezalara son verin.",
-    "subtitle": "Gümrük beyannameniz işleme girmeden önce ETGB hatalarını, GTİP uyuşmazlıklarını ve mevzuat risklerini verilerle sıfırlayın. Sınırları güvenle aşın.",
-    "ctaPrimary": "Çözümleri İncele",
+    "eyebrow": "Gümrük Öncesi Ticaret İstihbaratı",
+    "title": "Gümrük engellerini öngörün. Sınırları sorunsuz aşın.",
+    "subtitle": "İthalat ve ihracat operasyonlarınızda; gümrük beyannameniz işleme girmeden önce ETGB hatalarını, GTİP uyuşmazlıklarını ve mevzuat risklerini verilerle sıfırlayın. Sınırları güvenle aşın.",
+    "ctaPrimary": "Raporlarını İncele",
     "ctaSecondary": "Strateji Seansı Planla",
     "trustline": "Türkiye'deki ihracatçılar için özel olarak kurgulandı.",
-    "stat1Number": "%100",
-    "stat1Label": "UYUM ODAKLI",
-    "stat2Number": "<24sa",
+    "stat1Number": "13-Fazlı",
+    "stat1Label": "Sıfır Ayak İzi",
+    "stat2Number": "AES-256 Şifreleme",
     "stat2Label": "VERİ SENKRONİZASYONU",
-    "stat3Number": "3-5",
-    "stat3Label": "GÜN TESLİMAT SÜRESİ"
+    "stat3Number": "Sıfır Risk",
+    "stat3Label": "Kapsamlı Karar Destek Raporlaması"
   },
   "problem": {
     "eyebrow": "Risk Analizi",
