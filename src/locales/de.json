@@ -26,33 +26,121 @@
     "title": "Die unsichtbaren Hürden des Welthandels",
     "subtitle": "Internationale Expansion scheitert oft an der Grenze. Wir eliminieren die drei kritischsten Reibungspunkte, bevor sie Ihr Ergebnis beeinflussen.",
     "card1": {
-      "tag": "Compliance",
+      "tag": "Operatives Risiko",
       "title": "Regulatorische & tarifäre Risiken",
-      "body": "Falsche HS-Codes und fehlende Zertifizierungen führen zu massiven Verzögerungen. Die Vorprüfung Ihrer Daten reduziert operative Reibungen um 40 % und verhindert kostspielige nachträgliche Korrekturen."
+      "body": "Falsche HS-Codes und fehlende Zertifizierungen führen zu massiven Verzögerungen. Die Vorprüfung Ihrer Daten reduziert operative Reibungen um 40 % und verhindert kostspielige Korrekturen nach der Abwicklung."
     },
     "card2": {
-      "tag": "EU-Vorschriften",
+      "tag": "Compliance",
       "title": "CBAM & ESG Rechenschaftspflicht",
       "body": "Das CO2-Grenzausgleichssystem (CBAM) der EU ist nicht mehr optional. Wir liefern die Datenstrukturen, die erforderlich sind, damit Ihre Produkte die grünen Korridore Europas passieren können."
     },
     "card3": {
-      "tag": "Markteintritt",
-      "title": "Intuitionsbasierte Expansion",
+      "tag": "Strategie",
+      "title": "Datenbasierte Marktauswahl",
       "body": "Viele Unternehmen wählen neue Märkte nach Trends statt nach Logistik, Tarifstrukturen und Nachfragesignalen. Unsere Intelligence nutzt gewichtete Marktmodellierung zu Ihrem Vorteil."
+    }
+  },
+  "methodology": {
+    "eyebrow": "Methodik",
+    "title": "Von Marktsignalen zur vorstandstauglichen Strategie.",
+    "subtitle": "DutyInsight-Berichte werden nicht einfach zusammengestellt – sie werden konstruiert. Jeder Output durchläuft eine strukturierte Pipeline, die Zolldaten in fundierte Entscheidungen verwandelt.",
+    "step1": {
+      "tag": "Ebene 01",
+      "title": "Markteintritts-Intelligence — Machbarkeit",
+      "body": "Jedes Projekt beginnt mit einer strukturierten Analyse. Für Exporteure modellieren wir Tarifrisiken, regulatorische Lasten (CBAM, IOSS, ESG) und Korridorlogistik. Für Importeure prüfen wir Lieferantenländer und Barrieren.",
+      "deliverable": "Vorläufige Machbarkeitsentscheidung mit risikobasierter Lieferanten- oder Zielmarktliste."
+    },
+    "step2": {
+      "tag": "Ebene 02",
+      "title": "Marktsignal-Synthese — Nachfrage & Wettbewerb",
+      "body": "Sobald die Machbarkeit feststeht, analysieren wir die Marktsignale. Nachfragekurven werden gegen Handelsströme geprüft und Wettbewerbspositionen unter Ihrer Zolltarifnummer kartiert.",
+      "deliverable": "Quantifizierte Marktpriorisierung mit Wettbewerbs- und Korridormatrizen."
+    },
+    "step3": {
+      "tag": "Ebene 03",
+      "title": "Regulatorische Prognose & Compliance-Abgleich",
+      "body": "Handelsregeln sind dynamisch. Wir projizieren das regulatorische Umfeld 18–36 Monate voraus (CBAM-Phasen, EU-Zollreform 2028) und richten die Strategie an Compliance-Meilensteinen aus.",
+      "deliverable": "Compliance-Roadmap mit Meilensteinkalender und Expositions-Vorausschauen."
+    },
+    "step4": {
+      "tag": "Ebene 04",
+      "title": "Strategie-Synthese — Entscheidungsarchitektur",
+      "body": "Die letzte Ebene verwandelt Daten in Taten. Wir modellieren Alternativszenarien — kontrolliert, ausgewogen, beschleunigt — und zeigen die Abwägung zwischen Geschwindigkeit, Kapital und Risiko auf.",
+      "deliverable": "Vorstandstauglicher Strategiebericht mit Szenarienvergleich und Entscheidungstriggern."
+    }
+  },
+  "caseStudies": {
+    "eyebrow": "Erfolgsgeschichten",
+    "title": "Intelligence in der Praxis",
+    "subtitle": "Erfahren Sie, wie die DutyInsight-Methodik komplexe Handelsbarrieren für globale Marktführer löst.",
+    "footnote": "Vertraulichkeit hat Priorität. Kundennamen wurden entfernt; Ergebnisse spiegeln verifizierte Leistungskennzahlen wider.",
+    "modal": {
+      "close": "Details schließen",
+      "challenge": "Die Herausforderung",
+      "approach": "Strategischer Ansatz",
+      "deliverables": "Wichtigste Ergebnisse",
+      "outcome": "Messbares Resultat"
+    },
+    "scenarioA": {
+      "tag": "Markteintritt",
+      "industry": "Konsumgüter · TR → CEE",
+      "title": "Aktivierung von drei Märkten in einem Quartal",
+      "challenge": "Ein mittelständischer Hersteller scheiterte zweimal an Unklarheiten bei der Tarifklassifizierung und regulatorischen Lücken in Zentraleuropa.",
+      "approach": "Wir setzten Export Entry Intelligence in Tschechien, Polen und Ungarn ein und kartierten jede Zolltarifnummer sowie CBAM-Anforderungen.",
+      "deliverables": [
+        "Bereitschaftsurteil für 3 Märkte",
+        "Korridor-Kosten-Zeit-Matrix",
+        "12-Wochen B2B-Playbook"
+      ],
+      "outcome": "Erste kommerzielle Lieferungen innerhalb von 12 Wochen ohne Dokumentenrückweisungen abgeschlossen."
+    },
+    "scenarioB": {
+      "tag": "Kostenoptimierung",
+      "industry": "Industriekomponenten · Asien → EU",
+      "title": "Strategische Senkung der Importkosten",
+      "challenge": "Ein Distributor sah sich mit steigender Volatilität der Einstandskosten und existenziellen CBAM-Risiken im EU-Korridor konfrontiert.",
+      "approach": "Durchführung eines Audits für 40 SKUs und Aufbau eines Diversifizierungsmodells über 4 alternative Beschaffungsregionen.",
+      "deliverables": [
+        "Audit der Tarifklassifizierung",
+        "Lieferanten-Diversifizierungsmatrix",
+        "CBAM-Kostenprognose bis 2028"
+      ],
+      "outcome": "Korrigierte Klassifizierungen senkten die Zollbelastung; Roadmap für Pilotbeschaffung in neuen Regionen wurde übernommen."
+    },
+    "scenarioC": {
+      "tag": "Speziallösung",
+      "industry": "Regulierter Nischensektor",
+      "title": "Maßgeschneidertes regulatorisches Framework",
+      "challenge": "Komplexe Zertifizierungsbarriere, die sich mit Sanktionsprüfregeln überschnitt, für die kein Standard-Framework existierte.",
+      "approach": "Entwicklung einer Entscheidungsmatrix, die Zertifizierungslogik des Ziellandes und Sanktionsprüfungs-Überschneidungen integriert.",
+      "deliverables": [
+        "Individuelles Analyse-Framework",
+        "Stresstest-Entscheidungsmatrix",
+        "Wiederverwendbares Compliance-Modul"
+      ],
+      "outcome": "Kunde übernahm das Framework und setzte den Handel unter dokumentierter analytischer Deckung fort."
+    },
+    "cta": {
+      "button": "Vollständige Fallstudie ansehen"
     }
   },
   "reports": {
     "eyebrow": "PRODUKTE & PAKETE",
     "title": "Trade Intelligence Berichte",
-    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen (15, 25 oder 50+) basierend auf Ihrem Produktkatalog angeboten. Unser Strategiebericht ist ein maßgeschneidertes Einzelprojekt für Ihr Unternehmen.",
+    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen (15, 25 oder 50+) angeboten.",
+    "mail": {
+      "subject": "DutyInsight - Anfrage zu {{plan}}",
+      "body": "Sehr geehrtes Team, wir interessieren uns für Ihre Lösung {{plan}}."
+    },
     "starter": {
       "name": "Import-Intelligence",
       "price": "",
       "tag": "PRE-CUSTOMS",
-      "description": "Bewerten Sie die Importfähigkeit Ihrer Produkte vor Beginn der Logistikkette. Erhältlich in flexiblen produktbasierten Paketen.",
+      "description": "Bewerten Sie die Importfähigkeit Ihrer Produkte vor Beginn der Logistikkette.",
       "feature1": "Pakete für 15, 25 oder 50+ Produkte",
       "feature2": "Screening der Top-3 Lieferantenländer",
-      "feature3": "Analyse regulatorischer Risiken & Zertifikate",
+      "feature3": "Analyse regulatorischer Risiken",
       "feature4": "Zoll- und Tarif-Risikobewertung",
       "feature5": "Für: Sourcing-Teams · Einkauf",
       "cta": "Import-Paket wählen"
@@ -61,88 +149,72 @@
       "name": "Export-Intelligence",
       "price": "",
       "tag": "PRE-CUSTOMS",
-      "description": "Analysieren Sie die operative Exportbereitschaft Ihrer Produkte im richtigen Korridor. Zugeschnitten auf Ihr Exportvolumen.",
+      "description": "Analysieren Sie die operative Exportbereitschaft Ihrer Produkte im richtigen Korridor.",
       "feature1": "Pakete für 15, 25 oder 50+ Produkte",
       "feature2": "Zielmarkt-Screening (Top-3 Kandidaten)",
-      "feature3": "Analyse von Nachfrage & Wettbewerbsintensität",
-      "feature4": "Outbound-Logistikkorridor & Steuerprüfung",
-      "feature5": "Priorisierte Lieferung in 3 Tagen",
-      "feature6": "Premium-Support via WhatsApp & E-Mail",
+      "feature3": "Nachfrage & Wettbewerbsintensität",
+      "feature4": "Outbound-Logistik & Steuern",
+      "feature5": "Lieferung in 3 Werktagen",
+      "feature6": "Premium-Support via WhatsApp",
       "cta": "Export-Paket wählen"
     },
     "enterprise": {
       "name": "Strategie-Intelligence",
       "price": "",
       "tag": "STRATEGY ENGINE",
-      "description": "Umfassende Strategieberichte, Executive Summaries und Investor Briefs basierend auf strukturierten Geschäftsdaten.",
-      "feature1": "Einmaliges, maßgeschneidertes Beratungsprojekt",
-      "feature2": "Marktgrößenbestimmung & Chancenmodellierung",
-      "feature3": "Rechtliche Struktur & regulatorische Ableitung",
-      "feature4": "Investorenreife Management-Zusammenfassung",
-      "feature5": "Finanzierungs- & Geschäftsmodellrahmen",
-      "feature6": "1-zu-1 Strategie- & Beratungssitzung",
-      "cta": "Strategie-Sitzung buchen"
+      "description": "Umfassende Strategieberichte und investorreife Management-Zusammenfassungen.",
+      "feature1": "Maßgeschneidertes Beratungsprojekt",
+      "feature2": "Marktgrößen & Chancenmodellierung",
+      "feature3": "Rechtliche Struktur & Compliance",
+      "feature4": "Investorenreifes Executive Summary",
+      "feature5": "Geschäftsmodell-Framing",
+      "feature6": "1-zu-1 Strategie-Sitzung",
+      "cta": "Sitzung buchen"
     },
-    "mail": {
-      "subject": "DutyInsight - Anfrage zu {{plan}}",
-      "body": "Sehr geehrtes DutyInsight-Team,\n\nwir interessieren uns für Ihre Lösung {{plan}} und möchten gerne mehr über den Prozess erfahren.\n\nMit freundlichen Grüßen"
-    },
-    "footnote": "Ungenutzte Berichtsguthaben in Import/Export-Paketen sind 12 Monate gültig."
+    "footnote": "Ungenutztes Guthaben ist 12 Monate gültig."
   },
   "strategy": {
     "eyebrow": "Strategy Engine",
     "title": "Meistern Sie die verborgene Marktdynamik.",
-    "subtitle": "Strategy Intelligence ist eine maßgeschneiderte Marktanalyse- und Investmentberatung für Unternehmen, die eine datengesteuerte internationale Expansion anstreben.",
-    "feature1": {
-      "title": "Marktpriorisierung",
-      "body": "Wir modellieren die Märkte mit dem höchsten ROI unter Verwendung gewichteter Tarif-, Logistik- und Nachfragedaten."
-    },
-    "feature2": {
-      "title": "Wettbewerbsanalyse",
-      "body": "Detaillierte Analyse der Preisgestaltung, Lieferketten und Markteintrittsstrategien Ihrer Wettbewerber."
-    },
-    "feature3": {
-      "title": "Regulatorische Roadmap",
-      "body": "Steuerung der Auswirkungen von CBAM, ESG und neuen EU/US-Handelsvorschriften auf Ihren Wachstumszyklus 2026-2028."
-    },
-    "feature4": {
-      "title": "Executive Briefing",
-      "body": "Investorenreife strategische Berichte (30-50 Seiten) und Präsentationen auf Vorstandsebene."
-    },
+    "subtitle": "Strategy Intelligence ist eine maßgeschneiderte Marktanalyse für Unternehmen, die eine datengesteuerte Expansion anstreben.",
+    "feature1": { "title": "Marktpriorisierung", "body": "Wir modellieren Märkte mit höchstem ROI basierend auf Tarifen, Logistik und Nachfrage." },
+    "feature2": { "title": "Wettbewerbsanalyse", "body": "Detaillierte Analyse der Preisgestaltung und Lieferketten Ihrer Wettbewerber." },
+    "feature3": { "title": "Regulatorische Roadmap", "body": "Steuerung von CBAM, ESG und EU/US-Vorschriften für Ihren Zyklus 2026-2028." },
+    "feature4": { "title": "Executive Briefing", "body": "Strategische Berichte (30-50 Seiten) und Präsentationen auf Vorstandsebene." },
     "ctaTitle": "Bereit für globales Wachstum?",
-    "ctaBody": "Wir analysieren Ihre Geschäftsziele und definieren gemeinsam einen maßgeschneiderten strategischen Umfang.",
+    "ctaBody": "Wir definieren gemeinsam einen maßgeschneiderten strategischen Umfang.",
     "cta": "Strategie anfordern"
   },
   "hub": {
     "eyebrow": "GLOBALES NETZWERK",
     "title": "Zwei Hubs. Globaler Zugang.",
-    "subtitle": "Überbrückung der Lücke zwischen Produktionszentren und dem europäischen Kernland mit Standorten in Istanbul und Prag.",
+    "subtitle": "Brücke zwischen Produktion und europäischem Kernland mit Standorten in Istanbul und Prag.",
     "istanbul": {
-      "badge": "Operatives Zentrum",
+      "badge": "Operativ",
       "title": "Zoll & Compliance",
-      "description": "Nutzung des strategischen Standorts zur Verwaltung von Handelskorridoren mit hohem Volumen, Sicherstellung fehlerfreier Zolldokumentation.",
-      "focus": "Kernfokusbereiche",
-      "feature1": "HS-Code-Prüfung & Risikoprävention",
-      "feature2": "Optimierung grenzüberschreitender Logistik"
+      "description": "Sicherstellung fehlerfreier Zolldokumentation durch strategisches Korridor-Management.",
+      "focus": "Kernbereiche",
+      "feature1": "HS-Code-Audit & Prävention",
+      "feature2": "Logistik-Optimierung"
     },
     "prague": {
-      "badge": "Strategisches Zentrum",
+      "badge": "Strategisch",
       "title": "EU-Marktzugang",
-      "description": "Sitz im Herzen Europas, um CBAM, IOSS und die EU-Zollreform 2028 direkt an der Quelle der Regulierung zu steuern.",
-      "focus": "Kernfokusbereiche",
-      "feature1": "Markt-Machbarkeitsstudien (CEE)",
+      "description": "Steuerung von CBAM und EU-Zollreformen direkt an der Quelle in Zentraleuropa.",
+      "focus": "Kernbereiche",
+      "feature1": "CEE-Machbarkeitsstudien",
       "feature2": "ESG & Green Corridor Strategie"
     }
   },
   "social": {
-    "eyebrow": "DIGITALES ÖKOSYSTEM",
-    "title": "Werden Sie Teil unseres Netzwerks",
-    "subtitle": "Folgen Sie uns für globale Handels-Insights und Updates aus den DutyInsight Hubs.",
-    "linkedin": { "desc": "B2B-Strategieberichte, EU-Marktanalysen und makroökonomische Updates." },
-    "instagram": { "desc": "Unternehmenskultur, Teamdynamik und Einblicke in den Alltag in Prag und Istanbul." }
+    "eyebrow": "ÖKOSYSTEM",
+    "title": "Unser Netzwerk",
+    "subtitle": "Handels-Insights und Updates aus den Hubs.",
+    "linkedin": { "desc": "B2B-Berichte und EU-Marktanalysen." },
+    "instagram": { "desc": "Unternehmenskultur in Prag und Istanbul." }
   },
   "footer": {
-    "tagline": "Pre-Customs Trade Intelligence für globale Skalierung.",
+    "tagline": "Pre-Customs Trade Intelligence für globales Wachstum.",
     "navProducts": "Lösungen",
     "navCompany": "Unternehmen",
     "navLegal": "Rechtliches",
@@ -160,41 +232,61 @@
     "language": "Sprache",
     "popular": "Beliebt",
     "learnMore": "Mehr erfahren",
-    "getQuote": "Angebot anfordern"
+    "getQuote": "Angebot anfordern",
+    "mail": {
+      "getStarted": {
+        "subject": "DutyInsight | Anfrage Kooperation",
+        "body": "Sehr geehrtes Team, ich interessiere mich für Ihre Intelligence-Lösungen."
+      }
+    }
   },
   "privacy": {
     "title": "Datenschutzerklärung",
     "lastUpdated": "Zuletzt aktualisiert: 15. Mai 2026",
-    "intro": "DutyInsight legt höchsten Wert auf den Schutz der Daten unserer Firmenkunden. Diese Richtlinie erklärt gemäß DSGVO (GDPR) und KVKK, wie wir Daten auf dutyinsight.com verarbeiten und schützen.",
-    "section1": {
-      "title": "1. Verantwortlicher",
-      "body": "DutyInsight agiert als Verantwortlicher gemäß DSGVO. Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte natürliche Person beziehen."
-    },
-    "section4": {
-      "title": "4. Datensicherheit",
-      "body": "Wir setzen moderne technische Maßnahmen (TLS 1.3, AES-256) ein, um sensible B2B-Daten zu sichern. Der Zugriff ist streng rollenbasiert beschränkt."
-    },
-    "contact": {
-      "title": "Kontakt",
-      "body": "Für Anfragen zu Ihren Daten kontaktieren Sie uns bitte unter info@dutyinsight.com."
-    }
+    "intro": "DutyInsight legt höchsten Wert auf den Schutz der Daten unserer Firmenkunden. Diese Richtlinie erklärt gemäß DSGVO und KVKK, wie wir Daten verarbeiten.",
+    "section1": { "title": "1. Verantwortlicher", "body": "DutyInsight agiert als Verantwortlicher gemäß DSGVO. Personenbezogene Daten sind alle Informationen über identifizierte Personen." },
+    "section2": { "title": "2. Datenkategorien", "body": "Wir verarbeiten Identifikationsdaten, Firmendaten (USt-ID), operative Handelsdaten (HS-Codes), technische Daten (IP) und Finanzdaten." },
+    "section3": { "title": "3. Zwecke & Rechtsgrundlagen", "body": "Daten werden zur Vertragserfüllung, rechtlichen Verpflichtung und aus berechtigtem Interesse (Sicherheit) verarbeitet." },
+    "section4": { "title": "4. Datensicherheit", "body": "Wir nutzen TLS 1.3 und AES-256. Der Zugriff ist rollenbasiert (RBAC) beschränkt und entspricht ISO/IEC 27001 Standards." },
+    "section5": { "title": "5. Datenübermittlung", "body": "Daten können an Partner, Cloud-Provider oder Behörden übermittelt werden. Für Drittländer nutzen wir Standardvertragsklauseln (SCCs)." },
+    "section6": { "title": "6. Betroffenenrechte", "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung (Vergessenwerden) und Datenübertragbarkeit gemäß DSGVO." },
+    "section7": { "title": "7. Aufbewahrung", "body": "Daten werden gemäß gesetzlicher Fristen gespeichert (z.B. 10 Jahre für Verträge, 5 Jahre für Finanzbelege)." },
+    "section8": { "title": "8. Cookies", "body": "Wir nutzen Cookies für funktionale und analytische Zwecke. Details finden Sie in der Cookie-Richtlinie." },
+    "section9": { "title": "9. Aktualisierungen", "body": "Wir behalten uns Änderungen vor. Wesentliche Änderungen werden per E-Mail mitgeteilt." },
+    "contact": { "title": "Kontakt", "body": "Anfragen richten Sie bitte an info@dutyinsight.com. Wir antworten innerhalb der 30-Tage-Frist." }
   },
   "terms": {
     "title": "Nutzungsbedingungen (AGB)",
     "lastUpdated": "Zuletzt aktualisiert: 15. Mai 2026",
-    "intro": "Diese Bedingungen regeln die Nutzung von dutyinsight.com. Mit dem Zugriff auf die Plattform akzeptieren Sie diese als verbindlich.",
-    "disclaimer": {
-      "title": "4. Rechtliche Natur der Berichte — HAFTUNGSAUSSCHLUSS",
-      "body": "Berichte stellen eine strategische Beratung dar und ersetzen keine offiziellen Zollanmeldungen. Der Kunde trägt die alleinige Verantwortung für etwaige Zollstrafen oder behördliche Sanktionen."
-    }
+    "intro": "Diese Bedingungen regeln die Nutzung von dutyinsight.com und seiner Dienste. Mit dem Zugriff akzeptieren Sie diese Bedingungen.",
+    "section1": { "title": "1. Dienste", "body": "Dienste umfassen Berichte, Risikoanalysen und CBAM-Bewertungen für den professionellen B2B-Einsatz." },
+    "section2": { "title": "2. Konten", "body": "Kunden müssen korrekte Angaben machen. Die Geheimhaltung von Zugangsdaten liegt allein beim Kunden." },
+    "section3": { "title": "3. Abonnement", "body": "Berichtsguthaben sind 12 Monate gültig. Digitale B2B-Dienste sind nach Beginn der Erstellung nicht erstattungsfähig." },
+    "disclaimer": { "title": "4. Rechtliche Natur — HAFTUNGSAUSSCHLUSS", "body": "Berichte sind strategische Beratung und ersetzen keine offiziellen Zollanmeldungen oder Rechtsgutachten. Zollstrafen trägt der Kunde." },
+    "liability": { "title": "5. Haftung", "body": "Die Haftung ist auf den Betrag begrenzt, der in den letzten 12 Monaten gezahlt wurde. Indirekte Schäden (Gewinnverlust) sind ausgeschlossen." },
+    "section6": { "title": "6. Datengenauigkeit", "body": "Berichte basieren auf Drittdatenbanken (Eurostat, UN). Wir haften nicht für Fehler dieser institutionellen Anbieter." },
+    "section7": { "title": "7. Pflichten", "body": "Informationen dürfen nur intern genutzt werden. Scraping oder unbefugter Zugriff sind streng verboten." },
+    "ip": { "title": "8. Geistiges Eigentum", "body": "Alle Inhalte, Algorithmen und Methodiken bleiben ausschließliches Eigentum von DutyInsight." },
+    "section9": { "title": "9. Kündigung", "body": "Wir behalten uns das Recht vor, den Zugang bei Verstößen oder Zahlungsverzug auszusetzen." },
+    "section10": { "title": "10. Höhere Gewalt", "body": "Verpflichtungen ruhen bei Ereignissen außerhalb zumutbarer Kontrolle (Naturkatastrophen, Cyberangriffe)." },
+    "section11": { "title": "11. Recht & Gerichtsstand", "body": "Es gilt das Recht der Republik Türkei. Gerichtsstand ist Istanbul (Çağlayan)." },
+    "contact": { "title": "Kontakt", "body": "Für vertragliche Anfragen kontaktieren Sie info@dutyinsight.com." }
   },
   "cookies": {
     "title": "Cookie-Richtlinie",
     "lastUpdated": "Zuletzt aktualisiert: 15. Mai 2026",
-    "intro": "Diese Richtlinie erklärt die auf dutyinsight.com verwendeten Tracking-Technologien."
+    "intro": "Diese Richtlinie erklärt Tracking-Technologien für ein nahtloses Erlebnis auf dutyinsight.com.",
+    "section1": { "title": "1. Was ist ein Cookie?", "body": "Kleine Textdateien zur Erkennung und Speicherung von Sprach- und Sitzungspräferenzen." },
+    "section2": { "title": "2. Kategorien", "body": "Wir nutzen notwendige (operative) und analytische Cookies." },
+    "essential": { "title": "3. Notwendig", "body": "Diese verwalten Sitzungen und Sicherheit. Sie sind zwingend erforderlich." },
+    "analytics": { "title": "4. Analytisch", "body": "Diese sammeln anonymisierte Daten zur Verbesserung der Benutzererfahrung und Geschwindigkeit." },
+    "section5": { "title": "5. Drittanbieter", "body": "Wir arbeiten nur mit verifizierten Partnern wie Vercel oder Google Analytics zusammen." },
+    "section6": { "title": "6. Verwaltung", "body": "Präferenzen können jederzeit über unser Banner oder Browsereinstellungen geändert werden." },
+    "section7": { "title": "7. Speicherung", "body": "Permanente Cookies werden bis zu 13 Monate gespeichert, danach wird die Einwilligung erneut angefragt." },
+    "contact": { "title": "Kontakt", "body": "Fragen richten Sie bitte an info@dutyinsight.com." }
   },
   "cookieBanner": {
-    "message": "DutyInsight verwendet notwendige Cookies für den Betrieb und Analyse-Cookies zur Verbesserung der Nutzererfahrung. Sie können Ihre Präferenzen verwalten oder alle akzeptieren.",
+    "message": "DutyInsight verwendet notwendige Cookies für den Betrieb und Analyse-Cookies zur Verbesserung der Nutzererfahrung. Sie können Ihre Präferenzen verwalten.",
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur notwendige",
     "preferences": "Präferenzen verwalten",
