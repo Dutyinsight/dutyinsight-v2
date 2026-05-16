@@ -42,90 +42,86 @@
     }
   },
   "methodology": {
-    "eyebrow": "Metodoloji",
-    "title": "Ham veriden yönetim kurulu seviyesinde stratejiye.",
-    "subtitle": "DutyInsight raporları basitçe derlenmez; mühendislik prensipleriyle inşa edilir. Her çıktı, ham gümrük ve pazar verilerini savunulabilir kararlara dönüştüren yapılandırılmış bir istihbarat hattından geçer.",
+    "eyebrow": "Kurumsal Metodoloji",
+    "title": "Ham Veriden Operasyona.",
+    "subtitle": "Ticaretin sadece teorik analizini değil, gümrük rejimlerinden lojistik koridor simülasyonlarına kadar tüm saha gerçeklerini kapsayan 360 derecelik ekosistem.",
     "step1": {
-      "tag": "",
-      "title": "Giriş İstihbaratı, İthalat ve İhracat Fizibilitesi",
-      "body": "Her çalışma yapılandırılmış giriş analiziyle başlar. İhracatçılar için hedef pazar tarife risklerini, regülasyon yükünü (SKDM, IOSS, ESG) ve lojistik koridorlarını modelleriz. İthalatçılar için ise tedarikçi ülkeleri, sertifika eksikliklerini ve mevzuat engellerini tararız.",
-      "deliverable": "Gümrük öncesi fizibilite kararı ve risk haritalı tedarikçi/hedef pazar kısa listesi."
+      "tag": "Faz 1",
+      "title": "13-Fazlı İstihbarat Döngüsü",
+      "body": "Pazar büyüklüğü tespiti (TAM/SAM/SOM), regülasyon haritalaması ve yasal uyum parametrelerinin taranmasıyla çalışan mülkiyetli (proprietary) analiz süreci.",
+      "deliverable": "Pazar ve Regülasyon Modeli"
     },
     "step2": {
-      "tag": "",
-      "title": "Pazar Sinyal Sentezi, Talep, Rekabet, Koridor",
-      "body": "Fizibilite sağlandığında pazar istihbaratını devreye alırız. Talep eğrilerini ikili ticaret akışlarına göre okur, rakip konumlandırmasını GTİP kodunuz bazında haritalandırırız. Lojistik koridorlarını maliyet, zaman ve güvenilirlik üzerinden ağırlıklandırırız.",
-      "deliverable": "Rakip ve koridor matrisleri ile nicelleştirilmiş pazar önceliklendirmesi."
+      "tag": "Faz 2",
+      "title": "Saha ve Lojistik Doğrulaması",
+      "body": "Hedef pazarlardaki portföyümüzde yer alan gümrük ve lojistik iş ortaklarımızdan gerçek zamanlı fiyat teklifleriyle maliyet validasyonu.",
+      "deliverable": "Gerçek Zamanlı Maliyet Simülasyonu"
     },
     "step3": {
-      "tag": "",
-      "title": "Regülasyon Öngörüsü ve Uyum Hizalaması",
-      "body": "Ticaret kuralları statik değildir. Regülasyon ortamını 18–36 ay ileriye dönük projeksiyonlarız (SKDM geçişleri, AB Gümrük Reformu 2028, ABD Section 321 gelişmeleri) ve stratejiyi bir uyum takvimine hizalarız.",
-      "deliverable": "Kilometre taşı takvimi ve maruziyet öngörülerini içeren uyum yol haritası."
+      "tag": "Faz 3",
+      "title": "Zırhlı Veri Protokolü",
+      "body": "Müşteri verilerinin askeri düzeyde (AES-256) şifrelenerek işlenmesi ve projenin 15. gününde DoD 5220.22-M standartlarında kalıcı imhası.",
+      "deliverable": "Sıfır Ayak İzi Taahhüdü"
     },
     "step4": {
-      "tag": "",
-      "title": "Strateji Sentezi, Karar Mimarisi",
-      "body": "İstihbaratı aksiyona dönüştüren son katman. Alternatif senaryoları (kontrollü, dengeli, hızlandırılmış) modeller ve hız, sermaye yoğunluğu ve risk arasındaki ticari dengeleri belirleriz.",
-      "deliverable": "Senaryo karşılaştırmalı ve karar tetikleyicili yönetim kurulu strateji raporu."
+      "tag": "Faz 4",
+      "title": "Karar Destek Mekanizması",
+      "body": "Düşük, orta ve yüksek risk senaryoları (Stress-Test) simülasyonu ve ilk 3 sevkiyatta sahada aktif operasyonel mentorluk.",
+      "deliverable": "3 Kademeli Risk Simülasyonu"
     }
   },
   "caseStudies": {
-    "eyebrow": "Başarı Hikayeleri",
-    "title": "Sahadaki Performansımız",
-    "subtitle": "DutyInsight metodolojisinin küresel ticaret liderleri için karmaşık engelleri nasıl çözdüğünü ve ölçülebilir sonuçlara dönüştürdüğünü inceleyin.",
-    "footnote": "Gizlilik esastır. Müşteri isimleri ve tanımlayıcı detaylar çıkarılmıştır; sektör, kapsam ve sonuçlar doğrulanmış gerçek çalışmaları yansıtmaktadır.",
+    "eyebrow": "Vaka Analizleri",
+    "title": "Stratejik Vaka Analizleri",
+    "subtitle": "Global pazarlarda karşılaşılan operasyonel engellerin DutyInsight metodolojisi ile nasıl aşıldığına dair somut saha vakaları.",
+    "cta": {
+      "button": "Analizi İncele"
+    },
+    "footnote": "Not: İşbu vaka analizlerinde kullanılan ham veriler, gizlilik protokollerimiz (NDA) uyarınca teslimat sonrasında kalıcı olarak imha edilmiş olup, sunulan veriler anonimleştirilmiştir.",
     "modal": {
-      "close": "Detayları Kapat",
-      "challenge": "Mevcut Durum ve Zorluk",
-      "approach": "Stratejik Yaklaşımımız",
+      "challenge": "Zorluk / Challenge",
+      "approach": "DutyInsight Çözümü",
       "deliverables": "Temel Proje Çıktıları",
-      "outcome": "Elde Edilen Sonuç"
+      "outcome": "Operasyonel Sonuç"
     },
     "scenarioA": {
       "tag": "Pazara Giriş",
-      "industry": "Tüketici Ürünleri · TR → CEE",
-      "title": "Tek Çeyrekte Üç Orta Avrupa Pazarı Aktivasyonu",
-      "challenge": "Ege bölgesindeki bir üretici, Orta Avrupa'daki tarife sınıflandırması belirsizliği ve mevzuat dokümantasyonu boşlukları nedeniyle iki kez duraksamıştı.",
-      "approach": "Çekya, Polonya, Macaristan ve Slovakya genelinde İhracat Giriş İstihbaratı uygulayarak her bir GTİP bazlı tarife ve SKDM gereksinimini haritalandırdık. Eş zamanlı olarak LinkedIn odaklı bir B2B görünürlük planı kurguladık.",
+      "industry": "El Sanatları ve Tasarım",
+      "title": "Avrupa Pazarına Giriş ve Kurumsal Ölçeklenme",
+      "challenge": "Markanın AB (Çekya) açılımında yasal mevzuat uyumu belirsizliği ve kârlılık üzerindeki operasyonel baskı.",
+      "approach": "Strategy Intelligence Engine üzerinden 13 fazlı analiz uygulanarak; en uygun yasal yapı modelleri simüle edildi ve kanal bazlı (Pazaryeri vs. B2B) kârlılık testleri yapıldı.",
       "deliverables": [
-        "3 Pazarlı Hazırlık Kararı ve SKDM Haritası",
-        "Karayolu, Demiryolu ve Deniz Hattı Maliyet Analizi",
-        "12 Haftalık Bölge Odaklı B2B Dağıtım Takvimi",
-        "Mevzuat Uyumluluk Kontrol Listesi"
+        "3 Yıllık Stratejik Finansal Projeksiyon Seti",
+        "Yerel Mevzuat Uyumlu Yasal Yapı Haritası",
+        "Kanal Bazlı Optimize Edilmiş Fiyatlandırma Matrisi"
       ],
-      "outcome": "12 hafta içinde üç hedef pazara ilk ticari sevkiyatlar tamamlandı; tekrarlayan belge reddi sorunları ve gümrük takılmaları tamamen ortadan kalktı."
+      "outcome": "%20-40 arası optimize edilmiş kâr marjları ve gümrük öncesi hazır (Ready-to-Scale) operasyonel altyapı teslim edildi."
     },
     "scenarioB": {
-      "tag": "Maliyet Optimizasyonu",
-      "industry": "Endüstriyel Parçalar · Asya → AB",
-      "title": "40 Kalemlik Katalogda İthalat Maliyeti Azaltımı",
-      "challenge": "Asyalı tedarikçiler ile AB'li alıcılar arasında çalışan bir distribütör, maliyet oynaklığı ve yaklaşan SKDM tehditleri nedeniyle rekabetçiliğini kaybetme riski altındaydı.",
-      "approach": "40 kalemlik bir GTİP denetimi gerçekleştirdik. Tedarikçi ülke bağımlılığını azaltmak için tarife, lojistik ve sertifika hazırlığına göre ağırlıklandırılmış 4 alternatif coğrafya üzerinden çeşitlendirme modeli kurduk.",
+      "tag": "Regülasyon Uyumu",
+      "industry": "FMCG / Kişisel Bakım",
+      "title": "Regülasyon Bariyerleri ve Teknik İstihbarat",
+      "challenge": "Ürün bileşenlerinin AB Biyosidal Yönetmeliği kapsamındaki kategori belirsizliği ve olası gümrük reddi riski.",
+      "approach": "Export Entry Intelligence Engine ile teknik dosya analizi yapıldı. Sertifika Açığı Matrisi kurgulanarak gümrük vergisi ortamı haritalandırıldı.",
       "deliverables": [
-        "GTİP Sınıflandırma Denetimi ve Düzeltilmiş Kodlar",
-        "Tedarikçi Ülke Çeşitlendirme ve Risk Matrisi",
-        "2028 SKDM Faz-İçi Maliyet Projeksiyonu",
-        "Karar Tetikleyicili Üç Senaryolu Stratejik Yol Haritası"
+        "Sertifika Açığı Analizi (Gap Matrix)",
+        "GTİP (HS Code) Aday Bölge Tespiti",
+        "Lojistik Koridor ve Transit Süre Simülasyonu"
       ],
-      "outcome": "Hatalı GTİP kodlarının düzeltilmesiyle gümrük yükünde doğrudan tasarruf sağlandı; pilot tedarik için yeni bir coğrafya yol haritası benimsenerek risk dağıtıldı."
+      "outcome": "Üç hedef pazar için 'Hazırlık Skorları' üretilerek operasyonel duraksamalar ve maddi kayıplar başlamadan engellendi."
     },
     "scenarioC": {
-      "tag": "Özel Çözüm",
-      "industry": "Regüle Niş Sektör",
-      "title": "Karmaşık Mevzuat Bariyerleri İçin Özel Çerçeve",
-      "challenge": "Sert bir şekilde regüle edilen bir niş sektörde faaliyet gösteren müşteri, yaptırım tarama kuralları ve hedef pazar sertifikasyonunun kesiştiği noktada çözüm bulamıyordu.",
-      "approach": "DutyInsight'ın Yetenek Mühendisliği (Skill Creation) kabiliyetini kullanarak, sertifikasyon mantığını ve yaptırım örtüşmelerini birleştiren amaca yönelik bir analitik karar matrisi geliştirdik.",
+      "tag": "Dijital Yayılım",
+      "industry": "Dijital Hizmet Platformu",
+      "title": "Ekosistem Modelleme ve Yayılım Stratejisi",
+      "challenge": "Coğrafi olarak dağılmış sağlayıcıların yoğunluk analizi eksikliği nedeniyle destek yükü ve güven eşiği belirsizliği.",
+      "approach": "Numerical Ecosystem Analysis ile pazarın 5 ana kümede haritalandırılması ve 3 farklı yayılım senaryosunun analitik simülasyonu.",
       "deliverables": [
-        "Özel Analitik Çerçeve ve Metodoloji Belgesi",
-        "Sertifika ve Yaptırım Değişkenli Karar Matrisi",
-        "Çelişen Görüşlere Karşı Savunulabilir Teknik Pozisyon",
-        "Gelecekte Kullanılabilir Uyum Modülü"
+        "Bölgesel Sağlayıcı Yoğunluğu Haritası",
+        "Operasyonel Destek Yükü Tahmin Modeli",
+        "Kademeli Rollout ve Coğrafi Genişleme Takvimi"
       ],
-      "outcome": "Müşteri geliştirilen çerçeveyi benimsedi ve tartışmalı ticaret akışını belgelenmiş analitik güvence altında, yasal riskleri minimize ederek devam ettirdi."
-    },
-    "cta": {
-      "button": "Tam Vaka Analizini Gör"
+      "outcome": "Destek yükünün 4.6 kat artış riski tespit edilerek, güven eşiğinin optimize edildiği kontrollü büyüme planı kurgulandı."
     }
   },
   "reports": {
