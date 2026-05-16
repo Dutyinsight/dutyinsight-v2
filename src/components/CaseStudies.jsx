@@ -6,7 +6,6 @@ export default function CaseStudies() {
   const { t } = useTranslation();
   const [selectedCase, setSelectedCase] = useState(null);
 
-  // Pop-up açıkken scroll'u kilitle
   useEffect(() => {
     if (selectedCase) {
       document.body.style.overflow = 'hidden';
@@ -24,18 +23,16 @@ export default function CaseStudies() {
 
   return (
     <section id="case-studies" className="py-32 bg-[#F8FAFC] relative overflow-hidden">
-      {/* Premium Arka Plan Dokusu */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(#0f2341 0.5px, transparent 0.5px)', backgroundSize: '24px 24px' }} />
 
       <div className="container-x relative z-10">
-        {/* Header: Daha Ferah ve Otoriter */}
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-24">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-primary-700 text-[10px] font-extrabold tracking-[0.2em] uppercase mb-8">
             <Globe2 className="w-3.5 h-3.5" />
             {t('caseStudies.eyebrow')}
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-8 tracking-tight">
+          <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-8 tracking-tight leading-tight">
             {t('caseStudies.title')}
           </h2>
           <p className="text-xl text-slate-500 leading-relaxed max-w-2xl font-medium">
@@ -43,33 +40,32 @@ export default function CaseStudies() {
           </p>
         </div>
 
-        {/* Kartlar: Stripe-Style Tasarım */}
-        <div className="grid lg:grid-cols-3 gap-12">
+        <div className="grid lg:grid-cols-3 gap-12 items-stretch">
           {scenarios.map((item, idx) => (
             <div key={idx} 
-                 className="group relative bg-white rounded-[2rem] border border-slate-200/60 p-10 hover:border-primary-500/20 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.08)] transition-all duration-500 cursor-pointer"
+                 className="group relative bg-white rounded-[2rem] border border-slate-200/60 p-10 hover:border-primary-500/20 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.08)] transition-all duration-500 cursor-pointer flex flex-col h-full"
                  onClick={() => setSelectedCase(item)}>
               
-              {/* Modern İkon Alanı */}
-              <div className={`w-16 h-16 rounded-[1.25rem] ${item.bg} ${item.border} border flex items-center justify-center ${item.color} mb-12 group-hover:scale-110 transition-transform duration-500 shadow-inner`}>
+              <div className={`w-16 h-16 rounded-[1.25rem] ${item.bg} ${item.border} border flex items-center justify-center ${item.color} mb-12 shrink-0 shadow-inner group-hover:scale-110 transition-transform duration-500`}>
                 <item.icon className="w-8 h-8" />
               </div>
               
-              <div className="flex items-center gap-3 mb-6">
-                <span className="text-[11px] font-black uppercase tracking-widest text-primary-600">
+              {/* flex-wrap: Etiketler sığmazsa alt alta binsin */}
+              <div className="flex flex-wrap items-center gap-3 mb-6">
+                <span className="text-[11px] font-black uppercase tracking-widest text-primary-600 break-words">
                   {t(`caseStudies.${item.key}.tag`)}
                 </span>
-                <span className="w-1 h-1 rounded-full bg-slate-300" />
-                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                <span className="w-1 h-1 rounded-full bg-slate-300 hidden sm:block" />
+                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider break-words">
                   {t(`caseStudies.${item.key}.industry`)}
                 </span>
               </div>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-6 leading-[1.2] group-hover:text-primary-600 transition-colors">
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 leading-[1.2] group-hover:text-primary-600 transition-colors break-words [hyphens:auto]">
                 {t(`caseStudies.${item.key}.title`)}
               </h3>
 
-              <div className="relative pt-6 border-t border-slate-50">
+              <div className="relative pt-6 border-t border-slate-50 mt-auto">
                 <p className="text-slate-500 text-[15px] leading-relaxed line-clamp-3 mb-8">
                   {t(`caseStudies.${item.key}.challenge`)}
                 </p>
@@ -88,14 +84,11 @@ export default function CaseStudies() {
         </p>
       </div>
 
-      {/* 🚀 MODAL: Pop-up Fix */}
       {selectedCase && (
         <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4 md:p-8">
-          {/* Overlay */}
           <div className="absolute inset-0 bg-slate-950/40 backdrop-blur-md animate-fade-in" 
                onClick={() => setSelectedCase(null)} />
           
-          {/* Content */}
           <div className="relative w-full max-w-3xl bg-white rounded-[3rem] shadow-2xl overflow-hidden animate-modal-up border border-slate-100">
             <button 
               onClick={() => setSelectedCase(null)}
@@ -109,11 +102,16 @@ export default function CaseStudies() {
                 {t(`caseStudies.${selectedCase.key}.tag`)}
               </span>
 
-              <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 leading-tight">
+              <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 leading-tight break-words [hyphens:auto]">
                 {t(`caseStudies.${selectedCase.key}.title`)}
               </h3>
 
               <div className="grid gap-12">
+                <section>
+                  <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-[0.2em] mb-5">{t('caseStudies.modal.challenge')}</h4>
+                  <p className="text-slate-600 leading-relaxed text-lg font-medium italic">"{t(`caseStudies.${selectedCase.key}.challenge`)}"</p>
+                </section>
+
                 <section>
                   <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-[0.2em] mb-5">{t('caseStudies.modal.approach')}</h4>
                   <p className="text-slate-600 leading-relaxed text-lg font-medium">{t(`caseStudies.${selectedCase.key}.approach`)}</p>
