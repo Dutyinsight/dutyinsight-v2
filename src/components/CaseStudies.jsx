@@ -46,9 +46,7 @@ export default function CaseStudies() {
                  className="group relative bg-white rounded-[2rem] border border-slate-200/60 p-10 hover:border-primary-500/20 hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.08)] transition-all duration-500 cursor-pointer flex flex-col h-full"
                  onClick={() => setSelectedCase(item)}>
               
-              {/* 🎯 YENİ: İkon Box - Boşluğu dolduran teknolojik tasarım */}
               <div className="relative w-full h-28 mb-12 bg-slate-50 rounded-2xl flex items-center justify-center overflow-hidden border border-slate-100 shadow-inner group-hover:bg-white transition-colors duration-500">
-                {/* Arka plan süsü (Veri/Kod dokusu) */}
                 <div className="absolute inset-0 opacity-[0.04] rotate-6 scale-150 font-mono text-[9px] text-slate-900 pointer-events-none select-none">
                   {`DI_SECURE_PROTO: { status: "ACTIVE", verify: 1, corridor: "EU_CEE", risk: 0.01 }`}
                 </div>
@@ -58,13 +56,15 @@ export default function CaseStudies() {
                 </div>
               </div>
               
-              {/* flex-wrap: Etiketler sığmazsa alt alta binsin */}
-              <div className="flex flex-wrap items-center gap-3 mb-6">
-                <span className="text-[11px] font-black uppercase tracking-widest text-primary-600 break-words">
+              {/* 🎯 SİYAH ÜSTTE, GRİ ALTTA */}
+              <div className="flex flex-col items-start gap-1.5 mb-6">
+                {/* ÜSTTEKİ SİYAH METİN (Pazara Giriş vs.) */}
+                <span className="text-xs font-black text-slate-900 uppercase tracking-[0.2em] break-words">
                   {t(`caseStudies.${item.key}.tag`)}
                 </span>
-                <span className="w-1 h-1 rounded-full bg-slate-300 hidden sm:block" />
-                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider break-words">
+                
+                {/* ALTTAKİ GRİ METİN (Sektör vs.) */}
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest break-words">
                   {t(`caseStudies.${item.key}.industry`)}
                 </span>
               </div>
