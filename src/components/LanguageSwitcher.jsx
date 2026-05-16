@@ -1,10 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+// BÜYÜ BURADA: useNavigate eklendi
+import { useNavigate } from 'react-router-dom'; 
 import { ChevronDown, Globe } from 'lucide-react';
 import { LANGUAGES } from '../i18n';
 
 export default function LanguageSwitcher({ variant = 'default' }) {
   const { i18n, t } = useTranslation();
+  const navigate = useNavigate(); // ⚡ YENİ EKLENDİ
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
 
@@ -21,7 +24,8 @@ export default function LanguageSwitcher({ variant = 'default' }) {
   }, []);
 
   const handleChange = (code) => {
-    i18n.changeLanguage(code);
+    i18n.changeLanguage(code); // Site içi yazıları anında değiştirir
+    navigate(`/${code}`); // ⚡ BÜYÜ BURADA: URL'yi anında /tr, /cs vs. yapar!
     setOpen(false);
   };
 
