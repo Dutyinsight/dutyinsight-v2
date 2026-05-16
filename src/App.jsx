@@ -1,8 +1,8 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-// BÜYÜ BURADA: useParams ve useNavigate eklendi
 import { Routes, Route, useLocation, useParams, useNavigate } from 'react-router-dom';
-import { SpeedInsights } from "@vercel/speed-insights/react"; // ⚡ Hız radarı eklendi
+import { Helmet } from 'react-helmet-async'; // ⚡ SEO etiketleri için eklendi
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // -- ⚡ ANINDA YÜKLENMESİ GEREKENLER --
 import Header from './components/Header';
@@ -10,7 +10,7 @@ import Hero from './components/Hero';
 
 // -- 🐢 LAZY LOAD (Arka planda yüklenecekler) --
 const Methodology = lazy(() => import('./components/Methodology'));
-const CaseStudies = lazy(() => import('./components/CaseStudies')); // ⚡ YENİ BÖLÜM
+const CaseStudies = lazy(() => import('./components/CaseStudies'));
 const Problem = lazy(() => import('./components/Problem'));
 const Reports = lazy(() => import('./components/Reports'));
 const Strategy = lazy(() => import('./components/Strategy'));
@@ -30,33 +30,35 @@ function ScrollToTop() {
   return null;
 }
 
-// 🎯 YENİ: URL'i okuyup dili ayarlayan ve ana içeriği basan bileşen
 function PageContent() {
   const { lang } = useParams();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Eğer URL'de desteklediğimiz bir dil varsa i18n'i o dile çevir
     if (lang && SUPPORTED_LANGS.includes(lang)) {
       if (i18n.language !== lang) {
         i18n.changeLanguage(lang);
       }
     } else if (lang && !SUPPORTED_LANGS.includes(lang)) {
-      // Geçersiz bir dil gelirse ana sayfaya at
       navigate('/', { replace: true });
     }
   }, [lang, i18n, navigate]);
 
   return (
     <>
+      <Helmet>
+        {/* 🎯 Google bu başlığı ve açıklamayı her dilde i18n dosyasından çekip okuyacak */}
+        <title>{t('hero.title')} | DutyInsight</title>
+        <meta name="description" content={t('hero.subtitle')} />
+        <link rel="canonical" href={`https://www.dutyinsight.com/${i18n.language}`} />
+        <html lang={i18n.language} />
+      </Helmet>
+
       <Hero />
       <Suspense fallback={<div className="h-32" />}>
-        {/* 🛠️ YENİ EKLEDİĞİMİZ KURUMSAL BÖLÜMLER */}
         <Methodology />
         <CaseStudies />
-        
-        {/* MEVCUT BÖLÜMLER */}
         <Problem />
         <Reports />
         <Strategy />

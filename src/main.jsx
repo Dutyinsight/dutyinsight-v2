@@ -1,43 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async'; // ⚡ SEO yönetimi için eklendi
 
-// Dil ayarlarının uygulama başlamadan yüklenmesi için üstte tutuyoruz
+// Dil ayarları
 import './i18n';
 
-// Ana uygulama bileşeni
+// Ana uygulama ve stiller
 import App from './App';
-
 import './styles/index.css';
 
-const container = document.getElementById('root');
-
-// react-snap "data-server-rendered" attribute'unu ekleyecek (snapSaveState ile)
-// Eğer attribute varsa = prerendered HTML var = hydrate et
-// Yoksa = normal CSR = createRoot
-if (container.hasChildNodes() && container.getAttribute('data-server-rendered') === 'true') {
-  ReactDOM.hydrateRoot(
-    container,
-    <React.StrictMode>
-      {/* BÜYÜ BURADA: Tüm sayfalar arası geçiş bu sarmalayıcı sayesinde çalışıyor */}
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HelmetProvider> {/* 🎯 Sayfa başlıklarını dinamik yönetmemizi sağlar */}
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </React.StrictMode>
-  );
-} else {
-  ReactDOM.createRoot(container).render(
-    <React.StrictMode>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </React.StrictMode>
-  );
-}
-
-// react-snap render bittiğinde bu hook'u çağırır
-// Burada DOM'a "data-server-rendered" attribute'unu ekliyoruz ki
-// production'da hydrate moduna geçsin
-window.snapSaveState = () => {
-  document.getElementById('root').setAttribute('data-server-rendered', 'true');
-};
+    </HelmetProvider>
+  </React.StrictMode>
+);
