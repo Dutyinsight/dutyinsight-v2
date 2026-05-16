@@ -48,13 +48,13 @@
     "step1": {
       "tag": "Layer 01",
       "title": "Entry Intelligence",
-      "body": "Structured feasibility analysis for exporters and importers before any customs paperwork is touched.",
+      "body": "Structured feasibility analysis for exporters and importers before any customs paperwork is touched. We model destination-market tariff exposure, regulatory load (CBAM, IOSS, ESG), and corridor logistics.",
       "deliverable": "Pre-customs feasibility verdict with risk-mapped supplier or destination shortlist."
     },
     "step2": {
       "tag": "Layer 02",
       "title": "Signal Synthesis",
-      "body": "Converting market signals into 'where and how' answers via competitor matrices and corridor weighting.",
+      "body": "Converting market signals into 'where and how' answers. Demand curves are read against bilateral trade flows and competitor positioning is mapped across origin geographies.",
       "deliverable": "Quantified market prioritization with competitor and corridor matrices."
     },
     "step3": {
@@ -66,38 +66,63 @@
     "step4": {
       "tag": "Layer 04",
       "title": "Strategy Synthesis",
-      "body": "Converting intelligence into action through scenario modeling and decision architecture for leadership teams.",
-      "deliverable": "Board-ready strategy report with decision triggers."
+      "body": "Converting intelligence into action through scenario modeling (controlled, balanced, accelerated) and decision architecture for leadership teams.",
+      "deliverable": "Board-ready strategy report with scenario comparison and decision triggers."
     }
   },
   "caseStudies": {
-    "eyebrow": "Case Studies",
-    "title": "How the pipeline performs in the field.",
-    "subtitle": "Three engagements illustrating how DutyInsight's intelligence layers translate into measurable client outcomes.",
-    "footnote": "Client names and identifying details have been redacted. Outcomes reflect actual engagements.",
+    "eyebrow": "Success Stories",
+    "title": "Intelligence in Action",
+    "subtitle": "How DutyInsight's methodology resolves complex trade friction for global market leaders.",
+    "footnote": "Confidentiality is paramount. Client names and identifying details have been redacted, while outcomes reflect verified performance metrics.",
+    "modal": {
+      "close": "Close Details",
+      "challenge": "The Challenge",
+      "approach": "Our Strategic Approach",
+      "deliverables": "Key Deliverables",
+      "outcome": "Measurable Result"
+    },
     "scenarioA": {
       "tag": "Market Entry",
-      "industry": "Consumer Goods · Türkiye → CEE",
-      "title": "A Turkish exporter activated three Central European markets in a single quarter.",
-      "challenge": "Management needed an entry verdict and market-visibility playbook after two prior attempts stalled on regulatory gaps.",
-      "outcome": "Completed first commercial shipments to three target markets within 12 weeks; recurring documentation rejections were eliminated."
+      "industry": "Consumer Goods · TR → CEE",
+      "title": "Triple-Market Activation in One Quarter",
+      "challenge": "A mid-sized manufacturer based in the Aegean region stalled twice on regulatory gaps and tariff ambiguity in Central Europe.",
+      "approach": "We deployed Export Entry Intelligence across Czechia, Poland, and Hungary, mapping every HS-level tariff and CBAM requirement while building a sector-specific visibility playbook calibrated to professional buyer behavior.",
+      "deliverables": {
+        "0": "3-Market Readiness Verdict",
+        "1": "Corridor Cost-Time Matrix",
+        "2": "12-Week B2B Playbook"
+      },
+      "outcome": "First commercial shipments completed within 12 weeks with zero documentation rejections. Management reported a structured expansion program."
     },
     "scenarioB": {
       "tag": "Cost Optimization",
-      "industry": "Industrial Components · Asia → Türkiye → EU",
-      "title": "An industrial importer reduced landed cost exposure across 40 SKUs.",
-      "challenge": "Faced rising landed-cost volatility and upcoming CBAM phase-in risks on top product lines.",
-      "outcome": "SKU-level audit identified duty-rate corrections; supplier diversification roadmap was adopted for pilot procurement."
+      "industry": "Industrial Components · Asia → EU",
+      "title": "Strategic Landed Cost Reduction",
+      "challenge": "A distributor operating between Asian suppliers and EU buyers faced rising landed-cost volatility and existential CBAM threats.",
+      "approach": "Conducted a 40-SKU classification audit and built a diversification model across 4 alternative sourcing geographies, weighted on tariff, logistics, and certification readiness.",
+      "deliverables": {
+        "0": "SKU Classification Audit",
+        "1": "Sourcing Diversification Matrix",
+        "2": "CBAM Exposure Forecast"
+      },
+      "outcome": "Corrected HS coding reduced aggregate duty exposure; supplier diversification roadmap was adopted for pilot procurement with documented milestones."
     },
     "scenarioC": {
       "tag": "Custom Solution",
       "industry": "Regulated Niche Sector",
-      "title": "Bespoke analytical framework for a complex cross-border regulatory barrier.",
-      "challenge": "Conflicting guidance on destination certification intersected with sanctions-screening rules.",
-      "outcome": "Client adopted the custom framework and proceeded with the disputed trade flow under documented analytical cover."
+      "title": "Bespoke Regulatory Framework",
+      "challenge": "Complex certification barrier intersecting with sanctions-screening rules where no standard analytical framework existed from other advisory sources.",
+      "approach": "Engineered a custom decision matrix integrating destination certification logic, sanctions-screening overlap, and origin-country compliance posture into a single reusable skill module.",
+      "deliverables": {
+        "0": "Custom Analytical Framework",
+        "1": "Stress-Tested Decision Matrix",
+        "2": "Reusable Compliance Module"
+      },
+      "outcome": "Client adopted the framework's position and proceeded with disputed trade flows under documented analytical cover."
     },
     "cta": {
-      "button": "Request Case Study Details"
+      "button": "View Full Case Study"
     }
   },
   "reports": {
@@ -237,92 +262,92 @@
     "intro": "DutyInsight attaches the utmost importance to the protection of data belonging to the corporate clients who use our services. This Privacy Policy explains, in accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK), the EU GDPR, and applicable legislation, the scope within which the data we collect through the dutyinsight.com website and platform is processed and protected.",
     "section1": {
       "title": "1. Data Controller and Definitions",
-      "body": "DutyInsight acts as the data controller under both KVKK and GDPR. Client refers to the legal entity benefiting from services; Personal Data means any information relating to an identified or identifiable natural person."
+      "body": "DutyInsight acts as the data controller under Hem KVKK hem de GDPR. Client refers to the legal entity benefiting from services; Personal Data means any information relating to an identified or identifiable natural person."
     },
     "section2": {
       "title": "2. Categories of Data Processed",
-      "body": "The following categories of data are processed: Identification and Contact Data, Client Company Data, Operational Trade Data (HS codes, trade routes), Technical Data, and Financial Data."
+      "body": "The following categories of data are processed: Identification and Contact Data, Client Company Data (Tax ID, Trade Registry), Operational Trade Data (HS codes, trade routes), Technical Data (IP, logs), and Financial Data."
     },
     "section3": {
       "title": "3. Purposes and Legal Bases",
-      "body": "Data is processed for the Performance of a Contract, Legal Obligations, and Legitimate Interests (ensuring Platform security and service quality)."
+      "body": "Data is processed for the Performance of a Contract, Legal Obligations, and Legitimate Interests (ensuring Platform security and service quality improvement)."
     },
     "section4": {
       "title": "4. Data Security",
-      "body": "The Company applies industry-standard technical measures (TLS 1.3, AES-256) to safeguard sensitive B2B data. Access is restricted through RBAC and MFA."
+      "body": "The Company applies industry-standard technical and organizational measures (TLS 1.3, AES-256) to safeguard sensitive B2B data. Access is strictly restricted through RBAC and MFA."
     },
     "section5": {
       "title": "5. Data Transfers",
-      "body": "Data may be shared with group companies, GDPR-compliant processors, or public authorities where required by law. Cross-border transfers adhere to SCCs."
+      "body": "Data may be shared with group companies, GDPR-compliant cloud processors, or public authorities where required by law. Cross-border transfers adhere to Standard Contractual Clauses (SCCs)."
     },
     "section6": {
       "title": "6. Data Subject Rights",
-      "body": "As a data subject, you have the right to request access, rectification, deletion (right to be forgotten), and data portability under GDPR and KVKK."
+      "body": "As a data subject, you have the right to request access, rectification, deletion (right to be forgotten), and data portability under GDPR and KVKK protocols."
     },
     "section7": {
       "title": "7. Retention Periods",
-      "body": "Data is retained only for the period required by law (e.g., 10 years for contracts, 5 years for financial records)."
+      "body": "Data is retained only for the period required by law (e.g., 10 years for contracts, 5 years for financial records) or until the legal basis for processing expires."
     },
     "section8": {
       "title": "8. Cookies",
-      "body": "Cookies are used for functional and analytical purposes. Please refer to our Cookie Policy for details."
+      "body": "Cookies are used for functional and analytical purposes. Please refer to our separate Cookie Policy for detailed management options."
     },
     "section9": {
       "title": "9. Updates",
-      "body": "The Company reserves the right to revise this Policy. Material changes will be notified via email."
+      "body": "The Company reserves the right to revise this Policy. Material changes will be notified via email or platform notification."
     },
     "contact": {
       "title": "Contact",
-      "body": "For requests regarding your data, contact us at info@dutyinsight.com. Requests are addressed within the legal timeframe."
+      "body": "For requests regarding your data, contact us at info@dutyinsight.com. Requests are addressed within the legal timeframe of 30 days."
     }
   },
   "terms": {
     "title": "Terms of Service",
     "lastUpdated": "Last updated: 15 May 2026",
-    "intro": "These Terms govern the use of dutyinsight.com and its services. By accessing the Platform, you accept these Terms as binding.",
+    "intro": "These Terms govern the use of dutyinsight.com and its intelligence services. By accessing the Platform, you accept these Terms as binding legal obligations.",
     "section1": {
       "title": "1. Definition of Services",
-      "body": "Services include trade intelligence reports, risk analyses, and CBAM/ESG assessments for professional B2B use."
+      "body": "Services include trade intelligence reports, pazar risk analyses, and CBAM/ESG assessments designed for professional B2B use."
     },
     "section2": {
       "title": "2. Account Authorisation",
-      "body": "Clients must provide accurate information. Confidentiality of account credentials remains the Client's responsibility."
+      "body": "Clients must provide accurate and verifiable company information. Confidentiality of account credentials remains the sole responsibility of the Client."
     },
     "section3": {
       "title": "3. Subscription and Usage",
-      "body": "Entitlements are valid for 12 months. Report 01 and 02 entitlements are drawn from a shared pool. Digital B2B services are non-refundable."
+      "body": "Entitlements are valid for 12 months from the date of purchase. Digital B2B services are non-refundable once the report generation process has initiated."
     },
     "disclaimer": {
       "title": "4. Legal Nature of Reports — DISCLAIMER",
-      "body": "Reports constitute strategic advisory and do not replace official customs declarations or legal opinions. The Client remains solely responsible for any customs fines or administrative penalties."
+      "body": "Reports constitute strategic advisory insights and do not replace official customs declarations or binding legal opinions. The Client remains solely responsible for any customs fines or administrative penalties."
     },
     "liability": {
       "title": "5. Limitation of Liability",
-      "body": "Liability is limited to the amount paid for the Service in the 12 months preceding a claim. Indirect damages such as loss of profit are excluded."
+      "body": "Liability is limited to the amount paid for the Service in the 12 months preceding a claim. Indirect damages such as loss of profit or market share are strictly excluded."
     },
     "section6": {
       "title": "6. Data Accuracy",
-      "body": "Reports rely on official third-party databases. The Company is not liable for errors originating from these providers."
+      "body": "Reports rely on official third-party databases (TÜİK, Eurostat, UN Comtrade). The Company is not liable for errors originating from these institutional providers."
     },
     "section7": {
       "title": "7. Client Obligations",
-      "body": "Information must be used for internal commercial activities only. Scraping or unauthorised access attempts are strictly prohibited."
+      "body": "Information provided must be used for internal commercial activities only. Scraping, reverse engineering, or unauthorised access attempts are strictly prohibited."
     },
     "ip": {
       "title": "8. Intellectual Property",
-      "body": "All content and methodologies remain the exclusive property of DutyInsight or its licensors."
+      "body": "All proprietary content, algorithms, and methodologies remain the exclusive property of DutyInsight or its respective licensors."
     },
     "section9": {
       "title": "9. Termination",
-      "body": "The Company reserves the right to suspend or terminate access for material breaches or failure to pay."
+      "body": "The Company reserves the right to suspend or terminate access for material breaches of these Terms or failure to fulfill payment obligations."
     },
     "section10": {
       "title": "10. Force Majeure",
-      "body": "Obligations are suspended during events outside reasonable control (e.g., natural disasters, cyber-attacks)."
+      "body": "Obligations are suspended during events outside reasonable control (e.g., natural disasters, widespread cyber-attacks, or regulatory changes)."
     },
     "section11": {
       "title": "11. Governing Law",
-      "body": "These Terms are governed by the laws of the Republic of Türkiye. Disputes fall under the jurisdiction of Istanbul Courts."
+      "body": "These Terms are governed by the laws of the Republic of Türkiye. Disputes fall under the exclusive jurisdiction of the Istanbul (Çağlayan) Courts."
     },
     "contact": {
       "title": "Contact",
@@ -332,38 +357,38 @@
   "cookies": {
     "title": "Cookie Policy",
     "lastUpdated": "Last updated: 15 May 2026",
-    "intro": "This Policy explains the tracking technologies used on dutyinsight.com. By using the Platform, you accept this usage.",
+    "intro": "This Policy explains the tracking technologies used on dutyinsight.com to provide a seamless professional experience. By using the Platform, you accept this usage.",
     "section1": {
       "title": "1. What Is a Cookie?",
-      "body": "Cookies are small text files placed on your device to recognise you on subsequent visits and remember preferences."
+      "body": "Cookies are small text files placed on your device to recognise you on subsequent visits and remember your language and session preferences."
     },
     "section2": {
       "title": "2. Categories",
-      "body": "We use strictly necessary cookies (essential for operation) and analytics cookies (for performance measurement)."
+      "body": "We utilize strictly necessary cookies for platform operations and analytics cookies for performance measurement."
     },
     "essential": {
       "title": "3. Strictly Necessary",
-      "body": "These manage active sessions, security, and language preferences. They cannot be disabled."
+      "body": "These manage active sessions, security protocols, and language preferences. They are required for the platform to function and cannot be disabled."
     },
     "analytics": {
       "title": "4. Analytics Cookies",
-      "body": "These collect anonymised interaction data to improve user experience. Usage is subject to your consent."
+      "body": "These collect anonymised interaction data through GDPR-compliant tools to help us improve the user experience and reporting speed."
     },
     "section5": {
       "title": "5. Third-Party Cookies",
-      "body": "We work only with verified, GDPR-compliant providers for analytics and content delivery."
+      "body": "We work only with verified providers (e.g., Vercel, Google Analytics) for technical performance monitoring and content delivery."
     },
     "section6": {
       "title": "6. Management",
-      "body": "You can manage preferences through our banner or browser settings. Disabling essential cookies may cause malfunctions."
+      "body": "You can manage your cookie preferences through our on-site banner or your browser settings at any time."
     },
     "section7": {
       "title": "7. Retention",
-      "body": "Persistent cookies are stored for up to 13 months, after which consent is refreshed."
+      "body": "Persistent cookies are stored for a maximum of 13 months, after which your consent will be requested again."
     },
     "contact": {
       "title": "Contact",
-      "body": "For cookie-related questions, reach out to info@dutyinsight.com."
+      "body": "For cookie-related questions, reach out to our DPO at info@dutyinsight.com."
     }
   },
   "cookieBanner": {
