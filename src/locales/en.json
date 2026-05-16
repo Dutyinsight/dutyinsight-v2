@@ -54,7 +54,7 @@
     "step2": {
       "tag": "Layer 02",
       "title": "Signal Synthesis",
-      "body": "Converting market signals into 'where and how' answers. Demand curves are read against bilateral trade flows and competitor positioning is mapped across origin geographies.",
+      "body": "Converting market signals into 'where and how' answers via competitor matrices and corridor weighting.",
       "deliverable": "Quantified market prioritization with competitor and corridor matrices."
     },
     "step3": {
@@ -66,7 +66,7 @@
     "step4": {
       "tag": "Layer 04",
       "title": "Strategy Synthesis",
-      "body": "Converting intelligence into action through scenario modeling (controlled, balanced, accelerated) and decision architecture for leadership teams.",
+      "body": "Converting intelligence into action through scenario modeling and decision architecture for leadership teams.",
       "deliverable": "Board-ready strategy report with scenario comparison and decision triggers."
     }
   },
@@ -88,37 +88,25 @@
       "title": "Triple-Market Activation in One Quarter",
       "challenge": "A mid-sized manufacturer based in the Aegean region stalled twice on regulatory gaps and tariff ambiguity in Central Europe.",
       "approach": "We deployed Export Entry Intelligence across Czechia, Poland, and Hungary, mapping every HS-level tariff and CBAM requirement while building a sector-specific visibility playbook calibrated to professional buyer behavior.",
-      "deliverables": {
-        "0": "3-Market Readiness Verdict",
-        "1": "Corridor Cost-Time Matrix",
-        "2": "12-Week B2B Playbook"
-      },
+      "deliverables": ["3-Market Readiness Verdict", "Corridor Cost-Time Matrix", "12-Week B2B Playbook"],
       "outcome": "First commercial shipments completed within 12 weeks with zero documentation rejections. Management reported a structured expansion program."
     },
     "scenarioB": {
       "tag": "Cost Optimization",
       "industry": "Industrial Components · Asia → EU",
       "title": "Strategic Landed Cost Reduction",
-      "challenge": "A distributor operating between Asian suppliers and EU buyers faced rising landed-cost volatility and existential CBAM threats.",
+      "challenge": "An industrial-components distributor operating between Asian suppliers and Turkish and EU end-buyers faced rising landed-cost volatility.",
       "approach": "Conducted a 40-SKU classification audit and built a diversification model across 4 alternative sourcing geographies, weighted on tariff, logistics, and certification readiness.",
-      "deliverables": {
-        "0": "SKU Classification Audit",
-        "1": "Sourcing Diversification Matrix",
-        "2": "CBAM Exposure Forecast"
-      },
-      "outcome": "Corrected HS coding reduced aggregate duty exposure; supplier diversification roadmap was adopted for pilot procurement with documented milestones."
+      "deliverables": ["SKU Classification Audit", "Sourcing Diversification Matrix", "CBAM Exposure Forecast"],
+      "outcome": "Corrected HS coding reduced aggregate duty exposure; supplier diversification roadmap was adopted for pilot procurement."
     },
     "scenarioC": {
       "tag": "Custom Solution",
       "industry": "Regulated Niche Sector",
       "title": "Bespoke Regulatory Framework",
-      "challenge": "Complex certification barrier intersecting with sanctions-screening rules where no standard analytical framework existed from other advisory sources.",
+      "challenge": "Complex certification barrier intersecting with sanctions-screening rules where no standard analytical framework existed from other sources.",
       "approach": "Engineered a custom decision matrix integrating destination certification logic, sanctions-screening overlap, and origin-country compliance posture into a single reusable skill module.",
-      "deliverables": {
-        "0": "Custom Analytical Framework",
-        "1": "Stress-Tested Decision Matrix",
-        "2": "Reusable Compliance Module"
-      },
+      "deliverables": ["Custom Analytical Framework", "Stress-Tested Decision Matrix", "Reusable Compliance Module"],
       "outcome": "Client adopted the framework's position and proceeded with disputed trade flows under documented analytical cover."
     },
     "cta": {
@@ -262,7 +250,7 @@
     "intro": "DutyInsight attaches the utmost importance to the protection of data belonging to the corporate clients who use our services. This Privacy Policy explains, in accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK), the EU GDPR, and applicable legislation, the scope within which the data we collect through the dutyinsight.com website and platform is processed and protected.",
     "section1": {
       "title": "1. Data Controller and Definitions",
-      "body": "DutyInsight acts as the data controller under Hem KVKK hem de GDPR. Client refers to the legal entity benefiting from services; Personal Data means any information relating to an identified or identifiable natural person."
+      "body": "DutyInsight acts as the data controller under both KVKK and GDPR. Client refers to the legal entity benefiting from services; Personal Data means any information relating to an identified or identifiable natural person."
     },
     "section2": {
       "title": "2. Categories of Data Processed",

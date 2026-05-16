@@ -6,7 +6,7 @@ export default function CaseStudies() {
   const { t } = useTranslation();
   const [selectedCase, setSelectedCase] = useState(null);
 
-  // Modal açıkken arkadaki sayfanın kaymasını engelle (Professional touch)
+  // Pop-up açıkken arkada kaydırmayı engelle (Professional touch)
   useEffect(() => {
     if (selectedCase) {
       document.body.style.overflow = 'hidden';
@@ -17,14 +17,14 @@ export default function CaseStudies() {
   }, [selectedCase]);
 
   const scenarios = [
-    { key: 'scenarioA', icon: TrendingUp, color: 'text-blue-600', bg: 'bg-blue-50/50', border: 'border-blue-100' },
-    { key: 'scenarioB', icon: Briefcase, color: 'text-emerald-600', bg: 'bg-emerald-50/50', border: 'border-emerald-100' },
-    { key: 'scenarioC', icon: Puzzle, color: 'text-purple-600', bg: 'bg-purple-50/50', border: 'border-purple-100' }
+    { key: 'scenarioA', icon: TrendingUp, color: 'text-blue-600', bg: 'bg-blue-50/50', border: 'border-blue-100/50' },
+    { key: 'scenarioB', icon: Briefcase, color: 'text-emerald-600', bg: 'bg-emerald-50/50', border: 'border-emerald-100/50' },
+    { key: 'scenarioC', icon: Puzzle, color: 'text-purple-600', bg: 'bg-purple-50/50', border: 'border-purple-100/50' }
   ];
 
   return (
     <section id="case-studies" className="py-32 bg-white relative overflow-hidden">
-      {/* Background Pattern */}
+      {/* Background Dots */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-[0.02]" 
            style={{ backgroundImage: 'radial-gradient(#0f2341 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
 
@@ -44,9 +44,9 @@ export default function CaseStudies() {
 
         <div className="grid lg:grid-cols-3 gap-8">
           {scenarios.map((item, idx) => (
-            <div key={idx} className="group relative flex flex-col bg-white rounded-[2rem] border border-ink-100 p-10 hover:border-primary-500/30 hover:shadow-2xl hover:shadow-primary-500/5 transition-all duration-500">
-              {/* Daha profesyonel logo/ikon alanı */}
-              <div className={`w-14 h-14 rounded-2xl ${item.bg} ${item.border} border flex items-center justify-center ${item.color} mb-8 group-hover:scale-110 transition-transform duration-300`}>
+            <div key={idx} className="group relative flex flex-col bg-white rounded-[2.5rem] border border-ink-100 p-10 hover:border-primary-500/30 hover:shadow-2xl hover:shadow-primary-500/5 transition-all duration-500">
+              {/* Kurumsal İkon Tasarımı (Update) */}
+              <div className={`w-14 h-14 rounded-2xl ${item.bg} ${item.border} border flex items-center justify-center ${item.color} mb-10 group-hover:scale-110 transition-transform duration-300 shadow-sm`}>
                 <item.icon className="w-7 h-7" />
               </div>
               
@@ -68,8 +68,12 @@ export default function CaseStudies() {
                 {t(`caseStudies.${item.key}.challenge`)}
               </p>
               
+              {/* 🎯 BUTON FIX: <a> yerine <button> kullandık, href patlamasını çözdük */}
               <button 
-                onClick={() => setSelectedCase(item)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setSelectedCase(item);
+                }}
                 className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-ink-950 group/btn"
               >
                 <span className="relative">
@@ -87,7 +91,7 @@ export default function CaseStudies() {
         </p>
       </div>
 
-      {/* 🚀 MODAL (Pop-up) - Bu sefer mermi gibi çalışıyor */}
+      {/* 🚀 MODAL (Pop-up) System */}
       {selectedCase && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-ink-950/40 backdrop-blur-md animate-fade-in" onClick={() => setSelectedCase(null)} />
@@ -120,7 +124,7 @@ export default function CaseStudies() {
                 <section>
                   <h4 className="text-[10px] font-bold text-ink-400 uppercase tracking-widest mb-5">{t('caseStudies.modal.deliverables')}</h4>
                   <div className="grid sm:grid-cols-1 gap-3">
-                    {/* JSON Deliverables artık array olarak okunduğu için Map çalışır */}
+                    {/* Pop-up İçi Deliverables Listesi */}
                     {t(`caseStudies.${selectedCase.key}.deliverables`, { returnObjects: true }).map((del, dIdx) => (
                       <div key={dIdx} className="flex items-center gap-4 p-4 rounded-2xl bg-canvas border border-ink-100/50">
                         <div className="w-6 h-6 rounded-lg bg-primary-50 flex items-center justify-center text-primary-600 shrink-0">
