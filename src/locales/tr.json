@@ -47,13 +47,13 @@
     "subtitle": "DutyInsight raporları basitçe derlenmez; mühendislik prensipleriyle inşa edilir. Her çıktı, ham gümrük ve pazar verilerini savunulabilir kararlara dönüştüren yapılandırılmış bir istihbarat hattından geçer.",
     "step1": {
       "tag": "Katman 01",
-      "title": "Giriş İstihbaratı — İthalat ve İhracat Fizibilitesi",
+      "title": "Giriş İstihbaratı, İthalat ve İhracat Fizibilitesi",
       "body": "Her çalışma yapılandırılmış giriş analiziyle başlar. İhracatçılar için hedef pazar tarife risklerini, regülasyon yükünü (SKDM, IOSS, ESG) ve lojistik koridorlarını modelleriz. İthalatçılar için ise tedarikçi ülkeleri, sertifika eksikliklerini ve mevzuat engellerini tararız.",
       "deliverable": "Gümrük öncesi fizibilite kararı ve risk haritalı tedarikçi/hedef pazar kısa listesi."
     },
     "step2": {
       "tag": "Katman 02",
-      "title": "Pazar Sinyal Sentezi — Talep, Rekabet, Koridor",
+      "title": "Pazar Sinyal Sentezi, Talep, Rekabet, Koridor",
       "body": "Fizibilite sağlandığında pazar istihbaratını devreye alırız. Talep eğrilerini ikili ticaret akışlarına göre okur, rakip konumlandırmasını GTİP kodunuz bazında haritalandırırız. Lojistik koridorlarını maliyet, zaman ve güvenilirlik üzerinden ağırlıklandırırız.",
       "deliverable": "Rakip ve koridor matrisleri ile nicelleştirilmiş pazar önceliklendirmesi."
     },
@@ -65,7 +65,7 @@
     },
     "step4": {
       "tag": "Katman 04",
-      "title": "Strateji Sentezi — Karar Mimarisi",
+      "title": "Strateji Sentezi, Karar Mimarisi",
       "body": "İstihbaratı aksiyona dönüştüren son katman. Alternatif senaryoları (kontrollü, dengeli, hızlandırılmış) modeller ve hız, sermaye yoğunluğu ve risk arasındaki ticari dengeleri belirleriz.",
       "deliverable": "Senaryo karşılaştırmalı ve karar tetikleyicili yönetim kurulu strateji raporu."
     }
