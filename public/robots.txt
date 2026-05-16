@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Sitemaps
 Sitemap: https://www.dutyinsight.com/sitemap.xml
+
+# Disallow common crawl waste
+Disallow: /api/
+Disallow: /*.json$

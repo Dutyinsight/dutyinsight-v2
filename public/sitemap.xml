@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.dutyinsight.com/</loc>
-    <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.dutyinsight.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dutyinsight.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dutyinsight.com/de"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.dutyinsight.com/cs"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dutyinsight.com/pl"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dutyinsight.com/"/>
   </url>
+  <url><loc>https://www.dutyinsight.com/tr</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.dutyinsight.com/en</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.dutyinsight.com/de</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.dutyinsight.com/cs</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.dutyinsight.com/pl</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.dutyinsight.com/tr/privacy</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/en/privacy</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/de/privacy</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/cs/privacy</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/pl/privacy</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/tr/terms</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/en/terms</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/de/terms</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/cs/terms</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/pl/terms</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.dutyinsight.com/tr/cookies</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.dutyinsight.com/en/cookies</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.dutyinsight.com/de/cookies</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.dutyinsight.com/cs/cookies</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.dutyinsight.com/pl/cookies</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>
