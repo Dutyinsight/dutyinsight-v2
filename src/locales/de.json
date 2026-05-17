@@ -1,7 +1,7 @@
 {
   "nav": {
-    "products": "Lösungen",
-    "reports": "Betrieb",
+    "products": "Risikoanalyse",
+    "reports": "Produkte & Pakete",
     "strategy": "Strategie",
     "ceeHub": "Globales Netzwerk",
     "contact": "Kontakt",
@@ -124,51 +124,51 @@
   },
   "reports": {
     "eyebrow": "PRODUKTE & PAKETE",
-    "title": "Trade Intelligence Berichte",
-    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen angeboten. Die Strategy Intelligence Engine ist ein maßgeschneiderter Mechanismus.",
+    "title": "Handels-Intelligence-Berichte",
+    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen basierend auf Ihrem Katalogumfang angeboten. Die Strategy Intelligence Engine ist ein maßgeschneiderter 13-Phasen-Entscheidungsunterstützungs-Mechanismus für Ihr Unternehmen.",
     "mail": {
       "subject": "DutyInsight - Anfrage zu {{plan}}",
-      "body": "Sehr geehrtes Team, wir interessieren uns für Ihre Lösung {{plan}}."
+      "body": "Sehr geehrtes DutyInsight-Team,\n\nwir interessieren uns für Ihr {{plan}}-Paket und möchten gerne detailliertere Informationen erhalten, um den Prozess zu starten.\n\nWir freuen uns auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen,"
     },
     "starter": {
-      "name": "Import-Intelligence",
+      "name": "Import-Entry-Intelligence",
       "price": "",
-      "tag": "PRE-CUSTOMS",
-      "description": "Bewerten Sie die Importfähigkeit Ihrer Produkte vor Beginn der Logistikkette.",
-      "feature1": "Pakete für 15, 25 oder 50+ Produkte",
-      "feature2": "Screening der Top-3 Lieferantenländer",
-      "feature3": "Analyse regulatorischer Risiken",
-      "feature4": "Zoll- und Tarif-Risikobewertung",
-      "feature5": "Für: Sourcing-Teams · Einkauf",
+      "tag": "VORAB-PRÜFUNG",
+      "description": "Prüfen Sie die Importfähigkeit Ihrer Produkte mit zollrechtlich validierter HS-Code-Identifikation und Compliance-Simulationen für den Zielmarkt.",
+      "feature1": "Technische Klassifizierung basierend auf der Produktzusammensetzung",
+      "feature2": "Erkennung regulatorischer Risiken und fehlender Zertifikate",
+      "feature3": "Kostenvalidierung über bir Echtzeit-Partnernetzwerk",
+      "feature4": "Analysepakete, skaliert nach Katalogvolumen",
+      "feature5": "Für: Importeure · Beschaffungsteams",
       "cta": "Import-Paket wählen"
     },
     "business": {
-      "name": "Export-Intelligence",
+      "name": "Export-Entry-Intelligence",
       "price": "",
-      "tag": "PRE-CUSTOMS",
-      "description": "Analysieren Sie die operative Exportbereitschaft Ihrer Produkte im richtigen Korridor.",
-      "feature1": "Pakete für 15, 25 oder 50+ Produkte",
-      "feature2": "Zielmarkt-Screening (Top-3 Kandidaten)",
-      "feature3": "Nachfrage & Wettbewerbsintensität",
-      "feature4": "Outbound-Logistik & Steuern",
-      "feature5": "Lieferung in 3 Werktagen",
-      "feature6": "Premium-Support via WhatsApp",
+      "tag": "MARKT & KORRIDOR",
+      "description": "Passieren Sie Grenzen sicher durch Berechnung von Echtzeit-Logistik- und Zollkosten für Ihre Top-3-Märkte mit dem höchsten Potenzial.",
+      "feature1": "Markt-Scoring über Herstellerkataloge",
+      "feature2": "Simulation von Logistikkorridoren und Transitzeiten",
+      "feature3": "Zollbarrieren und CBAM/ESG-Compliance-Kalender",
+      "feature4": "Operatives Mentoring für die ersten 3 Lieferungen (Optional)",
+      "feature5": "Für: Exporteure · Hersteller",
+      "feature6": "Analysepakete, skaliert nach Katalogvolumen",
       "cta": "Export-Paket wählen"
     },
     "enterprise": {
-      "name": "Strategie-Intelligence",
+      "name": "Strategy Intelligence Engine",
       "price": "",
       "tag": "STRATEGY ENGINE",
-      "description": "Umfassende Strategieberichte und investorreife Management-Zusammenfassungen.",
-      "feature1": "Maßgeschneidertes Beratungsprojekt",
-      "feature2": "Marktgrößen & Chancenmodellierung",
-      "feature3": "Rechtliche Struktur & Compliance",
-      "feature4": "Investorenreifes Executive Summary",
-      "feature5": "Geschäftsmodell-Framing",
-      "feature6": "1-zu-1 Strategie-Sitzung",
-      "cta": "Sitzung buchen"
+      "description": "Entschlüsseln Sie die verborgene Marktdynamik mit einem proprietären 13-Phasen-Analyseprozess, der speziell für Ihr Geschäftsmodell entwickelt wurde.",
+      "feature1": "Automatisierte TAM/SAM/SOM-Marktgrößenbestimmung",
+      "feature2": "Stress-Tests für Szenarien mit niedrigem, mittlerem und hohem Risiko",
+      "feature3": "Rechtliche Strukturierung und Finanzmodellierung für Zielmärkte",
+      "feature4": "Null Spuren: Digitale Vernichtung 15 Tage nach Lieferung",
+      "feature5": "Ergebnisse: Hauptbericht, Executive Summary, Vorstands-Briefing",
+      "feature6": "Für: CEOs · Gründer · Investoren",
+      "cta": "Strategie-Gespräch vereinbaren"
     },
-    "footnote": "DutyInsight-Operationen basieren auf maximaler Vertraulichkeit. Daten werden in Offline-Umgebungen verarbeitet."
+    "footnote": "DutyInsight-Operationen basieren auf dem Prinzip der 'Maximalen Vertraulichkeit'. Alle Daten werden in Offline-Umgebungen verarbeitet, die vom Internetzugang isoliert sind."
   },
   "strategy": {
     "eyebrow": "Strategy Engine",

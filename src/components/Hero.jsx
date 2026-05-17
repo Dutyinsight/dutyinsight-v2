@@ -10,7 +10,7 @@ export default function Hero() {
   // ⚡ PERFORMANS GÜNCELLEMESİ: Sadece mouse kullanan cihazlarda takip yap
   useEffect(() => {
     const isMouseDevice = window.matchMedia('(pointer: fine)').matches;
-    if (!isMouseDevice) return; // Mobildeysen kodu burada kes, işlemciyi yorma.
+    if (!isMouseDevice) return; 
 
     const handleMouseMove = (e) => {
       if (!containerRef.current) return;
@@ -56,7 +56,7 @@ export default function Hero() {
   return (
     <section ref={containerRef} className="relative min-h-screen pt-32 pb-20 overflow-hidden bg-white selection:bg-accent/20">
       
-      {/* 1. LAYER: Arka Plan Derinliği (Mobilde statik kalır) */}
+      {/* 1. LAYER: Arka Plan Derinliği */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div 
           className="absolute -top-[10%] -right-[10%] w-[70%] h-[70%] rounded-full bg-primary-500/10 blur-[120px] transition-transform duration-1000 ease-out"
@@ -76,7 +76,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="font-display text-5xl lg:text-8xl font-medium tracking-tight text-primary-600 mb-8 leading-[1.05]">
+            <h1 className="font-display text-5xl lg:text-7xl font-medium tracking-tight text-primary-600 mb-8 leading-[1.05]">
               {renderTitle()}
             </h1>
 
@@ -141,13 +141,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24 pt-12 border-t border-ink-100/50 text-center md:text-left">
+        {/* ⚡ ALT STATS BÖLÜMÜ: Daha zarif, ince ve Tier-1 odaklı hale getirildi */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-24 pt-12 border-t border-slate-100">
           {[1, 2, 3].map((num) => (
-            <div key={num} className="group cursor-default">
-              <div className="text-4xl lg:text-6xl font-display font-medium text-primary-600 group-hover:text-accent transition-all duration-500 transform group-hover:scale-105 inline-block">
+            <div key={num} className="flex flex-col items-center md:items-start space-y-2 group cursor-default">
+              <div className="text-3xl lg:text-4xl font-display font-medium text-slate-900 tracking-tight transition-colors duration-300 group-hover:text-primary-500">
                 {t(`hero.stat${num}Number`)}
               </div>
-              <div className="text-[10px] lg:text-xs font-bold uppercase tracking-[0.25em] text-ink-400 mt-4 opacity-70">
+              <div className="text-[10px] lg:text-[11px] uppercase tracking-[0.2em] font-bold text-slate-400 leading-tight">
                 {t(`hero.stat${num}Label`)}
               </div>
             </div>

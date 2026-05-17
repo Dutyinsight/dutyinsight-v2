@@ -1,7 +1,7 @@
 {
   "nav": {
-    "products": "Řešení",
-    "reports": "Operace",
+    "products": "Řízení rizik",
+    "reports": "Produkty a balíčky",
     "strategy": "Strategie",
     "ceeHub": "Globální síť",
     "contact": "Kontakt",
@@ -163,7 +163,7 @@
       "feature1": "Automatizované stanovení velikosti trhu TAM/SAM/SOM",
       "feature2": "Stress-testy rizikových scénářů",
       "feature3": "Právní strukturování a finanční modelování",
-      "feature4": "Tam Gizlilik: Likvidace dat 15 dní po dodání",
+      "feature4": "Zero Trace: Likvidace dat 15 dní po dodání",
       "feature5": "Výstupy: Hlavní zpráva, Manažerské shrnutí, Briefing",
       "feature6": "Pro: CEO, zakladatele a investory",
       "cta": "Rezervovat schůzku"
