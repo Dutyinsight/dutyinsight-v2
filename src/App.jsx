@@ -19,7 +19,7 @@ const LinkedInBlock = lazy(() => import('./components/LinkedInBlock'));
 const Footer = lazy(() => import('./components/Footer'));
 const CookieBanner = lazy(() => import('./components/CookieBanner'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
-
+const About = lazy(() => import('./components/About'));
 const SUPPORTED_LANGS = ['tr', 'en', 'de', 'cs', 'pl'];
 
 function ScrollToTop() {
@@ -56,15 +56,16 @@ function PageContent() {
       </Helmet>
 
       <Hero />
-      <Suspense fallback={<div className="h-32" />}>
-        <Methodology />
-        <CaseStudies />
-        <Problem />
-        <Reports />
-        <Strategy />
-        <CEEHub />
-        <LinkedInBlock />
-      </Suspense>
+<Suspense fallback={<div className="h-32" />}>
+  <Methodology />
+  <CaseStudies />
+  <Problem />
+  <Reports />
+  <Strategy />
+  <CEEHub />
+  <About /> {/* Hakkımızda bölümü buraya geliyor */}
+  <LinkedInBlock />
+</Suspense>
     </>
   );
 }

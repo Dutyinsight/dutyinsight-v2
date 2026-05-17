@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ArrowRight } from 'lucide-react';
-import Logo from './Logo'; // Kendi yazdığın profesyonel logo bileşeni
+import Logo from './Logo';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
@@ -31,6 +31,7 @@ export default function Header() {
     { href: '#reports', label: t('nav.reports') },
     { href: '#strategy', label: t('nav.strategy') },
     { href: '#cee-hub', label: t('nav.ceeHub') },
+    { href: '#about', label: t('footer.linkAbout') }, // HAKKIMIZDA BURAYA EKLENDİ
   ];
 
   return (

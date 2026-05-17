@@ -1,9 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { MapPin, Mail, Linkedin, Instagram } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import Logo from './Logo';
 
-// onOpenLegal prop'unu kullanarak modal sistemini devam ettiriyoruz
 export default function Footer({ onOpenLegal }) {
   const { t } = useTranslation();
 
@@ -25,27 +23,41 @@ export default function Footer({ onOpenLegal }) {
             </div>
           </div>
 
-          {/* Orta Kısım: Hizmetler (Sadece Operasyon ve Strateji kaldı) */}
-          <div className="md:col-span-6 lg:col-span-3 lg:col-start-7">
+          {/* Orta Kısım 1: Hizmetler */}
+          <div className="md:col-span-4 lg:col-span-2 lg:col-start-7">
             <h4 className="text-xs uppercase tracking-widest font-bold text-white mb-6">
               {t('footer.navProducts')}
             </h4>
             <ul className="space-y-4">
               <li>
-                <a href="/#reports" className="text-sm text-primary-100/70 hover:text-accent transition-colors duration-300">
+                <a href="#reports" className="text-sm text-primary-100/70 hover:text-accent transition-colors duration-300">
                   {t('nav.reports')}
                 </a>
               </li>
               <li>
-                <a href="/#strategy" className="text-sm text-primary-100/70 hover:text-accent transition-colors duration-300">
+                <a href="#strategy" className="text-sm text-primary-100/70 hover:text-accent transition-colors duration-300">
                   {t('nav.strategy')}
                 </a>
               </li>
             </ul>
           </div>
 
+          {/* Orta Kısım 2: Kurumsal (Hakkımızda eklendi) */}
+          <div className="md:col-span-4 lg:col-span-2">
+            <h4 className="text-xs uppercase tracking-widest font-bold text-white mb-6">
+              {t('footer.navCompany')}
+            </h4>
+            <ul className="space-y-4">
+              <li>
+                <a href="#about" className="text-sm text-primary-100/70 hover:text-accent transition-colors duration-300">
+                  {t('footer.linkAbout')}
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* Sağ Kısım: Yasal (Modal açan butonlar) */}
-          <div className="md:col-span-6 lg:col-span-3">
+          <div className="md:col-span-4 lg:col-span-2">
             <h4 className="text-xs uppercase tracking-widest font-bold text-white mb-6">
               {t('footer.navLegal')}
             </h4>
