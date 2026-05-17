@@ -7,10 +7,9 @@ export default function Hero() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
 
-  // ⚡ PERFORMANS GÜNCELLEMESİ: Sadece mouse kullanan cihazlarda takip yap
   useEffect(() => {
     const isMouseDevice = window.matchMedia('(pointer: fine)').matches;
-    if (!isMouseDevice) return; 
+    if (!isMouseDevice) return;
 
     const handleMouseMove = (e) => {
       if (!containerRef.current) return;
@@ -30,16 +29,15 @@ export default function Hero() {
     const currentLang = i18n.language;
     const isTr = currentLang === 'tr';
     const translateOptions = isTr ? {} : { lng: 'en' };
-    
     const subject = t(`common.mail.${type}.subject`, translateOptions);
     const body = t(`common.mail.${type}.body`, translateOptions);
-
     window.location.href = `mailto:info@dutyinsight.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const renderTitle = () => {
     const title = t('hero.title');
-    const wordsToHighlight = ["sürpriz", "Certainty", "Sicherheit", "pewności", "jistotou"];
+    // Yeni dillerdeki parlama kelimelerini de ekledim
+    const wordsToHighlight = ["sürpriz", "Certainty", "Sicherheit", "pewności", "jistotou", "sorunsuz", "flawlessly", "makellos", "bezchybně"];
     const regex = new RegExp(`(${wordsToHighlight.join('|')})`, 'gi');
     const parts = title.split(regex);
 
@@ -103,7 +101,7 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* SAĞ TARAF: The Sovereign Core */}
+          {/* SAĞ TARAF: The Sovereign Core (Tüm efektler geri geldi) */}
           <div className="lg:col-span-5 relative lg:mt-0 mt-12 opacity-80 lg:opacity-100 animate-none lg:animate-float">
             <div 
               className="relative z-10 w-full aspect-square max-w-[550px] mx-auto flex items-center justify-center transition-transform duration-300 ease-out"
@@ -130,25 +128,31 @@ export default function Hero() {
                       </defs>
                     </svg>
                   </div>
+                  {/* Hareketli gradyan ışığı */}
                   <div 
                     className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent transition-transform duration-500"
                     style={{ transform: `translateX(${mousePos.x * 60}px) translateY(${mousePos.y * 60}px)` }}
                   />
               </div>
+              {/* Uçuşan Balonlar */}
               <div className="absolute top-10 right-20 w-3 h-3 bg-accent rounded-full shadow-[0_0_15px_#D4AF37] animate-bounce" />
               <div className="absolute bottom-20 left-10 w-2 h-2 bg-primary-600 rounded-full animate-ping" />
             </div>
           </div>
         </div>
 
-        {/* ⚡ ALT STATS BÖLÜMÜ: Daha zarif, ince ve Tier-1 odaklı hale getirildi */}
+        {/* ⚡ STATS BÖLÜMÜ: İnce, zarif ve sarı parlama animasyonu eklendi */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-24 pt-12 border-t border-slate-100">
           {[1, 2, 3].map((num) => (
             <div key={num} className="flex flex-col items-center md:items-start space-y-2 group cursor-default">
-              <div className="text-3xl lg:text-4xl font-display font-medium text-slate-900 tracking-tight transition-colors duration-300 group-hover:text-primary-500">
-                {t(`hero.stat${num}Number`)}
+              <div className="relative">
+                <div className="text-3xl lg:text-4xl font-display font-medium text-slate-900 tracking-tight transition-all duration-500 group-hover:text-accent group-hover:drop-shadow-[0_0_10px_rgba(212,175,55,0.4)] group-hover:scale-105 transform origin-left">
+                  {t(`hero.stat${num}Number`)}
+                </div>
+                {/* Alt Glow Çizgisi */}
+                <div className="absolute -bottom-1 left-0 w-0 h-[2px] bg-accent transition-all duration-500 group-hover:w-full opacity-50" />
               </div>
-              <div className="text-[10px] lg:text-[11px] uppercase tracking-[0.2em] font-bold text-slate-400 leading-tight">
+              <div className="text-[10px] lg:text-[11px] uppercase tracking-[0.2em] font-bold text-slate-400 leading-tight transition-colors duration-500 group-hover:text-slate-600">
                 {t(`hero.stat${num}Label`)}
               </div>
             </div>
