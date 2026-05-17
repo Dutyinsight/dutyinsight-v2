@@ -10,7 +10,7 @@
   "hero": {
     "eyebrow": "Gümrük Öncesi Ticaret İstihbaratı",
     "title": "Gümrük engellerini öngörün. Sınırları sorunsuz aşın.",
-    "subtitle": "İthalat ve ihracat operasyonlarınızda; gümrük beyannameniz işleme girmeden önce ETGB hatalarını, GTİP uyuşmazlıklarını ve mevzuat risklerini verilerle sıfırlayın. Sınırları güvenle aşın.",
+    "subtitle": "İthalat ve ihracat operasyonlarınızda; gümrük beyannameniz işleme girmeden önce ETGB hatalarını, GTİP uyuşmazlıklarını ve mevzuat risklerini verilerle sıfırlayın. Küresel ticarette şansa yer bırakmayın.",
     "ctaPrimary": "Raporlarını İncele",
     "ctaSecondary": "Strateji Seansı Planla",
     "trustline": "Türkiye merkezli şirketlerin küresel ticaret operasyonları için geliştirildi.",
@@ -23,17 +23,17 @@
   },
   "problem": {
     "eyebrow": "Risk Analizi",
-    "title": "İhracatçının görmediği üç gizli maliyet",
-    "subtitle": "Türkiye'den Avrupa'ya açılırken KOBİ'ler en çok bu üç noktada para ve zaman kaybediyor. Biz, beyannameniz imzalanmadan önce bu riskleri ortadan kaldırıyoruz.",
+    "title": "Dış ticarette gözden kaçan üç stratejik risk",
+    "subtitle": "Şirketler küresel pazarlara entegre olurken en çok bu üç noktada sermaye ve zaman kaybediyor. Beyannameniz işleme girmeden önce bu riskleri veriye dayalı olarak ortadan kaldırıyoruz.",
     "card1": {
       "tag": "Operasyonel Risk",
-      "title": "Hatalı Beyanname ve ETGB Cezaları",
-      "body": "30.000 EUR'a çıkan mikro ihracat limiti fırsat yaratsa da; yanlış GTİP, eksik belge veya kategorik hatalar binlerce firmaya ceza olarak dönüyor. Süreci önceden analiz etmek maliyeti %2, geriye dönük düzeltmek ise %30 artırır."
+      "title": "Hatalı Beyanname ve Gümrük Cezaları",
+      "body": "Yanlış GTİP tespiti, eksik belge veya kategorik hatalar her yıl binlerce firmaya ağır cezalar ve bekleme süreleri olarak dönüyor. Süreci önceden analiz etmek maliyeti %2, geriye dönük düzeltmek ise %30 artırır."
     },
     "card2": {
       "tag": "Uyum ve Regülasyon",
-      "title": "CBAM, ESG ve İhracat Engelleri",
-      "body": "AB'nin yeni Karbon Sınır Düzenleme Mekanizması (CBAM), karbon hesabını zorunlu kılıyor. Sektörel uyum takvimini kaçıran firmalar, Avrupa pazarındaki alıcılarını hızla kaybediyor."
+      "title": "CBAM, ESG ve Regülasyon Bariyerleri",
+      "body": "AB'nin yeni Karbon Sınır Düzenleme Mekanizması (CBAM) gibi yeni nesil regülasyonlar, uyum takvimini kaçıran firmaların pazar payını hızla daraltıyor. Sektörel uyumluluğunuzu önceden tasarlayın."
     },
     "card3": {
       "tag": "Stratejik Körlük",
@@ -43,8 +43,8 @@
   },
   "methodology": {
     "eyebrow": "Kurumsal Metodoloji",
-    "title": "Ham Veriden Operasyona.",
-    "subtitle": "Ticaretin sadece teorik analizini değil, gümrük rejimlerinden lojistik koridor simülasyonlarına kadar tüm saha gerçeklerini kapsayan 360 derecelik ekosistem.",
+    "title": "Ham Veriden Kesintisiz Operasyona.",
+    "subtitle": "Ticaretin sadece teorik analizini değil, gümrük rejimlerinden lojistik koridor simülasyonlarına kadar tüm saha gerçeklerini kapsayan 360 derecelik istihbarat ekosistemi.",
     "step1": {
       "tag": "Faz 1",
       "title": "13-Fazlı İstihbarat Döngüsü",
@@ -61,7 +61,7 @@
       "tag": "Faz 3",
       "title": "Zırhlı Veri Protokolü",
       "body": "Müşteri verilerinin askeri düzeyde (AES-256) şifrelenerek işlenmesi ve projenin 15. gününde DoD 5220.22-M standartlarında kalıcı imhası.",
-      "deliverable": "Sıfır Ayak İzi Taahhüdü"
+      "deliverable": "Sıfır İz Taahhüdü"
     },
     "step4": {
       "tag": "Faz 4",
@@ -77,7 +77,7 @@
     "cta": {
       "button": "Analizi İncele"
     },
-    "footnote": "Not: İşbu vaka analizlerinde kullanılan ham veriler, gizlilik protokollerimiz (NDA) uyarınca teslimat sonrasında kalıcı olarak imha edilmiş olup, sunulan veriler anonimleştirilmiştir.",
+    "footnote": "Not: İşbu vaka analizlerinde kullanılan ham veriler, gizlilik protokollerimiz (NDA) uyarınca teslimat sonrasında kalıcı olarak imha edilmiş olup, sunulan veriler tamamen anonimleştirilmiştir.",
     "modal": {
       "challenge": "Zorluk / Challenge",
       "approach": "DutyInsight Çözümü",
@@ -88,7 +88,7 @@
       "tag": "Pazara Giriş",
       "industry": "El Sanatları ve Tasarım",
       "title": "Avrupa Pazarına Giriş ve Kurumsal Ölçeklenme",
-      "challenge": "Markanın AB (Çekya) açılımında yasal mevzuat uyumu belirsizliği ve kârlılık üzerindeki operasyonel baskı.",
+      "challenge": "Markanın AB açılımında yasal mevzuat uyumu belirsizliği ve kârlılık üzerindeki operasyonel baskı.",
       "approach": "Strategy Intelligence Engine üzerinden 13 fazlı analiz uygulanarak; en uygun yasal yapı modelleri simüle edildi ve kanal bazlı (Pazaryeri vs. B2B) kârlılık testleri yapıldı.",
       "deliverables": [
         "3 Yıllık Stratejik Finansal Projeksiyon Seti",
@@ -165,12 +165,12 @@
       "feature1": "TAM/SAM/SOM otomatik pazar büyüklüğü tespiti",
       "feature2": "Düşük, orta ve yüksek risk senaryoları (Stress-Test)",
       "feature3": "Hedef pazara uygun yasal yapı ve finansal modelleme",
-      "feature4": "Sıfır Ayak İzi: Teslimattan 15 gün sonra dijital imha",
+      "feature4": "Tam Gizlilik: Teslimattan 15 gün sonra dijital imha",
       "feature5": "Çıktılar: Ana Rapor, Yönetici Özeti, Yatırımcı Brifingi",
       "feature6": "Kullanıcılar: CEO'lar · Kurucular · Yatırımcılar",
       "cta": "Strateji Toplantısı Planla"
     },
-    "footnote": "DutyInsight operasyonlarının temelinde \"Maksimum Gizlilik\" yer alır. Tüm veriler internet erişimine kapalı ortamlarda işlenir."
+    "footnote": "DutyInsight operasyonlarının temelinde 'Maksimum Gizlilik' yer alır. Tüm veriler internet erişimine kapalı ortamlarda işlenir."
   },
   "strategy": {
     "eyebrow": "Strategy Engine",
@@ -182,7 +182,7 @@
     },
     "feature2": {
       "title": "Sınır Ötesi Rakip Haritalama",
-      "body": "Rakipleriniz hangi pazara, hangi fiyatlandırma stratejisiyle giriyor? Türkiye, Çin ve AB üreticilerinin net karşılaştırması."
+      "body": "Rakipleriniz hangi pazara, hangi fiyatlandırma stratejisiyle giriyor? Üretim merkezleri ve hedef pazarların net analizi."
     },
     "feature3": {
       "title": "Regülasyon ve Uyum Yol Haritası",
@@ -211,7 +211,7 @@
     "prague": {
       "badge": "Strateji Merkezi",
       "title": "Avrupa Pazar Girişi",
-      "description": "Avrupa pazar hacmini ölçer, ESG/CBAM uyumunuzu sağlar ve yatırım stratejinizi çizeriz.",
+      "description": "Avrupa pazar hacmini ölçer, ESG/CBAM uyumunuzu sağlar ve yatırım stratejinizi uluslararası standartlarda kurgularız.",
       "focus": "Temel Odak Alanları",
       "feature1": "Orta ve Doğu Avrupa (CEE) Fizibilitesi",
       "feature2": "Dijital ve Fiziksel Ürün Büyüme Stratejisi"
@@ -225,7 +225,7 @@
     "instagram": { "desc": "İstanbul ve Prag merkezlerimizden perde arkası ve ekip dinamikleri." }
   },
   "footer": {
-    "tagline": "Gümrük öncesi veri odaklı ticaret zekası.",
+    "tagline": "Gümrük öncesi veri odaklı ticaret istihbaratı.",
     "navProducts": "Hizmetler",
     "navCompany": "Kurumsal",
     "navLegal": "Yasal",
