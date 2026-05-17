@@ -396,5 +396,16 @@
     "essentialOnly": "Essential Only",
     "preferences": "Manage Preferences",
     "learnMore": "Cookie Policy"
+  },
+  "about": {
+    "eyebrow": "CORPORATE",
+    "title": "The new standard in trade intelligence.",
+    "description": "DutyInsight is an independent strategy and trade intelligence firm that eliminates customs and regulatory risks in global supply chains through data-driven foresight. Our mission is to execute cross-border trade with operational flawlessness, leaving no room for chance.",
+    "securityTitle": "Armored Data Protocol (Zero Trace)",
+    "securitySubtitle": "Our clients' trade secrets and supply chain data are protected and processed under the highest international security standards.",
+    "sec1": { "title": "AES-256 Encryption", "desc": "All data is encrypted at rest and in transit using military-grade protocols." },
+    "sec2": { "title": "DoD 5220.22-M Destruction", "desc": "All raw data is irreversibly destroyed 15 days post-delivery." },
+    "sec3": { "title": "Air-Gapped Analysis", "desc": "Critical strategy modeling is executed on isolated networks with no internet access." },
+    "sec4": { "title": "Strict Confidentiality (NDA)", "desc": "Client data is never disclosed by name in case studies or marketing materials." }
   }
 }

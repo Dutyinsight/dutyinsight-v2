@@ -396,5 +396,16 @@
     "essentialOnly": "Yalnızca Zorunlu",
     "preferences": "Tercihleri Yönet",
     "learnMore": "Çerez Politikası"
+  },
+  "about": {
+    "eyebrow": "KURUMSAL",
+    "title": "Ticaret istihbaratında yeni nesil standart.",
+    "description": "DutyInsight, küresel tedarik zincirlerindeki gümrük ve regülasyon risklerini veriye dayalı öngörülerle sıfırlayan bağımsız bir strateji ve ticaret istihbaratı firmasıdır. Amacımız, sınır ötesi ticareti şansa bırakmadan, operasyonel kusursuzlukla yönetmektir.",
+    "securityTitle": "Zırhlı Veri Protokolü (Sıfır İz)",
+    "securitySubtitle": "Müşterilerimizin ticari sırları ve tedarik zinciri verileri, uluslararası güvenlik standartlarında korunur ve işlenir.",
+    "sec1": { "title": "AES-256 Şifreleme", "desc": "Tüm veriler aktarım ve bekleme anında askeri düzeyde şifrelenir." },
+    "sec2": { "title": "DoD 5220.22-M İmha", "desc": "Teslimattan 15 gün sonra tüm ham veriler geri döndürülemez şekilde imha edilir." },
+    "sec3": { "title": "Çevrimdışı Analiz", "desc": "Kritik strateji modellemeleri, internet erişimine kapalı izole ağlarda gerçekleştirilir." },
+    "sec4": { "title": "Tam Gizlilik (NDA)", "desc": "Hiçbir müşteri verisi vaka analizlerinde veya pazarlama materyallerinde açık isimle kullanılmaz." }
   }
 }
