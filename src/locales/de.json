@@ -8,43 +8,43 @@
     "getStarted": "Jetzt Starten"
   },
   "hero": {
-    "eyebrow": "Pre-Customs Trade Intelligence",
-    "title": "Meistern Sie den Welthandel mit datengestützter Sicherheit.",
-    "subtitle": "Sichern Sie Ihre Compliance und optimieren Sie Ihre Lieferkette vor der Zollabwicklung. Von CBAM-Regulierungen bis zur Tarifoptimierung – wir ebnen den Weg für Ihre globale Expansion.",
-    "ctaPrimary": "Lösungen entdecken",
+    "eyebrow": "PRE-CUSTOMS TRADE INTELLIGENCE",
+    "title": "Zollbarrieren antizipieren. Grenzen makellos passieren.",
+    "subtitle": "Eliminieren Sie bei Ihren Import- und Exportgeschäften Zollfehler, HS-Code-Diskrepanzen und regulatorische Risiken mit Daten vor der Ausführung. Überlassen Sie im Welthandel nichts dem Zufall.",
+    "ctaPrimary": "Berichte entdecken",
     "ctaSecondary": "Strategie-Gespräch vereinbaren",
-    "trustline": "Unterstützung für wachstumsstarke Hersteller und Exporteure weltweit.",
-    "stat1Number": "100%",
-    "stat1Label": "COMPLIANCE-FOKUS",
-    "stat2Number": "<24h",
-    "stat2Label": "DATENSYNCHRONISATION",
-    "stat3Number": "3-5",
-    "stat3Label": "TAGE LIEFERZEIT"
+    "trustline": "Entwickelt für die globalen Handelsgeschäfte europäischer und internationaler Unternehmen.",
+    "stat1Number": "13-Phasen",
+    "stat1Label": "Strategie-Intelligence-Engine",
+    "stat2Number": "Null Spuren",
+    "stat2Label": "AES-256 Verschlüsselung",
+    "stat3Number": "Null Risiko",
+    "stat3Label": "Umfassende Entscheidungshilfe"
   },
   "problem": {
-    "eyebrow": "Risikomanagement",
-    "title": "Die unsichtbaren Hürden des Welthandels",
-    "subtitle": "Internationale Expansion scheitert oft an der Grenze. Wir eliminieren die drei kritischsten Reibungspunkte, bevor sie Ihr Ergebnis beeinflussen.",
+    "eyebrow": "Risikoanalyse",
+    "title": "Drei strategische Risiken, die im Welthandel übersehen werden",
+    "subtitle": "Internationale Expansion scheitert oft an der Grenze. Wir eliminieren diese Risiken mit datengestützter Präzision, bevor Ihre Zollanmeldungen eingereicht werden.",
     "card1": {
       "tag": "Operatives Risiko",
-      "title": "Regulatorische & tarifäre Risiken",
-      "body": "Falsche HS-Codes und fehlende Zertifizierungen führen zu massiven Verzögerungen. Die Vorprüfung Ihrer Daten reduziert operative Reibungen um 40 % und verhindert kostspielige Korrekturen nach der Abwicklung."
+      "title": "Fehlerhafte Deklarationen & Zollstrafen",
+      "body": "Falsche HS-Codes und fehlende Unterlagen führen jährlich zu massiven Strafen und Verzögerungen in der Lieferkette. Die Vorprüfung erhöht die Vorabkosten um 2 %, während Korrekturen diese um 30 % steigern."
     },
     "card2": {
       "tag": "Compliance",
-      "title": "CBAM & ESG Rechenschaftspflicht",
-      "body": "Das CO2-Grenzausgleichssystem (CBAM) der EU ist nicht mehr optional. Wir liefern die Datenstrukturen, die erforderlich sind, damit Ihre Produkte die grünen Korridore Europas passieren können."
+      "title": "CBAM, ESG & Regulatorische Barrieren",
+      "body": "Regulierungen wie das CO2-Grenzausgleichssystem (CBAM) der EU erfordern eine strikte Rechenschaftspflicht. Gestalten Sie Ihre Compliance-Strategie im Voraus, um Ihren Marktzugang zu sichern."
     },
     "card3": {
-      "tag": "Strategie",
+      "tag": "Strategische Blindheit",
       "title": "Datenbasierte Marktauswahl",
-      "body": "Viele Unternehmen wählen neue Märkte nach Trends statt nach Logistik, Tarifstrukturen und Nachfragesignalen. Unsere Intelligence nutzt gewichtete Marktmodellierung zu Ihrem Vorteil."
+      "body": "Die meisten Unternehmen verlassen sich bei der Marktpriorisierung auf Intuition. Wenn Logistik, Zölle und Nachfrage ganzheitlich berechnet werden, ändern sich 40 % der Entscheidungen vollständig."
     }
   },
   "methodology": {
-    "eyebrow": "Methodik",
-    "title": "Von Marktsignalen zur vorstandstauglichen Strategie.",
-    "subtitle": "DutyInsight-Berichte werden nicht einfach zusammengestellt – sie werden konstruiert. Jeder Output durchläuft eine strukturierte Pipeline, die Zolldaten in fundierte Entscheidungen verwandelt.",
+    "eyebrow": "Unternehmensmethodik",
+    "title": "Von Rohdaten zu nahtlosen Abläufen.",
+    "subtitle": "DutyInsight-Berichte werden nicht einfach erstellt – sie werden konstruiert. Jeder Output durchläuft eine strukturierte Pipeline, die Zolldaten in vorstandstaugliche Entscheidungen verwandelt.",
     "step1": {
       "tag": "Ebene 01",
       "title": "Markteintritts-Intelligence — Machbarkeit",
@@ -71,64 +71,61 @@
     }
   },
   "caseStudies": {
-    "eyebrow": "Erfolgsgeschichten",
-    "title": "Intelligence in der Praxis",
-    "subtitle": "Erfahren Sie, wie die DutyInsight-Methodik komplexe Handelsbarrieren für globale Marktführer löst.",
-    "footnote": "Vertraulichkeit hat Priorität. Kundennamen wurden entfernt; Ergebnisse spiegeln verifizierte Leistungskennzahlen wider.",
+    "eyebrow": "Fallstudien",
+    "title": "Strategische Fallstudien",
+    "subtitle": "Erfahren Sie, wie die DutyInsight-Methodik komplexe Handelsbarrieren in der Praxis löst.",
+    "cta": { "button": "Vollständige Analyse ansehen" },
+    "footnote": "Hinweis: Rohdaten wurden gemäß NDAs vernichtet. Alle Kennzahlen sind vollständig anonymisiert.",
     "modal": {
-      "close": "Details schließen",
-      "challenge": "Die Herausforderung",
-      "approach": "Strategischer Ansatz",
+      "challenge": "Herausforderung",
+      "approach": "DutyInsight-Lösung",
       "deliverables": "Wichtigste Ergebnisse",
-      "outcome": "Messbares Resultat"
+      "outcome": "Operatives Resultat"
     },
     "scenarioA": {
       "tag": "Markteintritt",
-      "industry": "Konsumgüter · TR → CEE",
-      "title": "Aktivierung von drei Märkten in einem Quartal",
-      "challenge": "Ein mittelständischer Hersteller scheiterte zweimal an Unklarheiten bei der Tarifklassifizierung und regulatorischen Lücken in Zentraleuropa.",
-      "approach": "Wir setzten Export Entry Intelligence in Tschechien, Polen und Ungarn ein und kartierten jede Zolltarifnummer sowie CBAM-Anforderungen.",
+      "industry": "Handwerk & Design",
+      "title": "Markteintritt in der EU & Skalierung",
+      "challenge": "Unsicherheit bezüglich der lokalen Compliance und operativer Druck auf die Profitabilität während der EU-Expansion.",
+      "approach": "Einsatz der Strategy Intelligence Engine zur Simulation optimaler Rechtsstrukturen und Rentabilitätstests.",
       "deliverables": [
-        "Bereitschaftsurteil für 3 Märkte",
-        "Korridor-Kosten-Zeit-Matrix",
-        "12-Wochen B2B-Playbook"
+        "Satz strategischer Finanzprojektionen",
+        "Konformer Rechtsstrukturplan",
+        "Kanaloptimierte Preismatrix"
       ],
-      "outcome": "Erste kommerzielle Lieferungen innerhalb von 12 Wochen ohne Dokumentenrückweisungen abgeschlossen."
+      "outcome": "Erzielung von 20–40 % optimierten Margen und Aufbau einer skalierbaren Infrastruktur."
     },
     "scenarioB": {
-      "tag": "Kostenoptimierung",
-      "industry": "Industriekomponenten · Asien → EU",
-      "title": "Strategische Senkung der Importkosten",
-      "challenge": "Ein Distributor sah sich mit steigender Volatilität der Einstandskosten und existenziellen CBAM-Risiken im EU-Korridor konfrontiert.",
-      "approach": "Durchführung eines Audits für 40 SKUs und Aufbau eines Diversifizierungsmodells über 4 alternative Beschaffungsregionen.",
+      "tag": "Compliance",
+      "industry": "FMCG / Körperpflege",
+      "title": "Regulatorische Hürden & Intelligence",
+      "challenge": "Kategorie-Unklarheit unter der EU-Biozidverordnung und das Risiko einer Zollrückweisung.",
+      "approach": "Analyse technischer Dossiers und Erstellung einer Zertifizierungslücken-Matrix.",
       "deliverables": [
-        "Audit der Tarifklassifizierung",
-        "Lieferanten-Diversifizierungsmatrix",
-        "CBAM-Kostenprognose bis 2028"
+        "Zertifizierungslücken-Matrix",
+        "HS-Code-Identifikation",
+        "Logistikkorridor-Simulation"
       ],
-      "outcome": "Korrigierte Klassifizierungen senkten die Zollbelastung; Roadmap für Pilotbeschaffung in neuen Regionen wurde übernommen."
+      "outcome": "Vermeidung operativer Engpässe durch frühzeitige Erstellung von Readiness-Scores."
     },
     "scenarioC": {
-      "tag": "Speziallösung",
-      "industry": "Regulierter Nischensektor",
-      "title": "Maßgeschneidertes regulatorisches Framework",
-      "challenge": "Komplexe Zertifizierungsbarriere, die sich mit Sanktionsprüfregeln überschnitt, für die kein Standard-Framework existierte.",
-      "approach": "Entwicklung einer Entscheidungsmatrix, die Zertifizierungslogik des Ziellandes und Sanktionsprüfungs-Überschneidungen integriert.",
+      "tag": "Digitale Expansion",
+      "industry": "Digitale Plattformen",
+      "title": "Ökosystem-Modellierung & Rollout",
+      "challenge": "Unsicherheit bei der Supportlast aufgrund fehlender Dichteanalysen von Dienstleistern.",
+      "approach": "Kartierung des Marktes in 5 Cluster und analytische Simulation von Rollout-Szenarien.",
       "deliverables": [
-        "Individuelles Analyse-Framework",
-        "Stresstest-Entscheidungsmatrix",
-        "Wiederverwendbares Compliance-Modul"
+        "Regionale Dienstleister-Dichtekarte",
+        "Vorhersagemodell für Supportlasten",
+        "Geografischer Expansionskalender"
       ],
-      "outcome": "Kunde übernahm das Framework und setzte den Handel unter dokumentierter analytischer Deckung fort."
-    },
-    "cta": {
-      "button": "Vollständige Fallstudie ansehen"
+      "outcome": "Strukturierter Plan für kontrolliertes Wachstum bei optimierter Vertrauensschwelle."
     }
   },
   "reports": {
     "eyebrow": "PRODUKTE & PAKETE",
     "title": "Trade Intelligence Berichte",
-    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen (15, 25 oder 50+) angeboten.",
+    "subtitle": "Import- und Export-Intelligence-Berichte werden in flexiblen Paketen angeboten. Die Strategy Intelligence Engine ist ein maßgeschneiderter Mechanismus.",
     "mail": {
       "subject": "DutyInsight - Anfrage zu {{plan}}",
       "body": "Sehr geehrtes Team, wir interessieren uns für Ihre Lösung {{plan}}."
@@ -171,7 +168,7 @@
       "feature6": "1-zu-1 Strategie-Sitzung",
       "cta": "Sitzung buchen"
     },
-    "footnote": "Ungenutztes Guthaben ist 12 Monate gültig."
+    "footnote": "DutyInsight-Operationen basieren auf maximaler Vertraulichkeit. Daten werden in Offline-Umgebungen verarbeitet."
   },
   "strategy": {
     "eyebrow": "Strategy Engine",
@@ -206,6 +203,17 @@
       "feature2": "ESG & Green Corridor Strategie"
     }
   },
+  "about": {
+    "eyebrow": "UNTERNEHMEN",
+    "title": "Der neue Standard in der Trade Intelligence.",
+    "description": "DutyInsight ist ein unabhängiges Strategie- und Handelsanalysten-Unternehmen, das Zoll- und Regulierungsrisiken in globalen Lieferketten durch datengestützte Voraussicht eliminiert. Unsere Mission ist es, den grenzüberschreitenden Handel mit operativer Perfektion abzuwickeln und nichts dem Zufall zu überlassen.",
+    "securityTitle": "Gepanzertes Datenprotokoll (Zero Trace)",
+    "securitySubtitle": "Die Geschäftsgeheimnisse und Lieferkettendaten unserer Kunden werden nach den höchsten internationalen Sicherheitsstandards geschützt und verarbeitet.",
+    "sec1": { "title": "AES-256 Verschlüsselung", "desc": "Alle Daten werden im Ruhezustand und während der Übertragung mit militärischen Protokollen verschlüsselt." },
+    "sec2": { "title": "DoD 5220.22-M Vernichtung", "desc": "Alle Rohdaten werden 15 Tage nach der Auslieferung unwiderruflich vernichtet." },
+    "sec3": { "title": "Air-Gapped Analyse", "desc": "Kritische Strategiemodellierung wird in isolierten Netzwerken ohne Internetzugang durchgeführt." },
+    "sec4": { "title": "Strenge Vertraulichkeit (NDA)", "desc": "Kundendaten werden in Fallstudien oder Marketingmaterialien niemals namentlich genannt." }
+  },
   "social": {
     "eyebrow": "ÖKOSYSTEM",
     "title": "Unser Netzwerk",
@@ -237,6 +245,10 @@
       "getStarted": {
         "subject": "DutyInsight | Anfrage Kooperation",
         "body": "Sehr geehrtes Team, ich interessiere mich für Ihre Intelligence-Lösungen."
+      },
+      "strategy": {
+        "subject": "DutyInsight | Strategie-Sitzung Anfrage",
+        "body": "Hallo, wir möchten eine Beratungssitzung für unsere internationalen Handelsstrategien vereinbaren."
       }
     }
   },
