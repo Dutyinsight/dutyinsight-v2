@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "title": "Gümrük Öncesi İhracat & İthalat Fizibilite Raporları | DutyInsight",
+    "description": "KOBİ ihracatçıları için gümrük öncesi ihracat ve ithalat fizibilite raporları: GTİP doğrulama, sertifika gap analizi ve ihracat hazırlık skoru — beyanname işleme girmeden önce.",
+    "keywords": "gümrük öncesi ticaret istihbaratı, ihracat fizibilite raporu, ithalat fizibilite, GTİP doğrulama, ihracat hazırlık skoru, sertifika gap analizi",
+    "ogTitle": "DutyInsight — Gümrük Öncesi Ticaret İstihbaratı",
+    "ogDescription": "GTİP, sertifika ve mevzuat risklerini gümrük işlemi başlamadan veriyle yakalayın. İhracat & ithalat operasyonları için fizibilite raporları.",
+    "faq": [
+      {
+        "q": "Gümrük öncesi ticaret istihbaratı nedir?",
+        "a": "Gümrük öncesi ticaret istihbaratı, bir ürünün gümrük beyannamesi işleme girmeden önce taşıdığı mevzuat, sertifika ve sınıflandırma risklerinin analiz edilmesidir. GTİP uyuşmazlıklarını, sertifika eksiklerini ve pazara giriş engellerini, hâlâ ucuza düzeltilebilecekken ortaya çıkarır."
+      },
+      {
+        "q": "İhracat Hazırlık Skoru nedir?",
+        "a": "İhracat Hazırlık Skoru, bir ürünün hedef pazara ihracata ne kadar hazır olduğunu gösteren 0–100 arası bir puandır; GTİP netliği, sertifika kapsamı, mevzuat riski ve lojistik fizibiliteyi tek bir karar metriğinde birleştirir."
+      },
+      {
+        "q": "DutyInsight bir gümrük müşavirinden nasıl farklı?",
+        "a": "Gümrük müşaviri beyannameyi icra eder; DutyInsight ise o noktadan önce fizibiliteyi değerlendirir. Ürünün pazara girip giremeyeceğini, hangi sertifikalara ihtiyaç duyduğunu ve hangi lojistik koridorun optimal olduğunu analiz ederiz — operasyonel gümrük işinden önceki stratejik katman."
+      },
+      {
+        "q": "DutyInsight kimler için?",
+        "a": "DutyInsight, gümrük icrasına geçmeden önce ürününün pazara giriş ve uyumluluk gereksinimlerini doğrulamak isteyen KOBİ ihracatçıları ve ithalat/ihracat yöneticileri için geliştirildi."
+      }
+    ]
+  },
   "nav": {
     "products": "Risk Analizi",
     "reports": "Ürünler ve Paketler",
@@ -222,8 +247,12 @@
     "eyebrow": "DİJİTAL EKOSİSTEM",
     "title": "Ağımıza Katılın",
     "subtitle": "Global ticaret analizleri ve DutyInsight ofislerinden anlık gelişmeler için bizi takip edin.",
-    "linkedin": { "desc": "B2B strateji raporları ve Avrupa pazarı analizleri." },
-    "instagram": { "desc": "İstanbul ve Prag merkezlerimizden perde arkası ve ekip dinamikleri." }
+    "linkedin": {
+      "desc": "B2B strateji raporları ve Avrupa pazarı analizleri."
+    },
+    "instagram": {
+      "desc": "İstanbul ve Prag merkezlerimizden perde arkası ve ekip dinamikleri."
+    }
   },
   "footer": {
     "tagline": "Gümrük öncesi veri odaklı ticaret istihbaratı.",
@@ -404,9 +433,21 @@
     "description": "DutyInsight, küresel tedarik zincirlerindeki gümrük ve regülasyon risklerini veriye dayalı öngörülerle sıfırlayan bağımsız bir strateji ve ticaret istihbaratı firmasıdır. Amacımız, sınır ötesi ticareti şansa bırakmadan, operasyonel kusursuzlukla yönetmektir.",
     "securityTitle": "Zırhlı Veri Protokolü (Sıfır İz)",
     "securitySubtitle": "Müşterilerimizin ticari sırları ve tedarik zinciri verileri, uluslararası güvenlik standartlarında korunur ve işlenir.",
-    "sec1": { "title": "AES-256 Şifreleme", "desc": "Tüm veriler aktarım ve bekleme anında askeri düzeyde şifrelenir." },
-    "sec2": { "title": "DoD 5220.22-M İmha", "desc": "Teslimattan 15 gün sonra tüm ham veriler geri döndürülemez şekilde imha edilir." },
-    "sec3": { "title": "Çevrimdışı Analiz", "desc": "Kritik strateji modellemeleri, internet erişimine kapalı izole ağlarda gerçekleştirilir." },
-    "sec4": { "title": "Tam Gizlilik (NDA)", "desc": "Hiçbir müşteri verisi vaka analizlerinde veya pazarlama materyallerinde açık isimle kullanılmaz." }
+    "sec1": {
+      "title": "AES-256 Şifreleme",
+      "desc": "Tüm veriler aktarım ve bekleme anında askeri düzeyde şifrelenir."
+    },
+    "sec2": {
+      "title": "DoD 5220.22-M İmha",
+      "desc": "Teslimattan 15 gün sonra tüm ham veriler geri döndürülemez şekilde imha edilir."
+    },
+    "sec3": {
+      "title": "Çevrimdışı Analiz",
+      "desc": "Kritik strateji modellemeleri, internet erişimine kapalı izole ağlarda gerçekleştirilir."
+    },
+    "sec4": {
+      "title": "Tam Gizlilik (NDA)",
+      "desc": "Hiçbir müşteri verisi vaka analizlerinde veya pazarlama materyallerinde açık isimle kullanılmaz."
+    }
   }
 }

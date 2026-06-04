@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "title": "Pre-Customs Export & Import Feasibility Reports | DutyInsight",
+    "description": "Pre-customs export & import feasibility reports for SME exporters: HS code validation, certification gap analysis, and export readiness scoring — before you file your customs declaration.",
+    "keywords": "pre-customs trade intelligence, export feasibility report, import feasibility, HS code validation, export readiness score, certification gap analysis, customs intelligence",
+    "ogTitle": "DutyInsight — Pre-Customs Trade Intelligence",
+    "ogDescription": "Catch HS code, certification, and regulatory risks with data before customs execution. Feasibility reports for export & import operations.",
+    "faq": [
+      {
+        "q": "What is pre-customs trade intelligence?",
+        "a": "Pre-customs trade intelligence is the analysis of regulatory, certification, and classification risks for a product before a customs declaration is filed. It surfaces HS code issues, certification gaps, and market-entry barriers while they can still be corrected cheaply."
+      },
+      {
+        "q": "What is an Export Readiness Score?",
+        "a": "An Export Readiness Score is a 0–100 rating of how prepared a product is for export to a target market, combining HS code clarity, certification coverage, regulatory exposure, and logistics feasibility into a single decision metric."
+      },
+      {
+        "q": "How is DutyInsight different from a customs broker?",
+        "a": "A customs broker executes the declaration; DutyInsight evaluates feasibility before that point. We assess whether a product can enter a market, which certifications it needs, and which logistics corridor is optimal — the strategic layer that precedes operational customs work."
+      },
+      {
+        "q": "Who is DutyInsight for?",
+        "a": "DutyInsight is built for SME exporters and import/export managers who need to validate a product's market-entry and compliance requirements before committing to customs execution."
+      }
+    ]
+  },
   "nav": {
     "products": "Solutions",
     "reports": "Operations",
@@ -222,8 +247,12 @@
     "eyebrow": "DIGITAL ECOSYSTEM",
     "title": "Join Our Network",
     "subtitle": "Follow us for real-time global trade analytics and updates from DutyInsight hubs.",
-    "linkedin": { "desc": "B2B strategy reports and European market intelligence." },
-    "instagram": { "desc": "Behind-the-scenes and team dynamics from our Prague and Istanbul centers." }
+    "linkedin": {
+      "desc": "B2B strategy reports and European market intelligence."
+    },
+    "instagram": {
+      "desc": "Behind-the-scenes and team dynamics from our Prague and Istanbul centers."
+    }
   },
   "footer": {
     "tagline": "Pre-customs data-driven trade intelligence.",
@@ -404,9 +433,21 @@
     "description": "DutyInsight is an independent strategy and trade intelligence firm that eliminates customs and regulatory risks in global supply chains through data-driven foresight. Our mission is to execute cross-border trade with operational flawlessness, leaving no room for chance.",
     "securityTitle": "Armored Data Protocol (Zero Trace)",
     "securitySubtitle": "Our clients' trade secrets and supply chain data are protected and processed under the highest international security standards.",
-    "sec1": { "title": "AES-256 Encryption", "desc": "All data is encrypted at rest and in transit using military-grade protocols." },
-    "sec2": { "title": "DoD 5220.22-M Destruction", "desc": "All raw data is irreversibly destroyed 15 days post-delivery." },
-    "sec3": { "title": "Air-Gapped Analysis", "desc": "Critical strategy modeling is executed on isolated networks with no internet access." },
-    "sec4": { "title": "Strict Confidentiality (NDA)", "desc": "Client data is never disclosed by name in case studies or marketing materials." }
+    "sec1": {
+      "title": "AES-256 Encryption",
+      "desc": "All data is encrypted at rest and in transit using military-grade protocols."
+    },
+    "sec2": {
+      "title": "DoD 5220.22-M Destruction",
+      "desc": "All raw data is irreversibly destroyed 15 days post-delivery."
+    },
+    "sec3": {
+      "title": "Air-Gapped Analysis",
+      "desc": "Critical strategy modeling is executed on isolated networks with no internet access."
+    },
+    "sec4": {
+      "title": "Strict Confidentiality (NDA)",
+      "desc": "Client data is never disclosed by name in case studies or marketing materials."
+    }
   }
 }

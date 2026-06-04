@@ -20,7 +20,13 @@ const Footer = lazy(() => import('./components/Footer'));
 const CookieBanner = lazy(() => import('./components/CookieBanner'));
 const LegalModal = lazy(() => import('./components/LegalModal'));
 const About = lazy(() => import('./components/About'));
+
 const SUPPORTED_LANGS = ['tr', 'en', 'de', 'cs', 'pl'];
+
+// 🎯 TEK kanonik origin. GSC'de tıklama alan sürüm www'siz olduğu için non-www seçildi.
+//    Vercel'de www -> non-www 301 redirect'i de eklemen şart (aşağıdaki nota bak).
+const SITE_URL = 'https://dutyinsight.com';
+const DEFAULT_LANG = 'tr';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -45,27 +51,108 @@ function PageContent() {
     }
   }, [lang, i18n, navigate]);
 
+  // Aktif dili güvenli şekilde çöz (desteklenmeyen/boşsa default)
+  const currentLang =
+    lang && SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
+  const canonicalUrl = `${SITE_URL}/${currentLang}`;
+
+  // FAQ verisini JSON'daki seo.faq dizisinden al (react-i18next returnObjects)
+  const faqItemsRaw = t('seo.faq', { returnObjects: true });
+  const faqItems = Array.isArray(faqItemsRaw) ? faqItemsRaw : [];
+
+  // --- JSON-LD: Organization ---
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'DutyInsight',
+    url: SITE_URL,
+    description: t('seo.ogDescription'),
+    knowsAbout: [
+      'pre-customs trade intelligence',
+      'export feasibility',
+      'import feasibility',
+      'HS code classification',
+      'export readiness',
+      'certification gap analysis',
+    ],
+  };
+
+  // --- JSON-LD: FAQPage (AI motorlarının doğrudan alıntıladığı format) ---
+  const faqSchema =
+    faqItems.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqItems.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }
+      : null;
+
   return (
     <>
       <Helmet>
-        {/* 🎯 Google bu başlığı ve açıklamayı her dilde i18n dosyasından çekip okuyacak */}
-        <title>{t('hero.title')} | DutyInsight</title>
-        <meta name="description" content={t('hero.subtitle')} />
-        <link rel="canonical" href={`https://www.dutyinsight.com/${i18n.language}`} />
-        <html lang={i18n.language} />
+        <html lang={currentLang} />
+
+        {/* 🎯 Başlık ve açıklama artık hero.* yerine dedicated seo.* bloğundan geliyor */}
+        <title>{t('seo.title')}</title>
+        <meta name="description" content={t('seo.description')} />
+        <meta name="keywords" content={t('seo.keywords')} />
+        <meta name="robots" content="index, follow" />
+
+        {/* Canonical */}
+        <link rel="canonical" href={canonicalUrl} />
+
+        {/* 🌍 hreflang — dil sürümlerinin birbirinin alternatifi olduğunu Google'a söyler */}
+        {SUPPORTED_LANGS.map((l) => (
+          <link
+            key={l}
+            rel="alternate"
+            hrefLang={l}
+            href={`${SITE_URL}/${l}`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}/en`} />
+
+        {/* Open Graph (LinkedIn/Facebook önizleme kartı) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="DutyInsight" />
+        <meta property="og:title" content={t('seo.ogTitle')} />
+        <meta property="og:description" content={t('seo.ogDescription')} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={`${SITE_URL}/og-image.png`} />
+        <meta property="og:locale" content={currentLang} />
+
+        {/* Twitter/X card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t('seo.ogTitle')} />
+        <meta name="twitter:description" content={t('seo.ogDescription')} />
+        <meta name="twitter:image" content={`${SITE_URL}/og-image.png`} />
+
+        {/* Yapısal veri */}
+        <script type="application/ld+json">
+          {JSON.stringify(orgSchema)}
+        </script>
+        {faqSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(faqSchema)}
+          </script>
+        )}
       </Helmet>
 
       <Hero />
-<Suspense fallback={<div className="h-32" />}>
-  <Methodology />
-  <CaseStudies />
-  <Problem />
-  <Reports />
-  <Strategy />
-  <CEEHub />
-  <About /> {/* Hakkımızda bölümü buraya geliyor */}
-  <LinkedInBlock />
-</Suspense>
+      <Suspense fallback={<div className="h-32" />}>
+        <Methodology />
+        <CaseStudies />
+        <Problem />
+        <Reports />
+        <Strategy />
+        <CEEHub />
+        <About /> {/* Hakkımızda bölümü buraya geliyor */}
+        <LinkedInBlock />
+      </Suspense>
     </>
   );
 }
@@ -89,23 +176,23 @@ export default function App() {
   return (
     <div className="min-h-screen bg-canvas flex flex-col overflow-x-hidden">
       <ScrollToTop />
-      
+
       <Header />
 
       <main className="flex-grow">
         <Routes>
           <Route path="/:lang?" element={<PageContent />} />
-          <Route path="*" element={<PageContent />} /> 
+          <Route path="*" element={<PageContent />} />
         </Routes>
       </main>
 
       <Suspense fallback={null}>
         <Footer onOpenLegal={openModal} />
         <CookieBanner onOpenLegal={openModal} />
-        <LegalModal 
-          isOpen={modalState.isOpen} 
-          onClose={closeModal} 
-          type={modalState.type} 
+        <LegalModal
+          isOpen={modalState.isOpen}
+          onClose={closeModal}
+          type={modalState.type}
         />
       </Suspense>
 
